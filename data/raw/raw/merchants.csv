@@ -1,0 +1,5001 @@
+merchant_id,merchant_category,merchant_risk_score,channel_default
+M100000,Utilities,0.554,Card Not Present
+M100001,Digital Wallet,0.162,P2P
+M100002,Travel,0.449,Card Not Present
+M100003,Electronics,0.315,Online Banking
+M100004,Telecom,0.079,Online Banking
+M100005,Fuel,0.442,P2P
+M100006,Marketplace,0.365,Card Not Present
+M100007,Electronics,0.148,Card Present
+M100008,Digital Wallet,0.519,Wire
+M100009,Telecom,0.319,Wire
+M100010,Gaming,0.092,Card Present
+M100011,Fuel,0.203,Wire
+M100012,Telecom,0.071,Online Banking
+M100013,Travel,0.578,Card Not Present
+M100014,Gaming,0.302,P2P
+M100015,Luxury,0.109,P2P
+M100016,Telecom,0.021,Card Present
+M100017,Electronics,0.209,Wire
+M100018,Luxury,0.637,Online Banking
+M100019,Fuel,0.218,Card Not Present
+M100020,Gaming,0.101,P2P
+M100021,Luxury,0.191,P2P
+M100022,Electronics,0.136,Online Banking
+M100023,Digital Wallet,0.117,Wire
+M100024,Fuel,0.19,Online Banking
+M100025,Luxury,0.304,P2P
+M100026,Grocery,0.137,Card Present
+M100027,Gaming,0.388,Card Present
+M100028,Gaming,0.083,P2P
+M100029,Grocery,0.058,Card Present
+M100030,Gaming,0.069,Online Banking
+M100031,Digital Wallet,0.228,Card Present
+M100032,Fuel,0.398,Card Present
+M100033,Electronics,0.012,Wire
+M100034,Gaming,0.487,Card Present
+M100035,Fuel,0.188,Card Present
+M100036,Travel,0.427,Card Not Present
+M100037,Telecom,0.475,P2P
+M100038,Telecom,0.561,P2P
+M100039,Telecom,0.374,P2P
+M100040,Luxury,0.261,Wire
+M100041,Fuel,0.479,Online Banking
+M100042,Fuel,0.23,P2P
+M100043,Grocery,0.44,Online Banking
+M100044,Gaming,0.074,Card Not Present
+M100045,Grocery,0.364,Wire
+M100046,Fuel,0.122,Online Banking
+M100047,Fuel,0.075,Card Present
+M100048,Grocery,0.271,Card Present
+M100049,Utilities,0.07,Card Not Present
+M100050,Grocery,0.299,P2P
+M100051,Electronics,0.148,P2P
+M100052,Telecom,0.176,P2P
+M100053,Gaming,0.377,Card Present
+M100054,Digital Wallet,0.163,Wire
+M100055,Marketplace,0.583,P2P
+M100056,Marketplace,0.263,Card Not Present
+M100057,Utilities,0.175,Wire
+M100058,Gaming,0.024,P2P
+M100059,Utilities,0.216,Card Present
+M100060,Digital Wallet,0.135,Online Banking
+M100061,Grocery,0.183,P2P
+M100062,Luxury,0.155,Online Banking
+M100063,Gaming,0.295,Card Present
+M100064,Utilities,0.111,Card Not Present
+M100065,Gaming,0.249,Card Not Present
+M100066,Marketplace,0.12,Wire
+M100067,Electronics,0.02,Card Present
+M100068,Travel,0.309,Online Banking
+M100069,Digital Wallet,0.478,Card Not Present
+M100070,Travel,0.07,Card Present
+M100071,Grocery,0.567,Online Banking
+M100072,Electronics,0.475,Card Not Present
+M100073,Electronics,0.121,P2P
+M100074,Gaming,0.232,P2P
+M100075,Luxury,0.206,Card Present
+M100076,Electronics,0.443,Card Not Present
+M100077,Luxury,0.077,Online Banking
+M100078,Electronics,0.286,Card Not Present
+M100079,Electronics,0.075,Card Present
+M100080,Electronics,0.528,Card Not Present
+M100081,Marketplace,0.247,Card Not Present
+M100082,Travel,0.37,Card Present
+M100083,Fuel,0.121,Wire
+M100084,Utilities,0.234,Online Banking
+M100085,Luxury,0.054,Card Present
+M100086,Electronics,0.259,Card Present
+M100087,Travel,0.458,Wire
+M100088,Utilities,0.269,Wire
+M100089,Grocery,0.193,P2P
+M100090,Luxury,0.073,Card Not Present
+M100091,Luxury,0.097,Card Present
+M100092,Luxury,0.068,Wire
+M100093,Utilities,0.121,P2P
+M100094,Electronics,0.117,P2P
+M100095,Digital Wallet,0.068,Wire
+M100096,Luxury,0.632,P2P
+M100097,Marketplace,0.063,Online Banking
+M100098,Grocery,0.45,Card Present
+M100099,Telecom,0.162,Card Present
+M100100,Luxury,0.067,Online Banking
+M100101,Utilities,0.08,P2P
+M100102,Gaming,0.134,Card Not Present
+M100103,Utilities,0.147,Card Not Present
+M100104,Luxury,0.201,P2P
+M100105,Marketplace,0.213,Card Present
+M100106,Grocery,0.168,Card Not Present
+M100107,Fuel,0.354,Card Present
+M100108,Gaming,0.033,Wire
+M100109,Electronics,0.053,Card Present
+M100110,Telecom,0.198,P2P
+M100111,Telecom,0.319,Online Banking
+M100112,Gaming,0.686,Card Not Present
+M100113,Utilities,0.376,Online Banking
+M100114,Travel,0.181,Card Present
+M100115,Fuel,0.427,Card Present
+M100116,Telecom,0.378,Card Not Present
+M100117,Electronics,0.292,Card Present
+M100118,Utilities,0.114,Card Present
+M100119,Gaming,0.513,Online Banking
+M100120,Digital Wallet,0.313,Card Not Present
+M100121,Utilities,0.08,Online Banking
+M100122,Fuel,0.213,Online Banking
+M100123,Fuel,0.225,Wire
+M100124,Utilities,0.08,Card Present
+M100125,Grocery,0.366,Card Present
+M100126,Utilities,0.244,Card Present
+M100127,Telecom,0.332,Wire
+M100128,Electronics,0.291,Wire
+M100129,Electronics,0.299,Card Present
+M100130,Fuel,0.165,Card Present
+M100131,Utilities,0.397,Card Not Present
+M100132,Luxury,0.241,P2P
+M100133,Travel,0.625,Card Present
+M100134,Grocery,0.329,P2P
+M100135,Grocery,0.071,P2P
+M100136,Grocery,0.176,Wire
+M100137,Digital Wallet,0.508,Card Not Present
+M100138,Grocery,0.191,Wire
+M100139,Telecom,0.138,Wire
+M100140,Luxury,0.078,Wire
+M100141,Marketplace,0.078,Wire
+M100142,Gaming,0.159,P2P
+M100143,Fuel,0.474,Card Not Present
+M100144,Grocery,0.286,Online Banking
+M100145,Utilities,0.355,Wire
+M100146,Grocery,0.183,Wire
+M100147,Utilities,0.221,Card Not Present
+M100148,Gaming,0.451,Wire
+M100149,Grocery,0.266,Wire
+M100150,Gaming,0.046,Online Banking
+M100151,Luxury,0.521,Wire
+M100152,Digital Wallet,0.66,Card Not Present
+M100153,Luxury,0.143,Card Not Present
+M100154,Grocery,0.313,Online Banking
+M100155,Grocery,0.094,P2P
+M100156,Marketplace,0.502,Wire
+M100157,Utilities,0.721,Online Banking
+M100158,Gaming,0.1,Wire
+M100159,Digital Wallet,0.25,Card Present
+M100160,Electronics,0.337,Wire
+M100161,Grocery,0.088,Online Banking
+M100162,Fuel,0.077,Card Not Present
+M100163,Grocery,0.091,Online Banking
+M100164,Fuel,0.461,P2P
+M100165,Grocery,0.16,Card Present
+M100166,Electronics,0.251,Online Banking
+M100167,Fuel,0.113,P2P
+M100168,Electronics,0.269,Card Present
+M100169,Grocery,0.415,Online Banking
+M100170,Fuel,0.309,Wire
+M100171,Digital Wallet,0.072,Card Not Present
+M100172,Utilities,0.483,Card Not Present
+M100173,Gaming,0.191,Online Banking
+M100174,Utilities,0.053,Card Not Present
+M100175,Telecom,0.131,P2P
+M100176,Gaming,0.282,P2P
+M100177,Luxury,0.135,Card Not Present
+M100178,Telecom,0.561,Online Banking
+M100179,Luxury,0.673,P2P
+M100180,Travel,0.058,Card Present
+M100181,Electronics,0.229,Wire
+M100182,Fuel,0.341,Online Banking
+M100183,Electronics,0.39,Card Present
+M100184,Gaming,0.413,P2P
+M100185,Luxury,0.609,Card Not Present
+M100186,Utilities,0.155,Card Present
+M100187,Digital Wallet,0.363,P2P
+M100188,Electronics,0.264,Card Present
+M100189,Fuel,0.06,Card Not Present
+M100190,Electronics,0.469,Wire
+M100191,Marketplace,0.145,Card Present
+M100192,Luxury,0.604,Card Not Present
+M100193,Electronics,0.052,P2P
+M100194,Digital Wallet,0.291,Card Not Present
+M100195,Telecom,0.24,Wire
+M100196,Grocery,0.163,Wire
+M100197,Digital Wallet,0.612,Card Not Present
+M100198,Gaming,0.171,Wire
+M100199,Grocery,0.353,Card Present
+M100200,Luxury,0.292,Wire
+M100201,Marketplace,0.247,Card Present
+M100202,Marketplace,0.316,Online Banking
+M100203,Luxury,0.359,Wire
+M100204,Luxury,0.136,Card Present
+M100205,Digital Wallet,0.308,Online Banking
+M100206,Travel,0.213,Online Banking
+M100207,Marketplace,0.187,Online Banking
+M100208,Gaming,0.323,P2P
+M100209,Telecom,0.072,Wire
+M100210,Travel,0.618,Card Present
+M100211,Telecom,0.281,P2P
+M100212,Telecom,0.39,P2P
+M100213,Electronics,0.377,Card Present
+M100214,Travel,0.158,Card Not Present
+M100215,Electronics,0.177,Card Present
+M100216,Gaming,0.174,Online Banking
+M100217,Gaming,0.19,Online Banking
+M100218,Travel,0.425,P2P
+M100219,Gaming,0.097,Online Banking
+M100220,Utilities,0.554,Card Not Present
+M100221,Digital Wallet,0.162,P2P
+M100222,Travel,0.449,Card Not Present
+M100223,Electronics,0.315,Online Banking
+M100224,Telecom,0.079,Online Banking
+M100225,Fuel,0.442,P2P
+M100226,Marketplace,0.365,Card Not Present
+M100227,Electronics,0.148,Card Present
+M100228,Digital Wallet,0.519,Wire
+M100229,Telecom,0.319,Wire
+M100230,Gaming,0.092,Card Present
+M100231,Fuel,0.203,Wire
+M100232,Telecom,0.071,Online Banking
+M100233,Travel,0.578,Card Not Present
+M100234,Gaming,0.302,P2P
+M100235,Luxury,0.109,P2P
+M100236,Telecom,0.021,Card Present
+M100237,Electronics,0.209,Wire
+M100238,Luxury,0.637,Online Banking
+M100239,Fuel,0.218,Card Not Present
+M100240,Gaming,0.101,P2P
+M100241,Luxury,0.191,P2P
+M100242,Electronics,0.136,Online Banking
+M100243,Digital Wallet,0.117,Wire
+M100244,Fuel,0.19,Online Banking
+M100245,Luxury,0.304,P2P
+M100246,Grocery,0.137,Card Present
+M100247,Gaming,0.388,Card Present
+M100248,Gaming,0.083,P2P
+M100249,Grocery,0.058,Card Present
+M100250,Gaming,0.069,Online Banking
+M100251,Digital Wallet,0.228,Card Present
+M100252,Fuel,0.398,Card Present
+M100253,Electronics,0.012,Wire
+M100254,Gaming,0.487,Card Present
+M100255,Fuel,0.188,Card Present
+M100256,Travel,0.427,Card Not Present
+M100257,Telecom,0.475,P2P
+M100258,Telecom,0.561,P2P
+M100259,Telecom,0.374,P2P
+M100260,Luxury,0.261,Wire
+M100261,Fuel,0.479,Online Banking
+M100262,Fuel,0.23,P2P
+M100263,Grocery,0.44,Online Banking
+M100264,Gaming,0.074,Card Not Present
+M100265,Grocery,0.364,Wire
+M100266,Fuel,0.122,Online Banking
+M100267,Fuel,0.075,Card Present
+M100268,Grocery,0.271,Card Present
+M100269,Utilities,0.07,Card Not Present
+M100270,Grocery,0.299,P2P
+M100271,Electronics,0.148,P2P
+M100272,Telecom,0.176,P2P
+M100273,Gaming,0.377,Card Present
+M100274,Digital Wallet,0.163,Wire
+M100275,Marketplace,0.583,P2P
+M100276,Marketplace,0.263,Card Not Present
+M100277,Utilities,0.175,Wire
+M100278,Gaming,0.024,P2P
+M100279,Utilities,0.216,Card Present
+M100280,Digital Wallet,0.135,Online Banking
+M100281,Grocery,0.183,P2P
+M100282,Luxury,0.155,Online Banking
+M100283,Gaming,0.295,Card Present
+M100284,Utilities,0.111,Card Not Present
+M100285,Gaming,0.249,Card Not Present
+M100286,Marketplace,0.12,Wire
+M100287,Electronics,0.02,Card Present
+M100288,Travel,0.309,Online Banking
+M100289,Digital Wallet,0.478,Card Not Present
+M100290,Travel,0.07,Card Present
+M100291,Grocery,0.567,Online Banking
+M100292,Electronics,0.475,Card Not Present
+M100293,Electronics,0.121,P2P
+M100294,Gaming,0.232,P2P
+M100295,Luxury,0.206,Card Present
+M100296,Electronics,0.443,Card Not Present
+M100297,Luxury,0.077,Online Banking
+M100298,Electronics,0.286,Card Not Present
+M100299,Electronics,0.075,Card Present
+M100300,Electronics,0.528,Card Not Present
+M100301,Marketplace,0.247,Card Not Present
+M100302,Travel,0.37,Card Present
+M100303,Fuel,0.121,Wire
+M100304,Utilities,0.234,Online Banking
+M100305,Luxury,0.054,Card Present
+M100306,Electronics,0.259,Card Present
+M100307,Travel,0.458,Wire
+M100308,Utilities,0.269,Wire
+M100309,Grocery,0.193,P2P
+M100310,Luxury,0.073,Card Not Present
+M100311,Luxury,0.097,Card Present
+M100312,Luxury,0.068,Wire
+M100313,Utilities,0.121,P2P
+M100314,Electronics,0.117,P2P
+M100315,Digital Wallet,0.068,Wire
+M100316,Luxury,0.632,P2P
+M100317,Marketplace,0.063,Online Banking
+M100318,Grocery,0.45,Card Present
+M100319,Telecom,0.162,Card Present
+M100320,Luxury,0.067,Online Banking
+M100321,Utilities,0.08,P2P
+M100322,Gaming,0.134,Card Not Present
+M100323,Utilities,0.147,Card Not Present
+M100324,Luxury,0.201,P2P
+M100325,Marketplace,0.213,Card Present
+M100326,Grocery,0.168,Card Not Present
+M100327,Fuel,0.354,Card Present
+M100328,Gaming,0.033,Wire
+M100329,Electronics,0.053,Card Present
+M100330,Telecom,0.198,P2P
+M100331,Telecom,0.319,Online Banking
+M100332,Gaming,0.686,Card Not Present
+M100333,Utilities,0.376,Online Banking
+M100334,Travel,0.181,Card Present
+M100335,Fuel,0.427,Card Present
+M100336,Telecom,0.378,Card Not Present
+M100337,Electronics,0.292,Card Present
+M100338,Utilities,0.114,Card Present
+M100339,Gaming,0.513,Online Banking
+M100340,Digital Wallet,0.313,Card Not Present
+M100341,Utilities,0.08,Online Banking
+M100342,Fuel,0.213,Online Banking
+M100343,Fuel,0.225,Wire
+M100344,Utilities,0.08,Card Present
+M100345,Grocery,0.366,Card Present
+M100346,Utilities,0.244,Card Present
+M100347,Telecom,0.332,Wire
+M100348,Electronics,0.291,Wire
+M100349,Electronics,0.299,Card Present
+M100350,Fuel,0.165,Card Present
+M100351,Utilities,0.397,Card Not Present
+M100352,Luxury,0.241,P2P
+M100353,Travel,0.625,Card Present
+M100354,Grocery,0.329,P2P
+M100355,Grocery,0.071,P2P
+M100356,Grocery,0.176,Wire
+M100357,Digital Wallet,0.508,Card Not Present
+M100358,Grocery,0.191,Wire
+M100359,Telecom,0.138,Wire
+M100360,Luxury,0.078,Wire
+M100361,Marketplace,0.078,Wire
+M100362,Gaming,0.159,P2P
+M100363,Fuel,0.474,Card Not Present
+M100364,Grocery,0.286,Online Banking
+M100365,Utilities,0.355,Wire
+M100366,Grocery,0.183,Wire
+M100367,Utilities,0.221,Card Not Present
+M100368,Gaming,0.451,Wire
+M100369,Grocery,0.266,Wire
+M100370,Gaming,0.046,Online Banking
+M100371,Luxury,0.521,Wire
+M100372,Digital Wallet,0.66,Card Not Present
+M100373,Luxury,0.143,Card Not Present
+M100374,Grocery,0.313,Online Banking
+M100375,Grocery,0.094,P2P
+M100376,Marketplace,0.502,Wire
+M100377,Utilities,0.721,Online Banking
+M100378,Gaming,0.1,Wire
+M100379,Digital Wallet,0.25,Card Present
+M100380,Electronics,0.337,Wire
+M100381,Grocery,0.088,Online Banking
+M100382,Fuel,0.077,Card Not Present
+M100383,Grocery,0.091,Online Banking
+M100384,Fuel,0.461,P2P
+M100385,Grocery,0.16,Card Present
+M100386,Electronics,0.251,Online Banking
+M100387,Fuel,0.113,P2P
+M100388,Electronics,0.269,Card Present
+M100389,Grocery,0.415,Online Banking
+M100390,Fuel,0.309,Wire
+M100391,Digital Wallet,0.072,Card Not Present
+M100392,Utilities,0.483,Card Not Present
+M100393,Gaming,0.191,Online Banking
+M100394,Utilities,0.053,Card Not Present
+M100395,Telecom,0.131,P2P
+M100396,Gaming,0.282,P2P
+M100397,Luxury,0.135,Card Not Present
+M100398,Telecom,0.561,Online Banking
+M100399,Luxury,0.673,P2P
+M100400,Travel,0.058,Card Present
+M100401,Electronics,0.229,Wire
+M100402,Fuel,0.341,Online Banking
+M100403,Electronics,0.39,Card Present
+M100404,Gaming,0.413,P2P
+M100405,Luxury,0.609,Card Not Present
+M100406,Utilities,0.155,Card Present
+M100407,Digital Wallet,0.363,P2P
+M100408,Electronics,0.264,Card Present
+M100409,Fuel,0.06,Card Not Present
+M100410,Electronics,0.469,Wire
+M100411,Marketplace,0.145,Card Present
+M100412,Luxury,0.604,Card Not Present
+M100413,Electronics,0.052,P2P
+M100414,Digital Wallet,0.291,Card Not Present
+M100415,Telecom,0.24,Wire
+M100416,Grocery,0.163,Wire
+M100417,Digital Wallet,0.612,Card Not Present
+M100418,Gaming,0.171,Wire
+M100419,Grocery,0.353,Card Present
+M100420,Luxury,0.292,Wire
+M100421,Marketplace,0.247,Card Present
+M100422,Marketplace,0.316,Online Banking
+M100423,Luxury,0.359,Wire
+M100424,Luxury,0.136,Card Present
+M100425,Digital Wallet,0.308,Online Banking
+M100426,Travel,0.213,Online Banking
+M100427,Marketplace,0.187,Online Banking
+M100428,Gaming,0.323,P2P
+M100429,Telecom,0.072,Wire
+M100430,Travel,0.618,Card Present
+M100431,Telecom,0.281,P2P
+M100432,Telecom,0.39,P2P
+M100433,Electronics,0.377,Card Present
+M100434,Travel,0.158,Card Not Present
+M100435,Electronics,0.177,Card Present
+M100436,Gaming,0.174,Online Banking
+M100437,Gaming,0.19,Online Banking
+M100438,Travel,0.425,P2P
+M100439,Gaming,0.097,Online Banking
+M100440,Utilities,0.554,Card Not Present
+M100441,Digital Wallet,0.162,P2P
+M100442,Travel,0.449,Card Not Present
+M100443,Electronics,0.315,Online Banking
+M100444,Telecom,0.079,Online Banking
+M100445,Fuel,0.442,P2P
+M100446,Marketplace,0.365,Card Not Present
+M100447,Electronics,0.148,Card Present
+M100448,Digital Wallet,0.519,Wire
+M100449,Telecom,0.319,Wire
+M100450,Gaming,0.092,Card Present
+M100451,Fuel,0.203,Wire
+M100452,Telecom,0.071,Online Banking
+M100453,Travel,0.578,Card Not Present
+M100454,Gaming,0.302,P2P
+M100455,Luxury,0.109,P2P
+M100456,Telecom,0.021,Card Present
+M100457,Electronics,0.209,Wire
+M100458,Luxury,0.637,Online Banking
+M100459,Fuel,0.218,Card Not Present
+M100460,Gaming,0.101,P2P
+M100461,Luxury,0.191,P2P
+M100462,Electronics,0.136,Online Banking
+M100463,Digital Wallet,0.117,Wire
+M100464,Fuel,0.19,Online Banking
+M100465,Luxury,0.304,P2P
+M100466,Grocery,0.137,Card Present
+M100467,Gaming,0.388,Card Present
+M100468,Gaming,0.083,P2P
+M100469,Grocery,0.058,Card Present
+M100470,Gaming,0.069,Online Banking
+M100471,Digital Wallet,0.228,Card Present
+M100472,Fuel,0.398,Card Present
+M100473,Electronics,0.012,Wire
+M100474,Gaming,0.487,Card Present
+M100475,Fuel,0.188,Card Present
+M100476,Travel,0.427,Card Not Present
+M100477,Telecom,0.475,P2P
+M100478,Telecom,0.561,P2P
+M100479,Telecom,0.374,P2P
+M100480,Luxury,0.261,Wire
+M100481,Fuel,0.479,Online Banking
+M100482,Fuel,0.23,P2P
+M100483,Grocery,0.44,Online Banking
+M100484,Gaming,0.074,Card Not Present
+M100485,Grocery,0.364,Wire
+M100486,Fuel,0.122,Online Banking
+M100487,Fuel,0.075,Card Present
+M100488,Grocery,0.271,Card Present
+M100489,Utilities,0.07,Card Not Present
+M100490,Grocery,0.299,P2P
+M100491,Electronics,0.148,P2P
+M100492,Telecom,0.176,P2P
+M100493,Gaming,0.377,Card Present
+M100494,Digital Wallet,0.163,Wire
+M100495,Marketplace,0.583,P2P
+M100496,Marketplace,0.263,Card Not Present
+M100497,Utilities,0.175,Wire
+M100498,Gaming,0.024,P2P
+M100499,Utilities,0.216,Card Present
+M100500,Digital Wallet,0.135,Online Banking
+M100501,Grocery,0.183,P2P
+M100502,Luxury,0.155,Online Banking
+M100503,Gaming,0.295,Card Present
+M100504,Utilities,0.111,Card Not Present
+M100505,Gaming,0.249,Card Not Present
+M100506,Marketplace,0.12,Wire
+M100507,Electronics,0.02,Card Present
+M100508,Travel,0.309,Online Banking
+M100509,Digital Wallet,0.478,Card Not Present
+M100510,Travel,0.07,Card Present
+M100511,Grocery,0.567,Online Banking
+M100512,Electronics,0.475,Card Not Present
+M100513,Electronics,0.121,P2P
+M100514,Gaming,0.232,P2P
+M100515,Luxury,0.206,Card Present
+M100516,Electronics,0.443,Card Not Present
+M100517,Luxury,0.077,Online Banking
+M100518,Electronics,0.286,Card Not Present
+M100519,Electronics,0.075,Card Present
+M100520,Electronics,0.528,Card Not Present
+M100521,Marketplace,0.247,Card Not Present
+M100522,Travel,0.37,Card Present
+M100523,Fuel,0.121,Wire
+M100524,Utilities,0.234,Online Banking
+M100525,Luxury,0.054,Card Present
+M100526,Electronics,0.259,Card Present
+M100527,Travel,0.458,Wire
+M100528,Utilities,0.269,Wire
+M100529,Grocery,0.193,P2P
+M100530,Luxury,0.073,Card Not Present
+M100531,Luxury,0.097,Card Present
+M100532,Luxury,0.068,Wire
+M100533,Utilities,0.121,P2P
+M100534,Electronics,0.117,P2P
+M100535,Digital Wallet,0.068,Wire
+M100536,Luxury,0.632,P2P
+M100537,Marketplace,0.063,Online Banking
+M100538,Grocery,0.45,Card Present
+M100539,Telecom,0.162,Card Present
+M100540,Luxury,0.067,Online Banking
+M100541,Utilities,0.08,P2P
+M100542,Gaming,0.134,Card Not Present
+M100543,Utilities,0.147,Card Not Present
+M100544,Luxury,0.201,P2P
+M100545,Marketplace,0.213,Card Present
+M100546,Grocery,0.168,Card Not Present
+M100547,Fuel,0.354,Card Present
+M100548,Gaming,0.033,Wire
+M100549,Electronics,0.053,Card Present
+M100550,Telecom,0.198,P2P
+M100551,Telecom,0.319,Online Banking
+M100552,Gaming,0.686,Card Not Present
+M100553,Utilities,0.376,Online Banking
+M100554,Travel,0.181,Card Present
+M100555,Fuel,0.427,Card Present
+M100556,Telecom,0.378,Card Not Present
+M100557,Electronics,0.292,Card Present
+M100558,Utilities,0.114,Card Present
+M100559,Gaming,0.513,Online Banking
+M100560,Digital Wallet,0.313,Card Not Present
+M100561,Utilities,0.08,Online Banking
+M100562,Fuel,0.213,Online Banking
+M100563,Fuel,0.225,Wire
+M100564,Utilities,0.08,Card Present
+M100565,Grocery,0.366,Card Present
+M100566,Utilities,0.244,Card Present
+M100567,Telecom,0.332,Wire
+M100568,Electronics,0.291,Wire
+M100569,Electronics,0.299,Card Present
+M100570,Fuel,0.165,Card Present
+M100571,Utilities,0.397,Card Not Present
+M100572,Luxury,0.241,P2P
+M100573,Travel,0.625,Card Present
+M100574,Grocery,0.329,P2P
+M100575,Grocery,0.071,P2P
+M100576,Grocery,0.176,Wire
+M100577,Digital Wallet,0.508,Card Not Present
+M100578,Grocery,0.191,Wire
+M100579,Telecom,0.138,Wire
+M100580,Luxury,0.078,Wire
+M100581,Marketplace,0.078,Wire
+M100582,Gaming,0.159,P2P
+M100583,Fuel,0.474,Card Not Present
+M100584,Grocery,0.286,Online Banking
+M100585,Utilities,0.355,Wire
+M100586,Grocery,0.183,Wire
+M100587,Utilities,0.221,Card Not Present
+M100588,Gaming,0.451,Wire
+M100589,Grocery,0.266,Wire
+M100590,Gaming,0.046,Online Banking
+M100591,Luxury,0.521,Wire
+M100592,Digital Wallet,0.66,Card Not Present
+M100593,Luxury,0.143,Card Not Present
+M100594,Grocery,0.313,Online Banking
+M100595,Grocery,0.094,P2P
+M100596,Marketplace,0.502,Wire
+M100597,Utilities,0.721,Online Banking
+M100598,Gaming,0.1,Wire
+M100599,Digital Wallet,0.25,Card Present
+M100600,Electronics,0.337,Wire
+M100601,Grocery,0.088,Online Banking
+M100602,Fuel,0.077,Card Not Present
+M100603,Grocery,0.091,Online Banking
+M100604,Fuel,0.461,P2P
+M100605,Grocery,0.16,Card Present
+M100606,Electronics,0.251,Online Banking
+M100607,Fuel,0.113,P2P
+M100608,Electronics,0.269,Card Present
+M100609,Grocery,0.415,Online Banking
+M100610,Fuel,0.309,Wire
+M100611,Digital Wallet,0.072,Card Not Present
+M100612,Utilities,0.483,Card Not Present
+M100613,Gaming,0.191,Online Banking
+M100614,Utilities,0.053,Card Not Present
+M100615,Telecom,0.131,P2P
+M100616,Gaming,0.282,P2P
+M100617,Luxury,0.135,Card Not Present
+M100618,Telecom,0.561,Online Banking
+M100619,Luxury,0.673,P2P
+M100620,Travel,0.058,Card Present
+M100621,Electronics,0.229,Wire
+M100622,Fuel,0.341,Online Banking
+M100623,Electronics,0.39,Card Present
+M100624,Gaming,0.413,P2P
+M100625,Luxury,0.609,Card Not Present
+M100626,Utilities,0.155,Card Present
+M100627,Digital Wallet,0.363,P2P
+M100628,Electronics,0.264,Card Present
+M100629,Fuel,0.06,Card Not Present
+M100630,Electronics,0.469,Wire
+M100631,Marketplace,0.145,Card Present
+M100632,Luxury,0.604,Card Not Present
+M100633,Electronics,0.052,P2P
+M100634,Digital Wallet,0.291,Card Not Present
+M100635,Telecom,0.24,Wire
+M100636,Grocery,0.163,Wire
+M100637,Digital Wallet,0.612,Card Not Present
+M100638,Gaming,0.171,Wire
+M100639,Grocery,0.353,Card Present
+M100640,Luxury,0.292,Wire
+M100641,Marketplace,0.247,Card Present
+M100642,Marketplace,0.316,Online Banking
+M100643,Luxury,0.359,Wire
+M100644,Luxury,0.136,Card Present
+M100645,Digital Wallet,0.308,Online Banking
+M100646,Travel,0.213,Online Banking
+M100647,Marketplace,0.187,Online Banking
+M100648,Gaming,0.323,P2P
+M100649,Telecom,0.072,Wire
+M100650,Travel,0.618,Card Present
+M100651,Telecom,0.281,P2P
+M100652,Telecom,0.39,P2P
+M100653,Electronics,0.377,Card Present
+M100654,Travel,0.158,Card Not Present
+M100655,Electronics,0.177,Card Present
+M100656,Gaming,0.174,Online Banking
+M100657,Gaming,0.19,Online Banking
+M100658,Travel,0.425,P2P
+M100659,Gaming,0.097,Online Banking
+M100660,Utilities,0.554,Card Not Present
+M100661,Digital Wallet,0.162,P2P
+M100662,Travel,0.449,Card Not Present
+M100663,Electronics,0.315,Online Banking
+M100664,Telecom,0.079,Online Banking
+M100665,Fuel,0.442,P2P
+M100666,Marketplace,0.365,Card Not Present
+M100667,Electronics,0.148,Card Present
+M100668,Digital Wallet,0.519,Wire
+M100669,Telecom,0.319,Wire
+M100670,Gaming,0.092,Card Present
+M100671,Fuel,0.203,Wire
+M100672,Telecom,0.071,Online Banking
+M100673,Travel,0.578,Card Not Present
+M100674,Gaming,0.302,P2P
+M100675,Luxury,0.109,P2P
+M100676,Telecom,0.021,Card Present
+M100677,Electronics,0.209,Wire
+M100678,Luxury,0.637,Online Banking
+M100679,Fuel,0.218,Card Not Present
+M100680,Gaming,0.101,P2P
+M100681,Luxury,0.191,P2P
+M100682,Electronics,0.136,Online Banking
+M100683,Digital Wallet,0.117,Wire
+M100684,Fuel,0.19,Online Banking
+M100685,Luxury,0.304,P2P
+M100686,Grocery,0.137,Card Present
+M100687,Gaming,0.388,Card Present
+M100688,Gaming,0.083,P2P
+M100689,Grocery,0.058,Card Present
+M100690,Gaming,0.069,Online Banking
+M100691,Digital Wallet,0.228,Card Present
+M100692,Fuel,0.398,Card Present
+M100693,Electronics,0.012,Wire
+M100694,Gaming,0.487,Card Present
+M100695,Fuel,0.188,Card Present
+M100696,Travel,0.427,Card Not Present
+M100697,Telecom,0.475,P2P
+M100698,Telecom,0.561,P2P
+M100699,Telecom,0.374,P2P
+M100700,Luxury,0.261,Wire
+M100701,Fuel,0.479,Online Banking
+M100702,Fuel,0.23,P2P
+M100703,Grocery,0.44,Online Banking
+M100704,Gaming,0.074,Card Not Present
+M100705,Grocery,0.364,Wire
+M100706,Fuel,0.122,Online Banking
+M100707,Fuel,0.075,Card Present
+M100708,Grocery,0.271,Card Present
+M100709,Utilities,0.07,Card Not Present
+M100710,Grocery,0.299,P2P
+M100711,Electronics,0.148,P2P
+M100712,Telecom,0.176,P2P
+M100713,Gaming,0.377,Card Present
+M100714,Digital Wallet,0.163,Wire
+M100715,Marketplace,0.583,P2P
+M100716,Marketplace,0.263,Card Not Present
+M100717,Utilities,0.175,Wire
+M100718,Gaming,0.024,P2P
+M100719,Utilities,0.216,Card Present
+M100720,Digital Wallet,0.135,Online Banking
+M100721,Grocery,0.183,P2P
+M100722,Luxury,0.155,Online Banking
+M100723,Gaming,0.295,Card Present
+M100724,Utilities,0.111,Card Not Present
+M100725,Gaming,0.249,Card Not Present
+M100726,Marketplace,0.12,Wire
+M100727,Electronics,0.02,Card Present
+M100728,Travel,0.309,Online Banking
+M100729,Digital Wallet,0.478,Card Not Present
+M100730,Travel,0.07,Card Present
+M100731,Grocery,0.567,Online Banking
+M100732,Electronics,0.475,Card Not Present
+M100733,Electronics,0.121,P2P
+M100734,Gaming,0.232,P2P
+M100735,Luxury,0.206,Card Present
+M100736,Electronics,0.443,Card Not Present
+M100737,Luxury,0.077,Online Banking
+M100738,Electronics,0.286,Card Not Present
+M100739,Electronics,0.075,Card Present
+M100740,Electronics,0.528,Card Not Present
+M100741,Marketplace,0.247,Card Not Present
+M100742,Travel,0.37,Card Present
+M100743,Fuel,0.121,Wire
+M100744,Utilities,0.234,Online Banking
+M100745,Luxury,0.054,Card Present
+M100746,Electronics,0.259,Card Present
+M100747,Travel,0.458,Wire
+M100748,Utilities,0.269,Wire
+M100749,Grocery,0.193,P2P
+M100750,Luxury,0.073,Card Not Present
+M100751,Luxury,0.097,Card Present
+M100752,Luxury,0.068,Wire
+M100753,Utilities,0.121,P2P
+M100754,Electronics,0.117,P2P
+M100755,Digital Wallet,0.068,Wire
+M100756,Luxury,0.632,P2P
+M100757,Marketplace,0.063,Online Banking
+M100758,Grocery,0.45,Card Present
+M100759,Telecom,0.162,Card Present
+M100760,Luxury,0.067,Online Banking
+M100761,Utilities,0.08,P2P
+M100762,Gaming,0.134,Card Not Present
+M100763,Utilities,0.147,Card Not Present
+M100764,Luxury,0.201,P2P
+M100765,Marketplace,0.213,Card Present
+M100766,Grocery,0.168,Card Not Present
+M100767,Fuel,0.354,Card Present
+M100768,Gaming,0.033,Wire
+M100769,Electronics,0.053,Card Present
+M100770,Telecom,0.198,P2P
+M100771,Telecom,0.319,Online Banking
+M100772,Gaming,0.686,Card Not Present
+M100773,Utilities,0.376,Online Banking
+M100774,Travel,0.181,Card Present
+M100775,Fuel,0.427,Card Present
+M100776,Telecom,0.378,Card Not Present
+M100777,Electronics,0.292,Card Present
+M100778,Utilities,0.114,Card Present
+M100779,Gaming,0.513,Online Banking
+M100780,Digital Wallet,0.313,Card Not Present
+M100781,Utilities,0.08,Online Banking
+M100782,Fuel,0.213,Online Banking
+M100783,Fuel,0.225,Wire
+M100784,Utilities,0.08,Card Present
+M100785,Grocery,0.366,Card Present
+M100786,Utilities,0.244,Card Present
+M100787,Telecom,0.332,Wire
+M100788,Electronics,0.291,Wire
+M100789,Electronics,0.299,Card Present
+M100790,Fuel,0.165,Card Present
+M100791,Utilities,0.397,Card Not Present
+M100792,Luxury,0.241,P2P
+M100793,Travel,0.625,Card Present
+M100794,Grocery,0.329,P2P
+M100795,Grocery,0.071,P2P
+M100796,Grocery,0.176,Wire
+M100797,Digital Wallet,0.508,Card Not Present
+M100798,Grocery,0.191,Wire
+M100799,Telecom,0.138,Wire
+M100800,Luxury,0.078,Wire
+M100801,Marketplace,0.078,Wire
+M100802,Gaming,0.159,P2P
+M100803,Fuel,0.474,Card Not Present
+M100804,Grocery,0.286,Online Banking
+M100805,Utilities,0.355,Wire
+M100806,Grocery,0.183,Wire
+M100807,Utilities,0.221,Card Not Present
+M100808,Gaming,0.451,Wire
+M100809,Grocery,0.266,Wire
+M100810,Gaming,0.046,Online Banking
+M100811,Luxury,0.521,Wire
+M100812,Digital Wallet,0.66,Card Not Present
+M100813,Luxury,0.143,Card Not Present
+M100814,Grocery,0.313,Online Banking
+M100815,Grocery,0.094,P2P
+M100816,Marketplace,0.502,Wire
+M100817,Utilities,0.721,Online Banking
+M100818,Gaming,0.1,Wire
+M100819,Digital Wallet,0.25,Card Present
+M100820,Electronics,0.337,Wire
+M100821,Grocery,0.088,Online Banking
+M100822,Fuel,0.077,Card Not Present
+M100823,Grocery,0.091,Online Banking
+M100824,Fuel,0.461,P2P
+M100825,Grocery,0.16,Card Present
+M100826,Electronics,0.251,Online Banking
+M100827,Fuel,0.113,P2P
+M100828,Electronics,0.269,Card Present
+M100829,Grocery,0.415,Online Banking
+M100830,Fuel,0.309,Wire
+M100831,Digital Wallet,0.072,Card Not Present
+M100832,Utilities,0.483,Card Not Present
+M100833,Gaming,0.191,Online Banking
+M100834,Utilities,0.053,Card Not Present
+M100835,Telecom,0.131,P2P
+M100836,Gaming,0.282,P2P
+M100837,Luxury,0.135,Card Not Present
+M100838,Telecom,0.561,Online Banking
+M100839,Luxury,0.673,P2P
+M100840,Travel,0.058,Card Present
+M100841,Electronics,0.229,Wire
+M100842,Fuel,0.341,Online Banking
+M100843,Electronics,0.39,Card Present
+M100844,Gaming,0.413,P2P
+M100845,Luxury,0.609,Card Not Present
+M100846,Utilities,0.155,Card Present
+M100847,Digital Wallet,0.363,P2P
+M100848,Electronics,0.264,Card Present
+M100849,Fuel,0.06,Card Not Present
+M100850,Electronics,0.469,Wire
+M100851,Marketplace,0.145,Card Present
+M100852,Luxury,0.604,Card Not Present
+M100853,Electronics,0.052,P2P
+M100854,Digital Wallet,0.291,Card Not Present
+M100855,Telecom,0.24,Wire
+M100856,Grocery,0.163,Wire
+M100857,Digital Wallet,0.612,Card Not Present
+M100858,Gaming,0.171,Wire
+M100859,Grocery,0.353,Card Present
+M100860,Luxury,0.292,Wire
+M100861,Marketplace,0.247,Card Present
+M100862,Marketplace,0.316,Online Banking
+M100863,Luxury,0.359,Wire
+M100864,Luxury,0.136,Card Present
+M100865,Digital Wallet,0.308,Online Banking
+M100866,Travel,0.213,Online Banking
+M100867,Marketplace,0.187,Online Banking
+M100868,Gaming,0.323,P2P
+M100869,Telecom,0.072,Wire
+M100870,Travel,0.618,Card Present
+M100871,Telecom,0.281,P2P
+M100872,Telecom,0.39,P2P
+M100873,Electronics,0.377,Card Present
+M100874,Travel,0.158,Card Not Present
+M100875,Electronics,0.177,Card Present
+M100876,Gaming,0.174,Online Banking
+M100877,Gaming,0.19,Online Banking
+M100878,Travel,0.425,P2P
+M100879,Gaming,0.097,Online Banking
+M100880,Utilities,0.554,Card Not Present
+M100881,Digital Wallet,0.162,P2P
+M100882,Travel,0.449,Card Not Present
+M100883,Electronics,0.315,Online Banking
+M100884,Telecom,0.079,Online Banking
+M100885,Fuel,0.442,P2P
+M100886,Marketplace,0.365,Card Not Present
+M100887,Electronics,0.148,Card Present
+M100888,Digital Wallet,0.519,Wire
+M100889,Telecom,0.319,Wire
+M100890,Gaming,0.092,Card Present
+M100891,Fuel,0.203,Wire
+M100892,Telecom,0.071,Online Banking
+M100893,Travel,0.578,Card Not Present
+M100894,Gaming,0.302,P2P
+M100895,Luxury,0.109,P2P
+M100896,Telecom,0.021,Card Present
+M100897,Electronics,0.209,Wire
+M100898,Luxury,0.637,Online Banking
+M100899,Fuel,0.218,Card Not Present
+M100900,Gaming,0.101,P2P
+M100901,Luxury,0.191,P2P
+M100902,Electronics,0.136,Online Banking
+M100903,Digital Wallet,0.117,Wire
+M100904,Fuel,0.19,Online Banking
+M100905,Luxury,0.304,P2P
+M100906,Grocery,0.137,Card Present
+M100907,Gaming,0.388,Card Present
+M100908,Gaming,0.083,P2P
+M100909,Grocery,0.058,Card Present
+M100910,Gaming,0.069,Online Banking
+M100911,Digital Wallet,0.228,Card Present
+M100912,Fuel,0.398,Card Present
+M100913,Electronics,0.012,Wire
+M100914,Gaming,0.487,Card Present
+M100915,Fuel,0.188,Card Present
+M100916,Travel,0.427,Card Not Present
+M100917,Telecom,0.475,P2P
+M100918,Telecom,0.561,P2P
+M100919,Telecom,0.374,P2P
+M100920,Luxury,0.261,Wire
+M100921,Fuel,0.479,Online Banking
+M100922,Fuel,0.23,P2P
+M100923,Grocery,0.44,Online Banking
+M100924,Gaming,0.074,Card Not Present
+M100925,Grocery,0.364,Wire
+M100926,Fuel,0.122,Online Banking
+M100927,Fuel,0.075,Card Present
+M100928,Grocery,0.271,Card Present
+M100929,Utilities,0.07,Card Not Present
+M100930,Grocery,0.299,P2P
+M100931,Electronics,0.148,P2P
+M100932,Telecom,0.176,P2P
+M100933,Gaming,0.377,Card Present
+M100934,Digital Wallet,0.163,Wire
+M100935,Marketplace,0.583,P2P
+M100936,Marketplace,0.263,Card Not Present
+M100937,Utilities,0.175,Wire
+M100938,Gaming,0.024,P2P
+M100939,Utilities,0.216,Card Present
+M100940,Digital Wallet,0.135,Online Banking
+M100941,Grocery,0.183,P2P
+M100942,Luxury,0.155,Online Banking
+M100943,Gaming,0.295,Card Present
+M100944,Utilities,0.111,Card Not Present
+M100945,Gaming,0.249,Card Not Present
+M100946,Marketplace,0.12,Wire
+M100947,Electronics,0.02,Card Present
+M100948,Travel,0.309,Online Banking
+M100949,Digital Wallet,0.478,Card Not Present
+M100950,Travel,0.07,Card Present
+M100951,Grocery,0.567,Online Banking
+M100952,Electronics,0.475,Card Not Present
+M100953,Electronics,0.121,P2P
+M100954,Gaming,0.232,P2P
+M100955,Luxury,0.206,Card Present
+M100956,Electronics,0.443,Card Not Present
+M100957,Luxury,0.077,Online Banking
+M100958,Electronics,0.286,Card Not Present
+M100959,Electronics,0.075,Card Present
+M100960,Electronics,0.528,Card Not Present
+M100961,Marketplace,0.247,Card Not Present
+M100962,Travel,0.37,Card Present
+M100963,Fuel,0.121,Wire
+M100964,Utilities,0.234,Online Banking
+M100965,Luxury,0.054,Card Present
+M100966,Electronics,0.259,Card Present
+M100967,Travel,0.458,Wire
+M100968,Utilities,0.269,Wire
+M100969,Grocery,0.193,P2P
+M100970,Luxury,0.073,Card Not Present
+M100971,Luxury,0.097,Card Present
+M100972,Luxury,0.068,Wire
+M100973,Utilities,0.121,P2P
+M100974,Electronics,0.117,P2P
+M100975,Digital Wallet,0.068,Wire
+M100976,Luxury,0.632,P2P
+M100977,Marketplace,0.063,Online Banking
+M100978,Grocery,0.45,Card Present
+M100979,Telecom,0.162,Card Present
+M100980,Luxury,0.067,Online Banking
+M100981,Utilities,0.08,P2P
+M100982,Gaming,0.134,Card Not Present
+M100983,Utilities,0.147,Card Not Present
+M100984,Luxury,0.201,P2P
+M100985,Marketplace,0.213,Card Present
+M100986,Grocery,0.168,Card Not Present
+M100987,Fuel,0.354,Card Present
+M100988,Gaming,0.033,Wire
+M100989,Electronics,0.053,Card Present
+M100990,Telecom,0.198,P2P
+M100991,Telecom,0.319,Online Banking
+M100992,Gaming,0.686,Card Not Present
+M100993,Utilities,0.376,Online Banking
+M100994,Travel,0.181,Card Present
+M100995,Fuel,0.427,Card Present
+M100996,Telecom,0.378,Card Not Present
+M100997,Electronics,0.292,Card Present
+M100998,Utilities,0.114,Card Present
+M100999,Gaming,0.513,Online Banking
+M101000,Digital Wallet,0.313,Card Not Present
+M101001,Utilities,0.08,Online Banking
+M101002,Fuel,0.213,Online Banking
+M101003,Fuel,0.225,Wire
+M101004,Utilities,0.08,Card Present
+M101005,Grocery,0.366,Card Present
+M101006,Utilities,0.244,Card Present
+M101007,Telecom,0.332,Wire
+M101008,Electronics,0.291,Wire
+M101009,Electronics,0.299,Card Present
+M101010,Fuel,0.165,Card Present
+M101011,Utilities,0.397,Card Not Present
+M101012,Luxury,0.241,P2P
+M101013,Travel,0.625,Card Present
+M101014,Grocery,0.329,P2P
+M101015,Grocery,0.071,P2P
+M101016,Grocery,0.176,Wire
+M101017,Digital Wallet,0.508,Card Not Present
+M101018,Grocery,0.191,Wire
+M101019,Telecom,0.138,Wire
+M101020,Luxury,0.078,Wire
+M101021,Marketplace,0.078,Wire
+M101022,Gaming,0.159,P2P
+M101023,Fuel,0.474,Card Not Present
+M101024,Grocery,0.286,Online Banking
+M101025,Utilities,0.355,Wire
+M101026,Grocery,0.183,Wire
+M101027,Utilities,0.221,Card Not Present
+M101028,Gaming,0.451,Wire
+M101029,Grocery,0.266,Wire
+M101030,Gaming,0.046,Online Banking
+M101031,Luxury,0.521,Wire
+M101032,Digital Wallet,0.66,Card Not Present
+M101033,Luxury,0.143,Card Not Present
+M101034,Grocery,0.313,Online Banking
+M101035,Grocery,0.094,P2P
+M101036,Marketplace,0.502,Wire
+M101037,Utilities,0.721,Online Banking
+M101038,Gaming,0.1,Wire
+M101039,Digital Wallet,0.25,Card Present
+M101040,Electronics,0.337,Wire
+M101041,Grocery,0.088,Online Banking
+M101042,Fuel,0.077,Card Not Present
+M101043,Grocery,0.091,Online Banking
+M101044,Fuel,0.461,P2P
+M101045,Grocery,0.16,Card Present
+M101046,Electronics,0.251,Online Banking
+M101047,Fuel,0.113,P2P
+M101048,Electronics,0.269,Card Present
+M101049,Grocery,0.415,Online Banking
+M101050,Fuel,0.309,Wire
+M101051,Digital Wallet,0.072,Card Not Present
+M101052,Utilities,0.483,Card Not Present
+M101053,Gaming,0.191,Online Banking
+M101054,Utilities,0.053,Card Not Present
+M101055,Telecom,0.131,P2P
+M101056,Gaming,0.282,P2P
+M101057,Luxury,0.135,Card Not Present
+M101058,Telecom,0.561,Online Banking
+M101059,Luxury,0.673,P2P
+M101060,Travel,0.058,Card Present
+M101061,Electronics,0.229,Wire
+M101062,Fuel,0.341,Online Banking
+M101063,Electronics,0.39,Card Present
+M101064,Gaming,0.413,P2P
+M101065,Luxury,0.609,Card Not Present
+M101066,Utilities,0.155,Card Present
+M101067,Digital Wallet,0.363,P2P
+M101068,Electronics,0.264,Card Present
+M101069,Fuel,0.06,Card Not Present
+M101070,Electronics,0.469,Wire
+M101071,Marketplace,0.145,Card Present
+M101072,Luxury,0.604,Card Not Present
+M101073,Electronics,0.052,P2P
+M101074,Digital Wallet,0.291,Card Not Present
+M101075,Telecom,0.24,Wire
+M101076,Grocery,0.163,Wire
+M101077,Digital Wallet,0.612,Card Not Present
+M101078,Gaming,0.171,Wire
+M101079,Grocery,0.353,Card Present
+M101080,Luxury,0.292,Wire
+M101081,Marketplace,0.247,Card Present
+M101082,Marketplace,0.316,Online Banking
+M101083,Luxury,0.359,Wire
+M101084,Luxury,0.136,Card Present
+M101085,Digital Wallet,0.308,Online Banking
+M101086,Travel,0.213,Online Banking
+M101087,Marketplace,0.187,Online Banking
+M101088,Gaming,0.323,P2P
+M101089,Telecom,0.072,Wire
+M101090,Travel,0.618,Card Present
+M101091,Telecom,0.281,P2P
+M101092,Telecom,0.39,P2P
+M101093,Electronics,0.377,Card Present
+M101094,Travel,0.158,Card Not Present
+M101095,Electronics,0.177,Card Present
+M101096,Gaming,0.174,Online Banking
+M101097,Gaming,0.19,Online Banking
+M101098,Travel,0.425,P2P
+M101099,Gaming,0.097,Online Banking
+M101100,Utilities,0.554,Card Not Present
+M101101,Digital Wallet,0.162,P2P
+M101102,Travel,0.449,Card Not Present
+M101103,Electronics,0.315,Online Banking
+M101104,Telecom,0.079,Online Banking
+M101105,Fuel,0.442,P2P
+M101106,Marketplace,0.365,Card Not Present
+M101107,Electronics,0.148,Card Present
+M101108,Digital Wallet,0.519,Wire
+M101109,Telecom,0.319,Wire
+M101110,Gaming,0.092,Card Present
+M101111,Fuel,0.203,Wire
+M101112,Telecom,0.071,Online Banking
+M101113,Travel,0.578,Card Not Present
+M101114,Gaming,0.302,P2P
+M101115,Luxury,0.109,P2P
+M101116,Telecom,0.021,Card Present
+M101117,Electronics,0.209,Wire
+M101118,Luxury,0.637,Online Banking
+M101119,Fuel,0.218,Card Not Present
+M101120,Gaming,0.101,P2P
+M101121,Luxury,0.191,P2P
+M101122,Electronics,0.136,Online Banking
+M101123,Digital Wallet,0.117,Wire
+M101124,Fuel,0.19,Online Banking
+M101125,Luxury,0.304,P2P
+M101126,Grocery,0.137,Card Present
+M101127,Gaming,0.388,Card Present
+M101128,Gaming,0.083,P2P
+M101129,Grocery,0.058,Card Present
+M101130,Gaming,0.069,Online Banking
+M101131,Digital Wallet,0.228,Card Present
+M101132,Fuel,0.398,Card Present
+M101133,Electronics,0.012,Wire
+M101134,Gaming,0.487,Card Present
+M101135,Fuel,0.188,Card Present
+M101136,Travel,0.427,Card Not Present
+M101137,Telecom,0.475,P2P
+M101138,Telecom,0.561,P2P
+M101139,Telecom,0.374,P2P
+M101140,Luxury,0.261,Wire
+M101141,Fuel,0.479,Online Banking
+M101142,Fuel,0.23,P2P
+M101143,Grocery,0.44,Online Banking
+M101144,Gaming,0.074,Card Not Present
+M101145,Grocery,0.364,Wire
+M101146,Fuel,0.122,Online Banking
+M101147,Fuel,0.075,Card Present
+M101148,Grocery,0.271,Card Present
+M101149,Utilities,0.07,Card Not Present
+M101150,Grocery,0.299,P2P
+M101151,Electronics,0.148,P2P
+M101152,Telecom,0.176,P2P
+M101153,Gaming,0.377,Card Present
+M101154,Digital Wallet,0.163,Wire
+M101155,Marketplace,0.583,P2P
+M101156,Marketplace,0.263,Card Not Present
+M101157,Utilities,0.175,Wire
+M101158,Gaming,0.024,P2P
+M101159,Utilities,0.216,Card Present
+M101160,Digital Wallet,0.135,Online Banking
+M101161,Grocery,0.183,P2P
+M101162,Luxury,0.155,Online Banking
+M101163,Gaming,0.295,Card Present
+M101164,Utilities,0.111,Card Not Present
+M101165,Gaming,0.249,Card Not Present
+M101166,Marketplace,0.12,Wire
+M101167,Electronics,0.02,Card Present
+M101168,Travel,0.309,Online Banking
+M101169,Digital Wallet,0.478,Card Not Present
+M101170,Travel,0.07,Card Present
+M101171,Grocery,0.567,Online Banking
+M101172,Electronics,0.475,Card Not Present
+M101173,Electronics,0.121,P2P
+M101174,Gaming,0.232,P2P
+M101175,Luxury,0.206,Card Present
+M101176,Electronics,0.443,Card Not Present
+M101177,Luxury,0.077,Online Banking
+M101178,Electronics,0.286,Card Not Present
+M101179,Electronics,0.075,Card Present
+M101180,Electronics,0.528,Card Not Present
+M101181,Marketplace,0.247,Card Not Present
+M101182,Travel,0.37,Card Present
+M101183,Fuel,0.121,Wire
+M101184,Utilities,0.234,Online Banking
+M101185,Luxury,0.054,Card Present
+M101186,Electronics,0.259,Card Present
+M101187,Travel,0.458,Wire
+M101188,Utilities,0.269,Wire
+M101189,Grocery,0.193,P2P
+M101190,Luxury,0.073,Card Not Present
+M101191,Luxury,0.097,Card Present
+M101192,Luxury,0.068,Wire
+M101193,Utilities,0.121,P2P
+M101194,Electronics,0.117,P2P
+M101195,Digital Wallet,0.068,Wire
+M101196,Luxury,0.632,P2P
+M101197,Marketplace,0.063,Online Banking
+M101198,Grocery,0.45,Card Present
+M101199,Telecom,0.162,Card Present
+M101200,Luxury,0.067,Online Banking
+M101201,Utilities,0.08,P2P
+M101202,Gaming,0.134,Card Not Present
+M101203,Utilities,0.147,Card Not Present
+M101204,Luxury,0.201,P2P
+M101205,Marketplace,0.213,Card Present
+M101206,Grocery,0.168,Card Not Present
+M101207,Fuel,0.354,Card Present
+M101208,Gaming,0.033,Wire
+M101209,Electronics,0.053,Card Present
+M101210,Telecom,0.198,P2P
+M101211,Telecom,0.319,Online Banking
+M101212,Gaming,0.686,Card Not Present
+M101213,Utilities,0.376,Online Banking
+M101214,Travel,0.181,Card Present
+M101215,Fuel,0.427,Card Present
+M101216,Telecom,0.378,Card Not Present
+M101217,Electronics,0.292,Card Present
+M101218,Utilities,0.114,Card Present
+M101219,Gaming,0.513,Online Banking
+M101220,Digital Wallet,0.313,Card Not Present
+M101221,Utilities,0.08,Online Banking
+M101222,Fuel,0.213,Online Banking
+M101223,Fuel,0.225,Wire
+M101224,Utilities,0.08,Card Present
+M101225,Grocery,0.366,Card Present
+M101226,Utilities,0.244,Card Present
+M101227,Telecom,0.332,Wire
+M101228,Electronics,0.291,Wire
+M101229,Electronics,0.299,Card Present
+M101230,Fuel,0.165,Card Present
+M101231,Utilities,0.397,Card Not Present
+M101232,Luxury,0.241,P2P
+M101233,Travel,0.625,Card Present
+M101234,Grocery,0.329,P2P
+M101235,Grocery,0.071,P2P
+M101236,Grocery,0.176,Wire
+M101237,Digital Wallet,0.508,Card Not Present
+M101238,Grocery,0.191,Wire
+M101239,Telecom,0.138,Wire
+M101240,Luxury,0.078,Wire
+M101241,Marketplace,0.078,Wire
+M101242,Gaming,0.159,P2P
+M101243,Fuel,0.474,Card Not Present
+M101244,Grocery,0.286,Online Banking
+M101245,Utilities,0.355,Wire
+M101246,Grocery,0.183,Wire
+M101247,Utilities,0.221,Card Not Present
+M101248,Gaming,0.451,Wire
+M101249,Grocery,0.266,Wire
+M101250,Gaming,0.046,Online Banking
+M101251,Luxury,0.521,Wire
+M101252,Digital Wallet,0.66,Card Not Present
+M101253,Luxury,0.143,Card Not Present
+M101254,Grocery,0.313,Online Banking
+M101255,Grocery,0.094,P2P
+M101256,Marketplace,0.502,Wire
+M101257,Utilities,0.721,Online Banking
+M101258,Gaming,0.1,Wire
+M101259,Digital Wallet,0.25,Card Present
+M101260,Electronics,0.337,Wire
+M101261,Grocery,0.088,Online Banking
+M101262,Fuel,0.077,Card Not Present
+M101263,Grocery,0.091,Online Banking
+M101264,Fuel,0.461,P2P
+M101265,Grocery,0.16,Card Present
+M101266,Electronics,0.251,Online Banking
+M101267,Fuel,0.113,P2P
+M101268,Electronics,0.269,Card Present
+M101269,Grocery,0.415,Online Banking
+M101270,Fuel,0.309,Wire
+M101271,Digital Wallet,0.072,Card Not Present
+M101272,Utilities,0.483,Card Not Present
+M101273,Gaming,0.191,Online Banking
+M101274,Utilities,0.053,Card Not Present
+M101275,Telecom,0.131,P2P
+M101276,Gaming,0.282,P2P
+M101277,Luxury,0.135,Card Not Present
+M101278,Telecom,0.561,Online Banking
+M101279,Luxury,0.673,P2P
+M101280,Travel,0.058,Card Present
+M101281,Electronics,0.229,Wire
+M101282,Fuel,0.341,Online Banking
+M101283,Electronics,0.39,Card Present
+M101284,Gaming,0.413,P2P
+M101285,Luxury,0.609,Card Not Present
+M101286,Utilities,0.155,Card Present
+M101287,Digital Wallet,0.363,P2P
+M101288,Electronics,0.264,Card Present
+M101289,Fuel,0.06,Card Not Present
+M101290,Electronics,0.469,Wire
+M101291,Marketplace,0.145,Card Present
+M101292,Luxury,0.604,Card Not Present
+M101293,Electronics,0.052,P2P
+M101294,Digital Wallet,0.291,Card Not Present
+M101295,Telecom,0.24,Wire
+M101296,Grocery,0.163,Wire
+M101297,Digital Wallet,0.612,Card Not Present
+M101298,Gaming,0.171,Wire
+M101299,Grocery,0.353,Card Present
+M101300,Luxury,0.292,Wire
+M101301,Marketplace,0.247,Card Present
+M101302,Marketplace,0.316,Online Banking
+M101303,Luxury,0.359,Wire
+M101304,Luxury,0.136,Card Present
+M101305,Digital Wallet,0.308,Online Banking
+M101306,Travel,0.213,Online Banking
+M101307,Marketplace,0.187,Online Banking
+M101308,Gaming,0.323,P2P
+M101309,Telecom,0.072,Wire
+M101310,Travel,0.618,Card Present
+M101311,Telecom,0.281,P2P
+M101312,Telecom,0.39,P2P
+M101313,Electronics,0.377,Card Present
+M101314,Travel,0.158,Card Not Present
+M101315,Electronics,0.177,Card Present
+M101316,Gaming,0.174,Online Banking
+M101317,Gaming,0.19,Online Banking
+M101318,Travel,0.425,P2P
+M101319,Gaming,0.097,Online Banking
+M101320,Utilities,0.554,Card Not Present
+M101321,Digital Wallet,0.162,P2P
+M101322,Travel,0.449,Card Not Present
+M101323,Electronics,0.315,Online Banking
+M101324,Telecom,0.079,Online Banking
+M101325,Fuel,0.442,P2P
+M101326,Marketplace,0.365,Card Not Present
+M101327,Electronics,0.148,Card Present
+M101328,Digital Wallet,0.519,Wire
+M101329,Telecom,0.319,Wire
+M101330,Gaming,0.092,Card Present
+M101331,Fuel,0.203,Wire
+M101332,Telecom,0.071,Online Banking
+M101333,Travel,0.578,Card Not Present
+M101334,Gaming,0.302,P2P
+M101335,Luxury,0.109,P2P
+M101336,Telecom,0.021,Card Present
+M101337,Electronics,0.209,Wire
+M101338,Luxury,0.637,Online Banking
+M101339,Fuel,0.218,Card Not Present
+M101340,Gaming,0.101,P2P
+M101341,Luxury,0.191,P2P
+M101342,Electronics,0.136,Online Banking
+M101343,Digital Wallet,0.117,Wire
+M101344,Fuel,0.19,Online Banking
+M101345,Luxury,0.304,P2P
+M101346,Grocery,0.137,Card Present
+M101347,Gaming,0.388,Card Present
+M101348,Gaming,0.083,P2P
+M101349,Grocery,0.058,Card Present
+M101350,Gaming,0.069,Online Banking
+M101351,Digital Wallet,0.228,Card Present
+M101352,Fuel,0.398,Card Present
+M101353,Electronics,0.012,Wire
+M101354,Gaming,0.487,Card Present
+M101355,Fuel,0.188,Card Present
+M101356,Travel,0.427,Card Not Present
+M101357,Telecom,0.475,P2P
+M101358,Telecom,0.561,P2P
+M101359,Telecom,0.374,P2P
+M101360,Luxury,0.261,Wire
+M101361,Fuel,0.479,Online Banking
+M101362,Fuel,0.23,P2P
+M101363,Grocery,0.44,Online Banking
+M101364,Gaming,0.074,Card Not Present
+M101365,Grocery,0.364,Wire
+M101366,Fuel,0.122,Online Banking
+M101367,Fuel,0.075,Card Present
+M101368,Grocery,0.271,Card Present
+M101369,Utilities,0.07,Card Not Present
+M101370,Grocery,0.299,P2P
+M101371,Electronics,0.148,P2P
+M101372,Telecom,0.176,P2P
+M101373,Gaming,0.377,Card Present
+M101374,Digital Wallet,0.163,Wire
+M101375,Marketplace,0.583,P2P
+M101376,Marketplace,0.263,Card Not Present
+M101377,Utilities,0.175,Wire
+M101378,Gaming,0.024,P2P
+M101379,Utilities,0.216,Card Present
+M101380,Digital Wallet,0.135,Online Banking
+M101381,Grocery,0.183,P2P
+M101382,Luxury,0.155,Online Banking
+M101383,Gaming,0.295,Card Present
+M101384,Utilities,0.111,Card Not Present
+M101385,Gaming,0.249,Card Not Present
+M101386,Marketplace,0.12,Wire
+M101387,Electronics,0.02,Card Present
+M101388,Travel,0.309,Online Banking
+M101389,Digital Wallet,0.478,Card Not Present
+M101390,Travel,0.07,Card Present
+M101391,Grocery,0.567,Online Banking
+M101392,Electronics,0.475,Card Not Present
+M101393,Electronics,0.121,P2P
+M101394,Gaming,0.232,P2P
+M101395,Luxury,0.206,Card Present
+M101396,Electronics,0.443,Card Not Present
+M101397,Luxury,0.077,Online Banking
+M101398,Electronics,0.286,Card Not Present
+M101399,Electronics,0.075,Card Present
+M101400,Electronics,0.528,Card Not Present
+M101401,Marketplace,0.247,Card Not Present
+M101402,Travel,0.37,Card Present
+M101403,Fuel,0.121,Wire
+M101404,Utilities,0.234,Online Banking
+M101405,Luxury,0.054,Card Present
+M101406,Electronics,0.259,Card Present
+M101407,Travel,0.458,Wire
+M101408,Utilities,0.269,Wire
+M101409,Grocery,0.193,P2P
+M101410,Luxury,0.073,Card Not Present
+M101411,Luxury,0.097,Card Present
+M101412,Luxury,0.068,Wire
+M101413,Utilities,0.121,P2P
+M101414,Electronics,0.117,P2P
+M101415,Digital Wallet,0.068,Wire
+M101416,Luxury,0.632,P2P
+M101417,Marketplace,0.063,Online Banking
+M101418,Grocery,0.45,Card Present
+M101419,Telecom,0.162,Card Present
+M101420,Luxury,0.067,Online Banking
+M101421,Utilities,0.08,P2P
+M101422,Gaming,0.134,Card Not Present
+M101423,Utilities,0.147,Card Not Present
+M101424,Luxury,0.201,P2P
+M101425,Marketplace,0.213,Card Present
+M101426,Grocery,0.168,Card Not Present
+M101427,Fuel,0.354,Card Present
+M101428,Gaming,0.033,Wire
+M101429,Electronics,0.053,Card Present
+M101430,Telecom,0.198,P2P
+M101431,Telecom,0.319,Online Banking
+M101432,Gaming,0.686,Card Not Present
+M101433,Utilities,0.376,Online Banking
+M101434,Travel,0.181,Card Present
+M101435,Fuel,0.427,Card Present
+M101436,Telecom,0.378,Card Not Present
+M101437,Electronics,0.292,Card Present
+M101438,Utilities,0.114,Card Present
+M101439,Gaming,0.513,Online Banking
+M101440,Digital Wallet,0.313,Card Not Present
+M101441,Utilities,0.08,Online Banking
+M101442,Fuel,0.213,Online Banking
+M101443,Fuel,0.225,Wire
+M101444,Utilities,0.08,Card Present
+M101445,Grocery,0.366,Card Present
+M101446,Utilities,0.244,Card Present
+M101447,Telecom,0.332,Wire
+M101448,Electronics,0.291,Wire
+M101449,Electronics,0.299,Card Present
+M101450,Fuel,0.165,Card Present
+M101451,Utilities,0.397,Card Not Present
+M101452,Luxury,0.241,P2P
+M101453,Travel,0.625,Card Present
+M101454,Grocery,0.329,P2P
+M101455,Grocery,0.071,P2P
+M101456,Grocery,0.176,Wire
+M101457,Digital Wallet,0.508,Card Not Present
+M101458,Grocery,0.191,Wire
+M101459,Telecom,0.138,Wire
+M101460,Luxury,0.078,Wire
+M101461,Marketplace,0.078,Wire
+M101462,Gaming,0.159,P2P
+M101463,Fuel,0.474,Card Not Present
+M101464,Grocery,0.286,Online Banking
+M101465,Utilities,0.355,Wire
+M101466,Grocery,0.183,Wire
+M101467,Utilities,0.221,Card Not Present
+M101468,Gaming,0.451,Wire
+M101469,Grocery,0.266,Wire
+M101470,Gaming,0.046,Online Banking
+M101471,Luxury,0.521,Wire
+M101472,Digital Wallet,0.66,Card Not Present
+M101473,Luxury,0.143,Card Not Present
+M101474,Grocery,0.313,Online Banking
+M101475,Grocery,0.094,P2P
+M101476,Marketplace,0.502,Wire
+M101477,Utilities,0.721,Online Banking
+M101478,Gaming,0.1,Wire
+M101479,Digital Wallet,0.25,Card Present
+M101480,Electronics,0.337,Wire
+M101481,Grocery,0.088,Online Banking
+M101482,Fuel,0.077,Card Not Present
+M101483,Grocery,0.091,Online Banking
+M101484,Fuel,0.461,P2P
+M101485,Grocery,0.16,Card Present
+M101486,Electronics,0.251,Online Banking
+M101487,Fuel,0.113,P2P
+M101488,Electronics,0.269,Card Present
+M101489,Grocery,0.415,Online Banking
+M101490,Fuel,0.309,Wire
+M101491,Digital Wallet,0.072,Card Not Present
+M101492,Utilities,0.483,Card Not Present
+M101493,Gaming,0.191,Online Banking
+M101494,Utilities,0.053,Card Not Present
+M101495,Telecom,0.131,P2P
+M101496,Gaming,0.282,P2P
+M101497,Luxury,0.135,Card Not Present
+M101498,Telecom,0.561,Online Banking
+M101499,Luxury,0.673,P2P
+M101500,Travel,0.058,Card Present
+M101501,Electronics,0.229,Wire
+M101502,Fuel,0.341,Online Banking
+M101503,Electronics,0.39,Card Present
+M101504,Gaming,0.413,P2P
+M101505,Luxury,0.609,Card Not Present
+M101506,Utilities,0.155,Card Present
+M101507,Digital Wallet,0.363,P2P
+M101508,Electronics,0.264,Card Present
+M101509,Fuel,0.06,Card Not Present
+M101510,Electronics,0.469,Wire
+M101511,Marketplace,0.145,Card Present
+M101512,Luxury,0.604,Card Not Present
+M101513,Electronics,0.052,P2P
+M101514,Digital Wallet,0.291,Card Not Present
+M101515,Telecom,0.24,Wire
+M101516,Grocery,0.163,Wire
+M101517,Digital Wallet,0.612,Card Not Present
+M101518,Gaming,0.171,Wire
+M101519,Grocery,0.353,Card Present
+M101520,Luxury,0.292,Wire
+M101521,Marketplace,0.247,Card Present
+M101522,Marketplace,0.316,Online Banking
+M101523,Luxury,0.359,Wire
+M101524,Luxury,0.136,Card Present
+M101525,Digital Wallet,0.308,Online Banking
+M101526,Travel,0.213,Online Banking
+M101527,Marketplace,0.187,Online Banking
+M101528,Gaming,0.323,P2P
+M101529,Telecom,0.072,Wire
+M101530,Travel,0.618,Card Present
+M101531,Telecom,0.281,P2P
+M101532,Telecom,0.39,P2P
+M101533,Electronics,0.377,Card Present
+M101534,Travel,0.158,Card Not Present
+M101535,Electronics,0.177,Card Present
+M101536,Gaming,0.174,Online Banking
+M101537,Gaming,0.19,Online Banking
+M101538,Travel,0.425,P2P
+M101539,Gaming,0.097,Online Banking
+M101540,Utilities,0.554,Card Not Present
+M101541,Digital Wallet,0.162,P2P
+M101542,Travel,0.449,Card Not Present
+M101543,Electronics,0.315,Online Banking
+M101544,Telecom,0.079,Online Banking
+M101545,Fuel,0.442,P2P
+M101546,Marketplace,0.365,Card Not Present
+M101547,Electronics,0.148,Card Present
+M101548,Digital Wallet,0.519,Wire
+M101549,Telecom,0.319,Wire
+M101550,Gaming,0.092,Card Present
+M101551,Fuel,0.203,Wire
+M101552,Telecom,0.071,Online Banking
+M101553,Travel,0.578,Card Not Present
+M101554,Gaming,0.302,P2P
+M101555,Luxury,0.109,P2P
+M101556,Telecom,0.021,Card Present
+M101557,Electronics,0.209,Wire
+M101558,Luxury,0.637,Online Banking
+M101559,Fuel,0.218,Card Not Present
+M101560,Gaming,0.101,P2P
+M101561,Luxury,0.191,P2P
+M101562,Electronics,0.136,Online Banking
+M101563,Digital Wallet,0.117,Wire
+M101564,Fuel,0.19,Online Banking
+M101565,Luxury,0.304,P2P
+M101566,Grocery,0.137,Card Present
+M101567,Gaming,0.388,Card Present
+M101568,Gaming,0.083,P2P
+M101569,Grocery,0.058,Card Present
+M101570,Gaming,0.069,Online Banking
+M101571,Digital Wallet,0.228,Card Present
+M101572,Fuel,0.398,Card Present
+M101573,Electronics,0.012,Wire
+M101574,Gaming,0.487,Card Present
+M101575,Fuel,0.188,Card Present
+M101576,Travel,0.427,Card Not Present
+M101577,Telecom,0.475,P2P
+M101578,Telecom,0.561,P2P
+M101579,Telecom,0.374,P2P
+M101580,Luxury,0.261,Wire
+M101581,Fuel,0.479,Online Banking
+M101582,Fuel,0.23,P2P
+M101583,Grocery,0.44,Online Banking
+M101584,Gaming,0.074,Card Not Present
+M101585,Grocery,0.364,Wire
+M101586,Fuel,0.122,Online Banking
+M101587,Fuel,0.075,Card Present
+M101588,Grocery,0.271,Card Present
+M101589,Utilities,0.07,Card Not Present
+M101590,Grocery,0.299,P2P
+M101591,Electronics,0.148,P2P
+M101592,Telecom,0.176,P2P
+M101593,Gaming,0.377,Card Present
+M101594,Digital Wallet,0.163,Wire
+M101595,Marketplace,0.583,P2P
+M101596,Marketplace,0.263,Card Not Present
+M101597,Utilities,0.175,Wire
+M101598,Gaming,0.024,P2P
+M101599,Utilities,0.216,Card Present
+M101600,Digital Wallet,0.135,Online Banking
+M101601,Grocery,0.183,P2P
+M101602,Luxury,0.155,Online Banking
+M101603,Gaming,0.295,Card Present
+M101604,Utilities,0.111,Card Not Present
+M101605,Gaming,0.249,Card Not Present
+M101606,Marketplace,0.12,Wire
+M101607,Electronics,0.02,Card Present
+M101608,Travel,0.309,Online Banking
+M101609,Digital Wallet,0.478,Card Not Present
+M101610,Travel,0.07,Card Present
+M101611,Grocery,0.567,Online Banking
+M101612,Electronics,0.475,Card Not Present
+M101613,Electronics,0.121,P2P
+M101614,Gaming,0.232,P2P
+M101615,Luxury,0.206,Card Present
+M101616,Electronics,0.443,Card Not Present
+M101617,Luxury,0.077,Online Banking
+M101618,Electronics,0.286,Card Not Present
+M101619,Electronics,0.075,Card Present
+M101620,Electronics,0.528,Card Not Present
+M101621,Marketplace,0.247,Card Not Present
+M101622,Travel,0.37,Card Present
+M101623,Fuel,0.121,Wire
+M101624,Utilities,0.234,Online Banking
+M101625,Luxury,0.054,Card Present
+M101626,Electronics,0.259,Card Present
+M101627,Travel,0.458,Wire
+M101628,Utilities,0.269,Wire
+M101629,Grocery,0.193,P2P
+M101630,Luxury,0.073,Card Not Present
+M101631,Luxury,0.097,Card Present
+M101632,Luxury,0.068,Wire
+M101633,Utilities,0.121,P2P
+M101634,Electronics,0.117,P2P
+M101635,Digital Wallet,0.068,Wire
+M101636,Luxury,0.632,P2P
+M101637,Marketplace,0.063,Online Banking
+M101638,Grocery,0.45,Card Present
+M101639,Telecom,0.162,Card Present
+M101640,Luxury,0.067,Online Banking
+M101641,Utilities,0.08,P2P
+M101642,Gaming,0.134,Card Not Present
+M101643,Utilities,0.147,Card Not Present
+M101644,Luxury,0.201,P2P
+M101645,Marketplace,0.213,Card Present
+M101646,Grocery,0.168,Card Not Present
+M101647,Fuel,0.354,Card Present
+M101648,Gaming,0.033,Wire
+M101649,Electronics,0.053,Card Present
+M101650,Telecom,0.198,P2P
+M101651,Telecom,0.319,Online Banking
+M101652,Gaming,0.686,Card Not Present
+M101653,Utilities,0.376,Online Banking
+M101654,Travel,0.181,Card Present
+M101655,Fuel,0.427,Card Present
+M101656,Telecom,0.378,Card Not Present
+M101657,Electronics,0.292,Card Present
+M101658,Utilities,0.114,Card Present
+M101659,Gaming,0.513,Online Banking
+M101660,Digital Wallet,0.313,Card Not Present
+M101661,Utilities,0.08,Online Banking
+M101662,Fuel,0.213,Online Banking
+M101663,Fuel,0.225,Wire
+M101664,Utilities,0.08,Card Present
+M101665,Grocery,0.366,Card Present
+M101666,Utilities,0.244,Card Present
+M101667,Telecom,0.332,Wire
+M101668,Electronics,0.291,Wire
+M101669,Electronics,0.299,Card Present
+M101670,Fuel,0.165,Card Present
+M101671,Utilities,0.397,Card Not Present
+M101672,Luxury,0.241,P2P
+M101673,Travel,0.625,Card Present
+M101674,Grocery,0.329,P2P
+M101675,Grocery,0.071,P2P
+M101676,Grocery,0.176,Wire
+M101677,Digital Wallet,0.508,Card Not Present
+M101678,Grocery,0.191,Wire
+M101679,Telecom,0.138,Wire
+M101680,Luxury,0.078,Wire
+M101681,Marketplace,0.078,Wire
+M101682,Gaming,0.159,P2P
+M101683,Fuel,0.474,Card Not Present
+M101684,Grocery,0.286,Online Banking
+M101685,Utilities,0.355,Wire
+M101686,Grocery,0.183,Wire
+M101687,Utilities,0.221,Card Not Present
+M101688,Gaming,0.451,Wire
+M101689,Grocery,0.266,Wire
+M101690,Gaming,0.046,Online Banking
+M101691,Luxury,0.521,Wire
+M101692,Digital Wallet,0.66,Card Not Present
+M101693,Luxury,0.143,Card Not Present
+M101694,Grocery,0.313,Online Banking
+M101695,Grocery,0.094,P2P
+M101696,Marketplace,0.502,Wire
+M101697,Utilities,0.721,Online Banking
+M101698,Gaming,0.1,Wire
+M101699,Digital Wallet,0.25,Card Present
+M101700,Electronics,0.337,Wire
+M101701,Grocery,0.088,Online Banking
+M101702,Fuel,0.077,Card Not Present
+M101703,Grocery,0.091,Online Banking
+M101704,Fuel,0.461,P2P
+M101705,Grocery,0.16,Card Present
+M101706,Electronics,0.251,Online Banking
+M101707,Fuel,0.113,P2P
+M101708,Electronics,0.269,Card Present
+M101709,Grocery,0.415,Online Banking
+M101710,Fuel,0.309,Wire
+M101711,Digital Wallet,0.072,Card Not Present
+M101712,Utilities,0.483,Card Not Present
+M101713,Gaming,0.191,Online Banking
+M101714,Utilities,0.053,Card Not Present
+M101715,Telecom,0.131,P2P
+M101716,Gaming,0.282,P2P
+M101717,Luxury,0.135,Card Not Present
+M101718,Telecom,0.561,Online Banking
+M101719,Luxury,0.673,P2P
+M101720,Travel,0.058,Card Present
+M101721,Electronics,0.229,Wire
+M101722,Fuel,0.341,Online Banking
+M101723,Electronics,0.39,Card Present
+M101724,Gaming,0.413,P2P
+M101725,Luxury,0.609,Card Not Present
+M101726,Utilities,0.155,Card Present
+M101727,Digital Wallet,0.363,P2P
+M101728,Electronics,0.264,Card Present
+M101729,Fuel,0.06,Card Not Present
+M101730,Electronics,0.469,Wire
+M101731,Marketplace,0.145,Card Present
+M101732,Luxury,0.604,Card Not Present
+M101733,Electronics,0.052,P2P
+M101734,Digital Wallet,0.291,Card Not Present
+M101735,Telecom,0.24,Wire
+M101736,Grocery,0.163,Wire
+M101737,Digital Wallet,0.612,Card Not Present
+M101738,Gaming,0.171,Wire
+M101739,Grocery,0.353,Card Present
+M101740,Luxury,0.292,Wire
+M101741,Marketplace,0.247,Card Present
+M101742,Marketplace,0.316,Online Banking
+M101743,Luxury,0.359,Wire
+M101744,Luxury,0.136,Card Present
+M101745,Digital Wallet,0.308,Online Banking
+M101746,Travel,0.213,Online Banking
+M101747,Marketplace,0.187,Online Banking
+M101748,Gaming,0.323,P2P
+M101749,Telecom,0.072,Wire
+M101750,Travel,0.618,Card Present
+M101751,Telecom,0.281,P2P
+M101752,Telecom,0.39,P2P
+M101753,Electronics,0.377,Card Present
+M101754,Travel,0.158,Card Not Present
+M101755,Electronics,0.177,Card Present
+M101756,Gaming,0.174,Online Banking
+M101757,Gaming,0.19,Online Banking
+M101758,Travel,0.425,P2P
+M101759,Gaming,0.097,Online Banking
+M101760,Utilities,0.554,Card Not Present
+M101761,Digital Wallet,0.162,P2P
+M101762,Travel,0.449,Card Not Present
+M101763,Electronics,0.315,Online Banking
+M101764,Telecom,0.079,Online Banking
+M101765,Fuel,0.442,P2P
+M101766,Marketplace,0.365,Card Not Present
+M101767,Electronics,0.148,Card Present
+M101768,Digital Wallet,0.519,Wire
+M101769,Telecom,0.319,Wire
+M101770,Gaming,0.092,Card Present
+M101771,Fuel,0.203,Wire
+M101772,Telecom,0.071,Online Banking
+M101773,Travel,0.578,Card Not Present
+M101774,Gaming,0.302,P2P
+M101775,Luxury,0.109,P2P
+M101776,Telecom,0.021,Card Present
+M101777,Electronics,0.209,Wire
+M101778,Luxury,0.637,Online Banking
+M101779,Fuel,0.218,Card Not Present
+M101780,Gaming,0.101,P2P
+M101781,Luxury,0.191,P2P
+M101782,Electronics,0.136,Online Banking
+M101783,Digital Wallet,0.117,Wire
+M101784,Fuel,0.19,Online Banking
+M101785,Luxury,0.304,P2P
+M101786,Grocery,0.137,Card Present
+M101787,Gaming,0.388,Card Present
+M101788,Gaming,0.083,P2P
+M101789,Grocery,0.058,Card Present
+M101790,Gaming,0.069,Online Banking
+M101791,Digital Wallet,0.228,Card Present
+M101792,Fuel,0.398,Card Present
+M101793,Electronics,0.012,Wire
+M101794,Gaming,0.487,Card Present
+M101795,Fuel,0.188,Card Present
+M101796,Travel,0.427,Card Not Present
+M101797,Telecom,0.475,P2P
+M101798,Telecom,0.561,P2P
+M101799,Telecom,0.374,P2P
+M101800,Luxury,0.261,Wire
+M101801,Fuel,0.479,Online Banking
+M101802,Fuel,0.23,P2P
+M101803,Grocery,0.44,Online Banking
+M101804,Gaming,0.074,Card Not Present
+M101805,Grocery,0.364,Wire
+M101806,Fuel,0.122,Online Banking
+M101807,Fuel,0.075,Card Present
+M101808,Grocery,0.271,Card Present
+M101809,Utilities,0.07,Card Not Present
+M101810,Grocery,0.299,P2P
+M101811,Electronics,0.148,P2P
+M101812,Telecom,0.176,P2P
+M101813,Gaming,0.377,Card Present
+M101814,Digital Wallet,0.163,Wire
+M101815,Marketplace,0.583,P2P
+M101816,Marketplace,0.263,Card Not Present
+M101817,Utilities,0.175,Wire
+M101818,Gaming,0.024,P2P
+M101819,Utilities,0.216,Card Present
+M101820,Digital Wallet,0.135,Online Banking
+M101821,Grocery,0.183,P2P
+M101822,Luxury,0.155,Online Banking
+M101823,Gaming,0.295,Card Present
+M101824,Utilities,0.111,Card Not Present
+M101825,Gaming,0.249,Card Not Present
+M101826,Marketplace,0.12,Wire
+M101827,Electronics,0.02,Card Present
+M101828,Travel,0.309,Online Banking
+M101829,Digital Wallet,0.478,Card Not Present
+M101830,Travel,0.07,Card Present
+M101831,Grocery,0.567,Online Banking
+M101832,Electronics,0.475,Card Not Present
+M101833,Electronics,0.121,P2P
+M101834,Gaming,0.232,P2P
+M101835,Luxury,0.206,Card Present
+M101836,Electronics,0.443,Card Not Present
+M101837,Luxury,0.077,Online Banking
+M101838,Electronics,0.286,Card Not Present
+M101839,Electronics,0.075,Card Present
+M101840,Electronics,0.528,Card Not Present
+M101841,Marketplace,0.247,Card Not Present
+M101842,Travel,0.37,Card Present
+M101843,Fuel,0.121,Wire
+M101844,Utilities,0.234,Online Banking
+M101845,Luxury,0.054,Card Present
+M101846,Electronics,0.259,Card Present
+M101847,Travel,0.458,Wire
+M101848,Utilities,0.269,Wire
+M101849,Grocery,0.193,P2P
+M101850,Luxury,0.073,Card Not Present
+M101851,Luxury,0.097,Card Present
+M101852,Luxury,0.068,Wire
+M101853,Utilities,0.121,P2P
+M101854,Electronics,0.117,P2P
+M101855,Digital Wallet,0.068,Wire
+M101856,Luxury,0.632,P2P
+M101857,Marketplace,0.063,Online Banking
+M101858,Grocery,0.45,Card Present
+M101859,Telecom,0.162,Card Present
+M101860,Luxury,0.067,Online Banking
+M101861,Utilities,0.08,P2P
+M101862,Gaming,0.134,Card Not Present
+M101863,Utilities,0.147,Card Not Present
+M101864,Luxury,0.201,P2P
+M101865,Marketplace,0.213,Card Present
+M101866,Grocery,0.168,Card Not Present
+M101867,Fuel,0.354,Card Present
+M101868,Gaming,0.033,Wire
+M101869,Electronics,0.053,Card Present
+M101870,Telecom,0.198,P2P
+M101871,Telecom,0.319,Online Banking
+M101872,Gaming,0.686,Card Not Present
+M101873,Utilities,0.376,Online Banking
+M101874,Travel,0.181,Card Present
+M101875,Fuel,0.427,Card Present
+M101876,Telecom,0.378,Card Not Present
+M101877,Electronics,0.292,Card Present
+M101878,Utilities,0.114,Card Present
+M101879,Gaming,0.513,Online Banking
+M101880,Digital Wallet,0.313,Card Not Present
+M101881,Utilities,0.08,Online Banking
+M101882,Fuel,0.213,Online Banking
+M101883,Fuel,0.225,Wire
+M101884,Utilities,0.08,Card Present
+M101885,Grocery,0.366,Card Present
+M101886,Utilities,0.244,Card Present
+M101887,Telecom,0.332,Wire
+M101888,Electronics,0.291,Wire
+M101889,Electronics,0.299,Card Present
+M101890,Fuel,0.165,Card Present
+M101891,Utilities,0.397,Card Not Present
+M101892,Luxury,0.241,P2P
+M101893,Travel,0.625,Card Present
+M101894,Grocery,0.329,P2P
+M101895,Grocery,0.071,P2P
+M101896,Grocery,0.176,Wire
+M101897,Digital Wallet,0.508,Card Not Present
+M101898,Grocery,0.191,Wire
+M101899,Telecom,0.138,Wire
+M101900,Luxury,0.078,Wire
+M101901,Marketplace,0.078,Wire
+M101902,Gaming,0.159,P2P
+M101903,Fuel,0.474,Card Not Present
+M101904,Grocery,0.286,Online Banking
+M101905,Utilities,0.355,Wire
+M101906,Grocery,0.183,Wire
+M101907,Utilities,0.221,Card Not Present
+M101908,Gaming,0.451,Wire
+M101909,Grocery,0.266,Wire
+M101910,Gaming,0.046,Online Banking
+M101911,Luxury,0.521,Wire
+M101912,Digital Wallet,0.66,Card Not Present
+M101913,Luxury,0.143,Card Not Present
+M101914,Grocery,0.313,Online Banking
+M101915,Grocery,0.094,P2P
+M101916,Marketplace,0.502,Wire
+M101917,Utilities,0.721,Online Banking
+M101918,Gaming,0.1,Wire
+M101919,Digital Wallet,0.25,Card Present
+M101920,Electronics,0.337,Wire
+M101921,Grocery,0.088,Online Banking
+M101922,Fuel,0.077,Card Not Present
+M101923,Grocery,0.091,Online Banking
+M101924,Fuel,0.461,P2P
+M101925,Grocery,0.16,Card Present
+M101926,Electronics,0.251,Online Banking
+M101927,Fuel,0.113,P2P
+M101928,Electronics,0.269,Card Present
+M101929,Grocery,0.415,Online Banking
+M101930,Fuel,0.309,Wire
+M101931,Digital Wallet,0.072,Card Not Present
+M101932,Utilities,0.483,Card Not Present
+M101933,Gaming,0.191,Online Banking
+M101934,Utilities,0.053,Card Not Present
+M101935,Telecom,0.131,P2P
+M101936,Gaming,0.282,P2P
+M101937,Luxury,0.135,Card Not Present
+M101938,Telecom,0.561,Online Banking
+M101939,Luxury,0.673,P2P
+M101940,Travel,0.058,Card Present
+M101941,Electronics,0.229,Wire
+M101942,Fuel,0.341,Online Banking
+M101943,Electronics,0.39,Card Present
+M101944,Gaming,0.413,P2P
+M101945,Luxury,0.609,Card Not Present
+M101946,Utilities,0.155,Card Present
+M101947,Digital Wallet,0.363,P2P
+M101948,Electronics,0.264,Card Present
+M101949,Fuel,0.06,Card Not Present
+M101950,Electronics,0.469,Wire
+M101951,Marketplace,0.145,Card Present
+M101952,Luxury,0.604,Card Not Present
+M101953,Electronics,0.052,P2P
+M101954,Digital Wallet,0.291,Card Not Present
+M101955,Telecom,0.24,Wire
+M101956,Grocery,0.163,Wire
+M101957,Digital Wallet,0.612,Card Not Present
+M101958,Gaming,0.171,Wire
+M101959,Grocery,0.353,Card Present
+M101960,Luxury,0.292,Wire
+M101961,Marketplace,0.247,Card Present
+M101962,Marketplace,0.316,Online Banking
+M101963,Luxury,0.359,Wire
+M101964,Luxury,0.136,Card Present
+M101965,Digital Wallet,0.308,Online Banking
+M101966,Travel,0.213,Online Banking
+M101967,Marketplace,0.187,Online Banking
+M101968,Gaming,0.323,P2P
+M101969,Telecom,0.072,Wire
+M101970,Travel,0.618,Card Present
+M101971,Telecom,0.281,P2P
+M101972,Telecom,0.39,P2P
+M101973,Electronics,0.377,Card Present
+M101974,Travel,0.158,Card Not Present
+M101975,Electronics,0.177,Card Present
+M101976,Gaming,0.174,Online Banking
+M101977,Gaming,0.19,Online Banking
+M101978,Travel,0.425,P2P
+M101979,Gaming,0.097,Online Banking
+M101980,Utilities,0.554,Card Not Present
+M101981,Digital Wallet,0.162,P2P
+M101982,Travel,0.449,Card Not Present
+M101983,Electronics,0.315,Online Banking
+M101984,Telecom,0.079,Online Banking
+M101985,Fuel,0.442,P2P
+M101986,Marketplace,0.365,Card Not Present
+M101987,Electronics,0.148,Card Present
+M101988,Digital Wallet,0.519,Wire
+M101989,Telecom,0.319,Wire
+M101990,Gaming,0.092,Card Present
+M101991,Fuel,0.203,Wire
+M101992,Telecom,0.071,Online Banking
+M101993,Travel,0.578,Card Not Present
+M101994,Gaming,0.302,P2P
+M101995,Luxury,0.109,P2P
+M101996,Telecom,0.021,Card Present
+M101997,Electronics,0.209,Wire
+M101998,Luxury,0.637,Online Banking
+M101999,Fuel,0.218,Card Not Present
+M102000,Gaming,0.101,P2P
+M102001,Luxury,0.191,P2P
+M102002,Electronics,0.136,Online Banking
+M102003,Digital Wallet,0.117,Wire
+M102004,Fuel,0.19,Online Banking
+M102005,Luxury,0.304,P2P
+M102006,Grocery,0.137,Card Present
+M102007,Gaming,0.388,Card Present
+M102008,Gaming,0.083,P2P
+M102009,Grocery,0.058,Card Present
+M102010,Gaming,0.069,Online Banking
+M102011,Digital Wallet,0.228,Card Present
+M102012,Fuel,0.398,Card Present
+M102013,Electronics,0.012,Wire
+M102014,Gaming,0.487,Card Present
+M102015,Fuel,0.188,Card Present
+M102016,Travel,0.427,Card Not Present
+M102017,Telecom,0.475,P2P
+M102018,Telecom,0.561,P2P
+M102019,Telecom,0.374,P2P
+M102020,Luxury,0.261,Wire
+M102021,Fuel,0.479,Online Banking
+M102022,Fuel,0.23,P2P
+M102023,Grocery,0.44,Online Banking
+M102024,Gaming,0.074,Card Not Present
+M102025,Grocery,0.364,Wire
+M102026,Fuel,0.122,Online Banking
+M102027,Fuel,0.075,Card Present
+M102028,Grocery,0.271,Card Present
+M102029,Utilities,0.07,Card Not Present
+M102030,Grocery,0.299,P2P
+M102031,Electronics,0.148,P2P
+M102032,Telecom,0.176,P2P
+M102033,Gaming,0.377,Card Present
+M102034,Digital Wallet,0.163,Wire
+M102035,Marketplace,0.583,P2P
+M102036,Marketplace,0.263,Card Not Present
+M102037,Utilities,0.175,Wire
+M102038,Gaming,0.024,P2P
+M102039,Utilities,0.216,Card Present
+M102040,Digital Wallet,0.135,Online Banking
+M102041,Grocery,0.183,P2P
+M102042,Luxury,0.155,Online Banking
+M102043,Gaming,0.295,Card Present
+M102044,Utilities,0.111,Card Not Present
+M102045,Gaming,0.249,Card Not Present
+M102046,Marketplace,0.12,Wire
+M102047,Electronics,0.02,Card Present
+M102048,Travel,0.309,Online Banking
+M102049,Digital Wallet,0.478,Card Not Present
+M102050,Travel,0.07,Card Present
+M102051,Grocery,0.567,Online Banking
+M102052,Electronics,0.475,Card Not Present
+M102053,Electronics,0.121,P2P
+M102054,Gaming,0.232,P2P
+M102055,Luxury,0.206,Card Present
+M102056,Electronics,0.443,Card Not Present
+M102057,Luxury,0.077,Online Banking
+M102058,Electronics,0.286,Card Not Present
+M102059,Electronics,0.075,Card Present
+M102060,Electronics,0.528,Card Not Present
+M102061,Marketplace,0.247,Card Not Present
+M102062,Travel,0.37,Card Present
+M102063,Fuel,0.121,Wire
+M102064,Utilities,0.234,Online Banking
+M102065,Luxury,0.054,Card Present
+M102066,Electronics,0.259,Card Present
+M102067,Travel,0.458,Wire
+M102068,Utilities,0.269,Wire
+M102069,Grocery,0.193,P2P
+M102070,Luxury,0.073,Card Not Present
+M102071,Luxury,0.097,Card Present
+M102072,Luxury,0.068,Wire
+M102073,Utilities,0.121,P2P
+M102074,Electronics,0.117,P2P
+M102075,Digital Wallet,0.068,Wire
+M102076,Luxury,0.632,P2P
+M102077,Marketplace,0.063,Online Banking
+M102078,Grocery,0.45,Card Present
+M102079,Telecom,0.162,Card Present
+M102080,Luxury,0.067,Online Banking
+M102081,Utilities,0.08,P2P
+M102082,Gaming,0.134,Card Not Present
+M102083,Utilities,0.147,Card Not Present
+M102084,Luxury,0.201,P2P
+M102085,Marketplace,0.213,Card Present
+M102086,Grocery,0.168,Card Not Present
+M102087,Fuel,0.354,Card Present
+M102088,Gaming,0.033,Wire
+M102089,Electronics,0.053,Card Present
+M102090,Telecom,0.198,P2P
+M102091,Telecom,0.319,Online Banking
+M102092,Gaming,0.686,Card Not Present
+M102093,Utilities,0.376,Online Banking
+M102094,Travel,0.181,Card Present
+M102095,Fuel,0.427,Card Present
+M102096,Telecom,0.378,Card Not Present
+M102097,Electronics,0.292,Card Present
+M102098,Utilities,0.114,Card Present
+M102099,Gaming,0.513,Online Banking
+M102100,Digital Wallet,0.313,Card Not Present
+M102101,Utilities,0.08,Online Banking
+M102102,Fuel,0.213,Online Banking
+M102103,Fuel,0.225,Wire
+M102104,Utilities,0.08,Card Present
+M102105,Grocery,0.366,Card Present
+M102106,Utilities,0.244,Card Present
+M102107,Telecom,0.332,Wire
+M102108,Electronics,0.291,Wire
+M102109,Electronics,0.299,Card Present
+M102110,Fuel,0.165,Card Present
+M102111,Utilities,0.397,Card Not Present
+M102112,Luxury,0.241,P2P
+M102113,Travel,0.625,Card Present
+M102114,Grocery,0.329,P2P
+M102115,Grocery,0.071,P2P
+M102116,Grocery,0.176,Wire
+M102117,Digital Wallet,0.508,Card Not Present
+M102118,Grocery,0.191,Wire
+M102119,Telecom,0.138,Wire
+M102120,Luxury,0.078,Wire
+M102121,Marketplace,0.078,Wire
+M102122,Gaming,0.159,P2P
+M102123,Fuel,0.474,Card Not Present
+M102124,Grocery,0.286,Online Banking
+M102125,Utilities,0.355,Wire
+M102126,Grocery,0.183,Wire
+M102127,Utilities,0.221,Card Not Present
+M102128,Gaming,0.451,Wire
+M102129,Grocery,0.266,Wire
+M102130,Gaming,0.046,Online Banking
+M102131,Luxury,0.521,Wire
+M102132,Digital Wallet,0.66,Card Not Present
+M102133,Luxury,0.143,Card Not Present
+M102134,Grocery,0.313,Online Banking
+M102135,Grocery,0.094,P2P
+M102136,Marketplace,0.502,Wire
+M102137,Utilities,0.721,Online Banking
+M102138,Gaming,0.1,Wire
+M102139,Digital Wallet,0.25,Card Present
+M102140,Electronics,0.337,Wire
+M102141,Grocery,0.088,Online Banking
+M102142,Fuel,0.077,Card Not Present
+M102143,Grocery,0.091,Online Banking
+M102144,Fuel,0.461,P2P
+M102145,Grocery,0.16,Card Present
+M102146,Electronics,0.251,Online Banking
+M102147,Fuel,0.113,P2P
+M102148,Electronics,0.269,Card Present
+M102149,Grocery,0.415,Online Banking
+M102150,Fuel,0.309,Wire
+M102151,Digital Wallet,0.072,Card Not Present
+M102152,Utilities,0.483,Card Not Present
+M102153,Gaming,0.191,Online Banking
+M102154,Utilities,0.053,Card Not Present
+M102155,Telecom,0.131,P2P
+M102156,Gaming,0.282,P2P
+M102157,Luxury,0.135,Card Not Present
+M102158,Telecom,0.561,Online Banking
+M102159,Luxury,0.673,P2P
+M102160,Travel,0.058,Card Present
+M102161,Electronics,0.229,Wire
+M102162,Fuel,0.341,Online Banking
+M102163,Electronics,0.39,Card Present
+M102164,Gaming,0.413,P2P
+M102165,Luxury,0.609,Card Not Present
+M102166,Utilities,0.155,Card Present
+M102167,Digital Wallet,0.363,P2P
+M102168,Electronics,0.264,Card Present
+M102169,Fuel,0.06,Card Not Present
+M102170,Electronics,0.469,Wire
+M102171,Marketplace,0.145,Card Present
+M102172,Luxury,0.604,Card Not Present
+M102173,Electronics,0.052,P2P
+M102174,Digital Wallet,0.291,Card Not Present
+M102175,Telecom,0.24,Wire
+M102176,Grocery,0.163,Wire
+M102177,Digital Wallet,0.612,Card Not Present
+M102178,Gaming,0.171,Wire
+M102179,Grocery,0.353,Card Present
+M102180,Luxury,0.292,Wire
+M102181,Marketplace,0.247,Card Present
+M102182,Marketplace,0.316,Online Banking
+M102183,Luxury,0.359,Wire
+M102184,Luxury,0.136,Card Present
+M102185,Digital Wallet,0.308,Online Banking
+M102186,Travel,0.213,Online Banking
+M102187,Marketplace,0.187,Online Banking
+M102188,Gaming,0.323,P2P
+M102189,Telecom,0.072,Wire
+M102190,Travel,0.618,Card Present
+M102191,Telecom,0.281,P2P
+M102192,Telecom,0.39,P2P
+M102193,Electronics,0.377,Card Present
+M102194,Travel,0.158,Card Not Present
+M102195,Electronics,0.177,Card Present
+M102196,Gaming,0.174,Online Banking
+M102197,Gaming,0.19,Online Banking
+M102198,Travel,0.425,P2P
+M102199,Gaming,0.097,Online Banking
+M102200,Utilities,0.554,Card Not Present
+M102201,Digital Wallet,0.162,P2P
+M102202,Travel,0.449,Card Not Present
+M102203,Electronics,0.315,Online Banking
+M102204,Telecom,0.079,Online Banking
+M102205,Fuel,0.442,P2P
+M102206,Marketplace,0.365,Card Not Present
+M102207,Electronics,0.148,Card Present
+M102208,Digital Wallet,0.519,Wire
+M102209,Telecom,0.319,Wire
+M102210,Gaming,0.092,Card Present
+M102211,Fuel,0.203,Wire
+M102212,Telecom,0.071,Online Banking
+M102213,Travel,0.578,Card Not Present
+M102214,Gaming,0.302,P2P
+M102215,Luxury,0.109,P2P
+M102216,Telecom,0.021,Card Present
+M102217,Electronics,0.209,Wire
+M102218,Luxury,0.637,Online Banking
+M102219,Fuel,0.218,Card Not Present
+M102220,Gaming,0.101,P2P
+M102221,Luxury,0.191,P2P
+M102222,Electronics,0.136,Online Banking
+M102223,Digital Wallet,0.117,Wire
+M102224,Fuel,0.19,Online Banking
+M102225,Luxury,0.304,P2P
+M102226,Grocery,0.137,Card Present
+M102227,Gaming,0.388,Card Present
+M102228,Gaming,0.083,P2P
+M102229,Grocery,0.058,Card Present
+M102230,Gaming,0.069,Online Banking
+M102231,Digital Wallet,0.228,Card Present
+M102232,Fuel,0.398,Card Present
+M102233,Electronics,0.012,Wire
+M102234,Gaming,0.487,Card Present
+M102235,Fuel,0.188,Card Present
+M102236,Travel,0.427,Card Not Present
+M102237,Telecom,0.475,P2P
+M102238,Telecom,0.561,P2P
+M102239,Telecom,0.374,P2P
+M102240,Luxury,0.261,Wire
+M102241,Fuel,0.479,Online Banking
+M102242,Fuel,0.23,P2P
+M102243,Grocery,0.44,Online Banking
+M102244,Gaming,0.074,Card Not Present
+M102245,Grocery,0.364,Wire
+M102246,Fuel,0.122,Online Banking
+M102247,Fuel,0.075,Card Present
+M102248,Grocery,0.271,Card Present
+M102249,Utilities,0.07,Card Not Present
+M102250,Grocery,0.299,P2P
+M102251,Electronics,0.148,P2P
+M102252,Telecom,0.176,P2P
+M102253,Gaming,0.377,Card Present
+M102254,Digital Wallet,0.163,Wire
+M102255,Marketplace,0.583,P2P
+M102256,Marketplace,0.263,Card Not Present
+M102257,Utilities,0.175,Wire
+M102258,Gaming,0.024,P2P
+M102259,Utilities,0.216,Card Present
+M102260,Digital Wallet,0.135,Online Banking
+M102261,Grocery,0.183,P2P
+M102262,Luxury,0.155,Online Banking
+M102263,Gaming,0.295,Card Present
+M102264,Utilities,0.111,Card Not Present
+M102265,Gaming,0.249,Card Not Present
+M102266,Marketplace,0.12,Wire
+M102267,Electronics,0.02,Card Present
+M102268,Travel,0.309,Online Banking
+M102269,Digital Wallet,0.478,Card Not Present
+M102270,Travel,0.07,Card Present
+M102271,Grocery,0.567,Online Banking
+M102272,Electronics,0.475,Card Not Present
+M102273,Electronics,0.121,P2P
+M102274,Gaming,0.232,P2P
+M102275,Luxury,0.206,Card Present
+M102276,Electronics,0.443,Card Not Present
+M102277,Luxury,0.077,Online Banking
+M102278,Electronics,0.286,Card Not Present
+M102279,Electronics,0.075,Card Present
+M102280,Electronics,0.528,Card Not Present
+M102281,Marketplace,0.247,Card Not Present
+M102282,Travel,0.37,Card Present
+M102283,Fuel,0.121,Wire
+M102284,Utilities,0.234,Online Banking
+M102285,Luxury,0.054,Card Present
+M102286,Electronics,0.259,Card Present
+M102287,Travel,0.458,Wire
+M102288,Utilities,0.269,Wire
+M102289,Grocery,0.193,P2P
+M102290,Luxury,0.073,Card Not Present
+M102291,Luxury,0.097,Card Present
+M102292,Luxury,0.068,Wire
+M102293,Utilities,0.121,P2P
+M102294,Electronics,0.117,P2P
+M102295,Digital Wallet,0.068,Wire
+M102296,Luxury,0.632,P2P
+M102297,Marketplace,0.063,Online Banking
+M102298,Grocery,0.45,Card Present
+M102299,Telecom,0.162,Card Present
+M102300,Luxury,0.067,Online Banking
+M102301,Utilities,0.08,P2P
+M102302,Gaming,0.134,Card Not Present
+M102303,Utilities,0.147,Card Not Present
+M102304,Luxury,0.201,P2P
+M102305,Marketplace,0.213,Card Present
+M102306,Grocery,0.168,Card Not Present
+M102307,Fuel,0.354,Card Present
+M102308,Gaming,0.033,Wire
+M102309,Electronics,0.053,Card Present
+M102310,Telecom,0.198,P2P
+M102311,Telecom,0.319,Online Banking
+M102312,Gaming,0.686,Card Not Present
+M102313,Utilities,0.376,Online Banking
+M102314,Travel,0.181,Card Present
+M102315,Fuel,0.427,Card Present
+M102316,Telecom,0.378,Card Not Present
+M102317,Electronics,0.292,Card Present
+M102318,Utilities,0.114,Card Present
+M102319,Gaming,0.513,Online Banking
+M102320,Digital Wallet,0.313,Card Not Present
+M102321,Utilities,0.08,Online Banking
+M102322,Fuel,0.213,Online Banking
+M102323,Fuel,0.225,Wire
+M102324,Utilities,0.08,Card Present
+M102325,Grocery,0.366,Card Present
+M102326,Utilities,0.244,Card Present
+M102327,Telecom,0.332,Wire
+M102328,Electronics,0.291,Wire
+M102329,Electronics,0.299,Card Present
+M102330,Fuel,0.165,Card Present
+M102331,Utilities,0.397,Card Not Present
+M102332,Luxury,0.241,P2P
+M102333,Travel,0.625,Card Present
+M102334,Grocery,0.329,P2P
+M102335,Grocery,0.071,P2P
+M102336,Grocery,0.176,Wire
+M102337,Digital Wallet,0.508,Card Not Present
+M102338,Grocery,0.191,Wire
+M102339,Telecom,0.138,Wire
+M102340,Luxury,0.078,Wire
+M102341,Marketplace,0.078,Wire
+M102342,Gaming,0.159,P2P
+M102343,Fuel,0.474,Card Not Present
+M102344,Grocery,0.286,Online Banking
+M102345,Utilities,0.355,Wire
+M102346,Grocery,0.183,Wire
+M102347,Utilities,0.221,Card Not Present
+M102348,Gaming,0.451,Wire
+M102349,Grocery,0.266,Wire
+M102350,Gaming,0.046,Online Banking
+M102351,Luxury,0.521,Wire
+M102352,Digital Wallet,0.66,Card Not Present
+M102353,Luxury,0.143,Card Not Present
+M102354,Grocery,0.313,Online Banking
+M102355,Grocery,0.094,P2P
+M102356,Marketplace,0.502,Wire
+M102357,Utilities,0.721,Online Banking
+M102358,Gaming,0.1,Wire
+M102359,Digital Wallet,0.25,Card Present
+M102360,Electronics,0.337,Wire
+M102361,Grocery,0.088,Online Banking
+M102362,Fuel,0.077,Card Not Present
+M102363,Grocery,0.091,Online Banking
+M102364,Fuel,0.461,P2P
+M102365,Grocery,0.16,Card Present
+M102366,Electronics,0.251,Online Banking
+M102367,Fuel,0.113,P2P
+M102368,Electronics,0.269,Card Present
+M102369,Grocery,0.415,Online Banking
+M102370,Fuel,0.309,Wire
+M102371,Digital Wallet,0.072,Card Not Present
+M102372,Utilities,0.483,Card Not Present
+M102373,Gaming,0.191,Online Banking
+M102374,Utilities,0.053,Card Not Present
+M102375,Telecom,0.131,P2P
+M102376,Gaming,0.282,P2P
+M102377,Luxury,0.135,Card Not Present
+M102378,Telecom,0.561,Online Banking
+M102379,Luxury,0.673,P2P
+M102380,Travel,0.058,Card Present
+M102381,Electronics,0.229,Wire
+M102382,Fuel,0.341,Online Banking
+M102383,Electronics,0.39,Card Present
+M102384,Gaming,0.413,P2P
+M102385,Luxury,0.609,Card Not Present
+M102386,Utilities,0.155,Card Present
+M102387,Digital Wallet,0.363,P2P
+M102388,Electronics,0.264,Card Present
+M102389,Fuel,0.06,Card Not Present
+M102390,Electronics,0.469,Wire
+M102391,Marketplace,0.145,Card Present
+M102392,Luxury,0.604,Card Not Present
+M102393,Electronics,0.052,P2P
+M102394,Digital Wallet,0.291,Card Not Present
+M102395,Telecom,0.24,Wire
+M102396,Grocery,0.163,Wire
+M102397,Digital Wallet,0.612,Card Not Present
+M102398,Gaming,0.171,Wire
+M102399,Grocery,0.353,Card Present
+M102400,Luxury,0.292,Wire
+M102401,Marketplace,0.247,Card Present
+M102402,Marketplace,0.316,Online Banking
+M102403,Luxury,0.359,Wire
+M102404,Luxury,0.136,Card Present
+M102405,Digital Wallet,0.308,Online Banking
+M102406,Travel,0.213,Online Banking
+M102407,Marketplace,0.187,Online Banking
+M102408,Gaming,0.323,P2P
+M102409,Telecom,0.072,Wire
+M102410,Travel,0.618,Card Present
+M102411,Telecom,0.281,P2P
+M102412,Telecom,0.39,P2P
+M102413,Electronics,0.377,Card Present
+M102414,Travel,0.158,Card Not Present
+M102415,Electronics,0.177,Card Present
+M102416,Gaming,0.174,Online Banking
+M102417,Gaming,0.19,Online Banking
+M102418,Travel,0.425,P2P
+M102419,Gaming,0.097,Online Banking
+M102420,Utilities,0.554,Card Not Present
+M102421,Digital Wallet,0.162,P2P
+M102422,Travel,0.449,Card Not Present
+M102423,Electronics,0.315,Online Banking
+M102424,Telecom,0.079,Online Banking
+M102425,Fuel,0.442,P2P
+M102426,Marketplace,0.365,Card Not Present
+M102427,Electronics,0.148,Card Present
+M102428,Digital Wallet,0.519,Wire
+M102429,Telecom,0.319,Wire
+M102430,Gaming,0.092,Card Present
+M102431,Fuel,0.203,Wire
+M102432,Telecom,0.071,Online Banking
+M102433,Travel,0.578,Card Not Present
+M102434,Gaming,0.302,P2P
+M102435,Luxury,0.109,P2P
+M102436,Telecom,0.021,Card Present
+M102437,Electronics,0.209,Wire
+M102438,Luxury,0.637,Online Banking
+M102439,Fuel,0.218,Card Not Present
+M102440,Gaming,0.101,P2P
+M102441,Luxury,0.191,P2P
+M102442,Electronics,0.136,Online Banking
+M102443,Digital Wallet,0.117,Wire
+M102444,Fuel,0.19,Online Banking
+M102445,Luxury,0.304,P2P
+M102446,Grocery,0.137,Card Present
+M102447,Gaming,0.388,Card Present
+M102448,Gaming,0.083,P2P
+M102449,Grocery,0.058,Card Present
+M102450,Gaming,0.069,Online Banking
+M102451,Digital Wallet,0.228,Card Present
+M102452,Fuel,0.398,Card Present
+M102453,Electronics,0.012,Wire
+M102454,Gaming,0.487,Card Present
+M102455,Fuel,0.188,Card Present
+M102456,Travel,0.427,Card Not Present
+M102457,Telecom,0.475,P2P
+M102458,Telecom,0.561,P2P
+M102459,Telecom,0.374,P2P
+M102460,Luxury,0.261,Wire
+M102461,Fuel,0.479,Online Banking
+M102462,Fuel,0.23,P2P
+M102463,Grocery,0.44,Online Banking
+M102464,Gaming,0.074,Card Not Present
+M102465,Grocery,0.364,Wire
+M102466,Fuel,0.122,Online Banking
+M102467,Fuel,0.075,Card Present
+M102468,Grocery,0.271,Card Present
+M102469,Utilities,0.07,Card Not Present
+M102470,Grocery,0.299,P2P
+M102471,Electronics,0.148,P2P
+M102472,Telecom,0.176,P2P
+M102473,Gaming,0.377,Card Present
+M102474,Digital Wallet,0.163,Wire
+M102475,Marketplace,0.583,P2P
+M102476,Marketplace,0.263,Card Not Present
+M102477,Utilities,0.175,Wire
+M102478,Gaming,0.024,P2P
+M102479,Utilities,0.216,Card Present
+M102480,Digital Wallet,0.135,Online Banking
+M102481,Grocery,0.183,P2P
+M102482,Luxury,0.155,Online Banking
+M102483,Gaming,0.295,Card Present
+M102484,Utilities,0.111,Card Not Present
+M102485,Gaming,0.249,Card Not Present
+M102486,Marketplace,0.12,Wire
+M102487,Electronics,0.02,Card Present
+M102488,Travel,0.309,Online Banking
+M102489,Digital Wallet,0.478,Card Not Present
+M102490,Travel,0.07,Card Present
+M102491,Grocery,0.567,Online Banking
+M102492,Electronics,0.475,Card Not Present
+M102493,Electronics,0.121,P2P
+M102494,Gaming,0.232,P2P
+M102495,Luxury,0.206,Card Present
+M102496,Electronics,0.443,Card Not Present
+M102497,Luxury,0.077,Online Banking
+M102498,Electronics,0.286,Card Not Present
+M102499,Electronics,0.075,Card Present
+M102500,Electronics,0.528,Card Not Present
+M102501,Marketplace,0.247,Card Not Present
+M102502,Travel,0.37,Card Present
+M102503,Fuel,0.121,Wire
+M102504,Utilities,0.234,Online Banking
+M102505,Luxury,0.054,Card Present
+M102506,Electronics,0.259,Card Present
+M102507,Travel,0.458,Wire
+M102508,Utilities,0.269,Wire
+M102509,Grocery,0.193,P2P
+M102510,Luxury,0.073,Card Not Present
+M102511,Luxury,0.097,Card Present
+M102512,Luxury,0.068,Wire
+M102513,Utilities,0.121,P2P
+M102514,Electronics,0.117,P2P
+M102515,Digital Wallet,0.068,Wire
+M102516,Luxury,0.632,P2P
+M102517,Marketplace,0.063,Online Banking
+M102518,Grocery,0.45,Card Present
+M102519,Telecom,0.162,Card Present
+M102520,Luxury,0.067,Online Banking
+M102521,Utilities,0.08,P2P
+M102522,Gaming,0.134,Card Not Present
+M102523,Utilities,0.147,Card Not Present
+M102524,Luxury,0.201,P2P
+M102525,Marketplace,0.213,Card Present
+M102526,Grocery,0.168,Card Not Present
+M102527,Fuel,0.354,Card Present
+M102528,Gaming,0.033,Wire
+M102529,Electronics,0.053,Card Present
+M102530,Telecom,0.198,P2P
+M102531,Telecom,0.319,Online Banking
+M102532,Gaming,0.686,Card Not Present
+M102533,Utilities,0.376,Online Banking
+M102534,Travel,0.181,Card Present
+M102535,Fuel,0.427,Card Present
+M102536,Telecom,0.378,Card Not Present
+M102537,Electronics,0.292,Card Present
+M102538,Utilities,0.114,Card Present
+M102539,Gaming,0.513,Online Banking
+M102540,Digital Wallet,0.313,Card Not Present
+M102541,Utilities,0.08,Online Banking
+M102542,Fuel,0.213,Online Banking
+M102543,Fuel,0.225,Wire
+M102544,Utilities,0.08,Card Present
+M102545,Grocery,0.366,Card Present
+M102546,Utilities,0.244,Card Present
+M102547,Telecom,0.332,Wire
+M102548,Electronics,0.291,Wire
+M102549,Electronics,0.299,Card Present
+M102550,Fuel,0.165,Card Present
+M102551,Utilities,0.397,Card Not Present
+M102552,Luxury,0.241,P2P
+M102553,Travel,0.625,Card Present
+M102554,Grocery,0.329,P2P
+M102555,Grocery,0.071,P2P
+M102556,Grocery,0.176,Wire
+M102557,Digital Wallet,0.508,Card Not Present
+M102558,Grocery,0.191,Wire
+M102559,Telecom,0.138,Wire
+M102560,Luxury,0.078,Wire
+M102561,Marketplace,0.078,Wire
+M102562,Gaming,0.159,P2P
+M102563,Fuel,0.474,Card Not Present
+M102564,Grocery,0.286,Online Banking
+M102565,Utilities,0.355,Wire
+M102566,Grocery,0.183,Wire
+M102567,Utilities,0.221,Card Not Present
+M102568,Gaming,0.451,Wire
+M102569,Grocery,0.266,Wire
+M102570,Gaming,0.046,Online Banking
+M102571,Luxury,0.521,Wire
+M102572,Digital Wallet,0.66,Card Not Present
+M102573,Luxury,0.143,Card Not Present
+M102574,Grocery,0.313,Online Banking
+M102575,Grocery,0.094,P2P
+M102576,Marketplace,0.502,Wire
+M102577,Utilities,0.721,Online Banking
+M102578,Gaming,0.1,Wire
+M102579,Digital Wallet,0.25,Card Present
+M102580,Electronics,0.337,Wire
+M102581,Grocery,0.088,Online Banking
+M102582,Fuel,0.077,Card Not Present
+M102583,Grocery,0.091,Online Banking
+M102584,Fuel,0.461,P2P
+M102585,Grocery,0.16,Card Present
+M102586,Electronics,0.251,Online Banking
+M102587,Fuel,0.113,P2P
+M102588,Electronics,0.269,Card Present
+M102589,Grocery,0.415,Online Banking
+M102590,Fuel,0.309,Wire
+M102591,Digital Wallet,0.072,Card Not Present
+M102592,Utilities,0.483,Card Not Present
+M102593,Gaming,0.191,Online Banking
+M102594,Utilities,0.053,Card Not Present
+M102595,Telecom,0.131,P2P
+M102596,Gaming,0.282,P2P
+M102597,Luxury,0.135,Card Not Present
+M102598,Telecom,0.561,Online Banking
+M102599,Luxury,0.673,P2P
+M102600,Travel,0.058,Card Present
+M102601,Electronics,0.229,Wire
+M102602,Fuel,0.341,Online Banking
+M102603,Electronics,0.39,Card Present
+M102604,Gaming,0.413,P2P
+M102605,Luxury,0.609,Card Not Present
+M102606,Utilities,0.155,Card Present
+M102607,Digital Wallet,0.363,P2P
+M102608,Electronics,0.264,Card Present
+M102609,Fuel,0.06,Card Not Present
+M102610,Electronics,0.469,Wire
+M102611,Marketplace,0.145,Card Present
+M102612,Luxury,0.604,Card Not Present
+M102613,Electronics,0.052,P2P
+M102614,Digital Wallet,0.291,Card Not Present
+M102615,Telecom,0.24,Wire
+M102616,Grocery,0.163,Wire
+M102617,Digital Wallet,0.612,Card Not Present
+M102618,Gaming,0.171,Wire
+M102619,Grocery,0.353,Card Present
+M102620,Luxury,0.292,Wire
+M102621,Marketplace,0.247,Card Present
+M102622,Marketplace,0.316,Online Banking
+M102623,Luxury,0.359,Wire
+M102624,Luxury,0.136,Card Present
+M102625,Digital Wallet,0.308,Online Banking
+M102626,Travel,0.213,Online Banking
+M102627,Marketplace,0.187,Online Banking
+M102628,Gaming,0.323,P2P
+M102629,Telecom,0.072,Wire
+M102630,Travel,0.618,Card Present
+M102631,Telecom,0.281,P2P
+M102632,Telecom,0.39,P2P
+M102633,Electronics,0.377,Card Present
+M102634,Travel,0.158,Card Not Present
+M102635,Electronics,0.177,Card Present
+M102636,Gaming,0.174,Online Banking
+M102637,Gaming,0.19,Online Banking
+M102638,Travel,0.425,P2P
+M102639,Gaming,0.097,Online Banking
+M102640,Utilities,0.554,Card Not Present
+M102641,Digital Wallet,0.162,P2P
+M102642,Travel,0.449,Card Not Present
+M102643,Electronics,0.315,Online Banking
+M102644,Telecom,0.079,Online Banking
+M102645,Fuel,0.442,P2P
+M102646,Marketplace,0.365,Card Not Present
+M102647,Electronics,0.148,Card Present
+M102648,Digital Wallet,0.519,Wire
+M102649,Telecom,0.319,Wire
+M102650,Gaming,0.092,Card Present
+M102651,Fuel,0.203,Wire
+M102652,Telecom,0.071,Online Banking
+M102653,Travel,0.578,Card Not Present
+M102654,Gaming,0.302,P2P
+M102655,Luxury,0.109,P2P
+M102656,Telecom,0.021,Card Present
+M102657,Electronics,0.209,Wire
+M102658,Luxury,0.637,Online Banking
+M102659,Fuel,0.218,Card Not Present
+M102660,Gaming,0.101,P2P
+M102661,Luxury,0.191,P2P
+M102662,Electronics,0.136,Online Banking
+M102663,Digital Wallet,0.117,Wire
+M102664,Fuel,0.19,Online Banking
+M102665,Luxury,0.304,P2P
+M102666,Grocery,0.137,Card Present
+M102667,Gaming,0.388,Card Present
+M102668,Gaming,0.083,P2P
+M102669,Grocery,0.058,Card Present
+M102670,Gaming,0.069,Online Banking
+M102671,Digital Wallet,0.228,Card Present
+M102672,Fuel,0.398,Card Present
+M102673,Electronics,0.012,Wire
+M102674,Gaming,0.487,Card Present
+M102675,Fuel,0.188,Card Present
+M102676,Travel,0.427,Card Not Present
+M102677,Telecom,0.475,P2P
+M102678,Telecom,0.561,P2P
+M102679,Telecom,0.374,P2P
+M102680,Luxury,0.261,Wire
+M102681,Fuel,0.479,Online Banking
+M102682,Fuel,0.23,P2P
+M102683,Grocery,0.44,Online Banking
+M102684,Gaming,0.074,Card Not Present
+M102685,Grocery,0.364,Wire
+M102686,Fuel,0.122,Online Banking
+M102687,Fuel,0.075,Card Present
+M102688,Grocery,0.271,Card Present
+M102689,Utilities,0.07,Card Not Present
+M102690,Grocery,0.299,P2P
+M102691,Electronics,0.148,P2P
+M102692,Telecom,0.176,P2P
+M102693,Gaming,0.377,Card Present
+M102694,Digital Wallet,0.163,Wire
+M102695,Marketplace,0.583,P2P
+M102696,Marketplace,0.263,Card Not Present
+M102697,Utilities,0.175,Wire
+M102698,Gaming,0.024,P2P
+M102699,Utilities,0.216,Card Present
+M102700,Digital Wallet,0.135,Online Banking
+M102701,Grocery,0.183,P2P
+M102702,Luxury,0.155,Online Banking
+M102703,Gaming,0.295,Card Present
+M102704,Utilities,0.111,Card Not Present
+M102705,Gaming,0.249,Card Not Present
+M102706,Marketplace,0.12,Wire
+M102707,Electronics,0.02,Card Present
+M102708,Travel,0.309,Online Banking
+M102709,Digital Wallet,0.478,Card Not Present
+M102710,Travel,0.07,Card Present
+M102711,Grocery,0.567,Online Banking
+M102712,Electronics,0.475,Card Not Present
+M102713,Electronics,0.121,P2P
+M102714,Gaming,0.232,P2P
+M102715,Luxury,0.206,Card Present
+M102716,Electronics,0.443,Card Not Present
+M102717,Luxury,0.077,Online Banking
+M102718,Electronics,0.286,Card Not Present
+M102719,Electronics,0.075,Card Present
+M102720,Electronics,0.528,Card Not Present
+M102721,Marketplace,0.247,Card Not Present
+M102722,Travel,0.37,Card Present
+M102723,Fuel,0.121,Wire
+M102724,Utilities,0.234,Online Banking
+M102725,Luxury,0.054,Card Present
+M102726,Electronics,0.259,Card Present
+M102727,Travel,0.458,Wire
+M102728,Utilities,0.269,Wire
+M102729,Grocery,0.193,P2P
+M102730,Luxury,0.073,Card Not Present
+M102731,Luxury,0.097,Card Present
+M102732,Luxury,0.068,Wire
+M102733,Utilities,0.121,P2P
+M102734,Electronics,0.117,P2P
+M102735,Digital Wallet,0.068,Wire
+M102736,Luxury,0.632,P2P
+M102737,Marketplace,0.063,Online Banking
+M102738,Grocery,0.45,Card Present
+M102739,Telecom,0.162,Card Present
+M102740,Luxury,0.067,Online Banking
+M102741,Utilities,0.08,P2P
+M102742,Gaming,0.134,Card Not Present
+M102743,Utilities,0.147,Card Not Present
+M102744,Luxury,0.201,P2P
+M102745,Marketplace,0.213,Card Present
+M102746,Grocery,0.168,Card Not Present
+M102747,Fuel,0.354,Card Present
+M102748,Gaming,0.033,Wire
+M102749,Electronics,0.053,Card Present
+M102750,Telecom,0.198,P2P
+M102751,Telecom,0.319,Online Banking
+M102752,Gaming,0.686,Card Not Present
+M102753,Utilities,0.376,Online Banking
+M102754,Travel,0.181,Card Present
+M102755,Fuel,0.427,Card Present
+M102756,Telecom,0.378,Card Not Present
+M102757,Electronics,0.292,Card Present
+M102758,Utilities,0.114,Card Present
+M102759,Gaming,0.513,Online Banking
+M102760,Digital Wallet,0.313,Card Not Present
+M102761,Utilities,0.08,Online Banking
+M102762,Fuel,0.213,Online Banking
+M102763,Fuel,0.225,Wire
+M102764,Utilities,0.08,Card Present
+M102765,Grocery,0.366,Card Present
+M102766,Utilities,0.244,Card Present
+M102767,Telecom,0.332,Wire
+M102768,Electronics,0.291,Wire
+M102769,Electronics,0.299,Card Present
+M102770,Fuel,0.165,Card Present
+M102771,Utilities,0.397,Card Not Present
+M102772,Luxury,0.241,P2P
+M102773,Travel,0.625,Card Present
+M102774,Grocery,0.329,P2P
+M102775,Grocery,0.071,P2P
+M102776,Grocery,0.176,Wire
+M102777,Digital Wallet,0.508,Card Not Present
+M102778,Grocery,0.191,Wire
+M102779,Telecom,0.138,Wire
+M102780,Luxury,0.078,Wire
+M102781,Marketplace,0.078,Wire
+M102782,Gaming,0.159,P2P
+M102783,Fuel,0.474,Card Not Present
+M102784,Grocery,0.286,Online Banking
+M102785,Utilities,0.355,Wire
+M102786,Grocery,0.183,Wire
+M102787,Utilities,0.221,Card Not Present
+M102788,Gaming,0.451,Wire
+M102789,Grocery,0.266,Wire
+M102790,Gaming,0.046,Online Banking
+M102791,Luxury,0.521,Wire
+M102792,Digital Wallet,0.66,Card Not Present
+M102793,Luxury,0.143,Card Not Present
+M102794,Grocery,0.313,Online Banking
+M102795,Grocery,0.094,P2P
+M102796,Marketplace,0.502,Wire
+M102797,Utilities,0.721,Online Banking
+M102798,Gaming,0.1,Wire
+M102799,Digital Wallet,0.25,Card Present
+M102800,Electronics,0.337,Wire
+M102801,Grocery,0.088,Online Banking
+M102802,Fuel,0.077,Card Not Present
+M102803,Grocery,0.091,Online Banking
+M102804,Fuel,0.461,P2P
+M102805,Grocery,0.16,Card Present
+M102806,Electronics,0.251,Online Banking
+M102807,Fuel,0.113,P2P
+M102808,Electronics,0.269,Card Present
+M102809,Grocery,0.415,Online Banking
+M102810,Fuel,0.309,Wire
+M102811,Digital Wallet,0.072,Card Not Present
+M102812,Utilities,0.483,Card Not Present
+M102813,Gaming,0.191,Online Banking
+M102814,Utilities,0.053,Card Not Present
+M102815,Telecom,0.131,P2P
+M102816,Gaming,0.282,P2P
+M102817,Luxury,0.135,Card Not Present
+M102818,Telecom,0.561,Online Banking
+M102819,Luxury,0.673,P2P
+M102820,Travel,0.058,Card Present
+M102821,Electronics,0.229,Wire
+M102822,Fuel,0.341,Online Banking
+M102823,Electronics,0.39,Card Present
+M102824,Gaming,0.413,P2P
+M102825,Luxury,0.609,Card Not Present
+M102826,Utilities,0.155,Card Present
+M102827,Digital Wallet,0.363,P2P
+M102828,Electronics,0.264,Card Present
+M102829,Fuel,0.06,Card Not Present
+M102830,Electronics,0.469,Wire
+M102831,Marketplace,0.145,Card Present
+M102832,Luxury,0.604,Card Not Present
+M102833,Electronics,0.052,P2P
+M102834,Digital Wallet,0.291,Card Not Present
+M102835,Telecom,0.24,Wire
+M102836,Grocery,0.163,Wire
+M102837,Digital Wallet,0.612,Card Not Present
+M102838,Gaming,0.171,Wire
+M102839,Grocery,0.353,Card Present
+M102840,Luxury,0.292,Wire
+M102841,Marketplace,0.247,Card Present
+M102842,Marketplace,0.316,Online Banking
+M102843,Luxury,0.359,Wire
+M102844,Luxury,0.136,Card Present
+M102845,Digital Wallet,0.308,Online Banking
+M102846,Travel,0.213,Online Banking
+M102847,Marketplace,0.187,Online Banking
+M102848,Gaming,0.323,P2P
+M102849,Telecom,0.072,Wire
+M102850,Travel,0.618,Card Present
+M102851,Telecom,0.281,P2P
+M102852,Telecom,0.39,P2P
+M102853,Electronics,0.377,Card Present
+M102854,Travel,0.158,Card Not Present
+M102855,Electronics,0.177,Card Present
+M102856,Gaming,0.174,Online Banking
+M102857,Gaming,0.19,Online Banking
+M102858,Travel,0.425,P2P
+M102859,Gaming,0.097,Online Banking
+M102860,Utilities,0.554,Card Not Present
+M102861,Digital Wallet,0.162,P2P
+M102862,Travel,0.449,Card Not Present
+M102863,Electronics,0.315,Online Banking
+M102864,Telecom,0.079,Online Banking
+M102865,Fuel,0.442,P2P
+M102866,Marketplace,0.365,Card Not Present
+M102867,Electronics,0.148,Card Present
+M102868,Digital Wallet,0.519,Wire
+M102869,Telecom,0.319,Wire
+M102870,Gaming,0.092,Card Present
+M102871,Fuel,0.203,Wire
+M102872,Telecom,0.071,Online Banking
+M102873,Travel,0.578,Card Not Present
+M102874,Gaming,0.302,P2P
+M102875,Luxury,0.109,P2P
+M102876,Telecom,0.021,Card Present
+M102877,Electronics,0.209,Wire
+M102878,Luxury,0.637,Online Banking
+M102879,Fuel,0.218,Card Not Present
+M102880,Gaming,0.101,P2P
+M102881,Luxury,0.191,P2P
+M102882,Electronics,0.136,Online Banking
+M102883,Digital Wallet,0.117,Wire
+M102884,Fuel,0.19,Online Banking
+M102885,Luxury,0.304,P2P
+M102886,Grocery,0.137,Card Present
+M102887,Gaming,0.388,Card Present
+M102888,Gaming,0.083,P2P
+M102889,Grocery,0.058,Card Present
+M102890,Gaming,0.069,Online Banking
+M102891,Digital Wallet,0.228,Card Present
+M102892,Fuel,0.398,Card Present
+M102893,Electronics,0.012,Wire
+M102894,Gaming,0.487,Card Present
+M102895,Fuel,0.188,Card Present
+M102896,Travel,0.427,Card Not Present
+M102897,Telecom,0.475,P2P
+M102898,Telecom,0.561,P2P
+M102899,Telecom,0.374,P2P
+M102900,Luxury,0.261,Wire
+M102901,Fuel,0.479,Online Banking
+M102902,Fuel,0.23,P2P
+M102903,Grocery,0.44,Online Banking
+M102904,Gaming,0.074,Card Not Present
+M102905,Grocery,0.364,Wire
+M102906,Fuel,0.122,Online Banking
+M102907,Fuel,0.075,Card Present
+M102908,Grocery,0.271,Card Present
+M102909,Utilities,0.07,Card Not Present
+M102910,Grocery,0.299,P2P
+M102911,Electronics,0.148,P2P
+M102912,Telecom,0.176,P2P
+M102913,Gaming,0.377,Card Present
+M102914,Digital Wallet,0.163,Wire
+M102915,Marketplace,0.583,P2P
+M102916,Marketplace,0.263,Card Not Present
+M102917,Utilities,0.175,Wire
+M102918,Gaming,0.024,P2P
+M102919,Utilities,0.216,Card Present
+M102920,Digital Wallet,0.135,Online Banking
+M102921,Grocery,0.183,P2P
+M102922,Luxury,0.155,Online Banking
+M102923,Gaming,0.295,Card Present
+M102924,Utilities,0.111,Card Not Present
+M102925,Gaming,0.249,Card Not Present
+M102926,Marketplace,0.12,Wire
+M102927,Electronics,0.02,Card Present
+M102928,Travel,0.309,Online Banking
+M102929,Digital Wallet,0.478,Card Not Present
+M102930,Travel,0.07,Card Present
+M102931,Grocery,0.567,Online Banking
+M102932,Electronics,0.475,Card Not Present
+M102933,Electronics,0.121,P2P
+M102934,Gaming,0.232,P2P
+M102935,Luxury,0.206,Card Present
+M102936,Electronics,0.443,Card Not Present
+M102937,Luxury,0.077,Online Banking
+M102938,Electronics,0.286,Card Not Present
+M102939,Electronics,0.075,Card Present
+M102940,Electronics,0.528,Card Not Present
+M102941,Marketplace,0.247,Card Not Present
+M102942,Travel,0.37,Card Present
+M102943,Fuel,0.121,Wire
+M102944,Utilities,0.234,Online Banking
+M102945,Luxury,0.054,Card Present
+M102946,Electronics,0.259,Card Present
+M102947,Travel,0.458,Wire
+M102948,Utilities,0.269,Wire
+M102949,Grocery,0.193,P2P
+M102950,Luxury,0.073,Card Not Present
+M102951,Luxury,0.097,Card Present
+M102952,Luxury,0.068,Wire
+M102953,Utilities,0.121,P2P
+M102954,Electronics,0.117,P2P
+M102955,Digital Wallet,0.068,Wire
+M102956,Luxury,0.632,P2P
+M102957,Marketplace,0.063,Online Banking
+M102958,Grocery,0.45,Card Present
+M102959,Telecom,0.162,Card Present
+M102960,Luxury,0.067,Online Banking
+M102961,Utilities,0.08,P2P
+M102962,Gaming,0.134,Card Not Present
+M102963,Utilities,0.147,Card Not Present
+M102964,Luxury,0.201,P2P
+M102965,Marketplace,0.213,Card Present
+M102966,Grocery,0.168,Card Not Present
+M102967,Fuel,0.354,Card Present
+M102968,Gaming,0.033,Wire
+M102969,Electronics,0.053,Card Present
+M102970,Telecom,0.198,P2P
+M102971,Telecom,0.319,Online Banking
+M102972,Gaming,0.686,Card Not Present
+M102973,Utilities,0.376,Online Banking
+M102974,Travel,0.181,Card Present
+M102975,Fuel,0.427,Card Present
+M102976,Telecom,0.378,Card Not Present
+M102977,Electronics,0.292,Card Present
+M102978,Utilities,0.114,Card Present
+M102979,Gaming,0.513,Online Banking
+M102980,Digital Wallet,0.313,Card Not Present
+M102981,Utilities,0.08,Online Banking
+M102982,Fuel,0.213,Online Banking
+M102983,Fuel,0.225,Wire
+M102984,Utilities,0.08,Card Present
+M102985,Grocery,0.366,Card Present
+M102986,Utilities,0.244,Card Present
+M102987,Telecom,0.332,Wire
+M102988,Electronics,0.291,Wire
+M102989,Electronics,0.299,Card Present
+M102990,Fuel,0.165,Card Present
+M102991,Utilities,0.397,Card Not Present
+M102992,Luxury,0.241,P2P
+M102993,Travel,0.625,Card Present
+M102994,Grocery,0.329,P2P
+M102995,Grocery,0.071,P2P
+M102996,Grocery,0.176,Wire
+M102997,Digital Wallet,0.508,Card Not Present
+M102998,Grocery,0.191,Wire
+M102999,Telecom,0.138,Wire
+M103000,Luxury,0.078,Wire
+M103001,Marketplace,0.078,Wire
+M103002,Gaming,0.159,P2P
+M103003,Fuel,0.474,Card Not Present
+M103004,Grocery,0.286,Online Banking
+M103005,Utilities,0.355,Wire
+M103006,Grocery,0.183,Wire
+M103007,Utilities,0.221,Card Not Present
+M103008,Gaming,0.451,Wire
+M103009,Grocery,0.266,Wire
+M103010,Gaming,0.046,Online Banking
+M103011,Luxury,0.521,Wire
+M103012,Digital Wallet,0.66,Card Not Present
+M103013,Luxury,0.143,Card Not Present
+M103014,Grocery,0.313,Online Banking
+M103015,Grocery,0.094,P2P
+M103016,Marketplace,0.502,Wire
+M103017,Utilities,0.721,Online Banking
+M103018,Gaming,0.1,Wire
+M103019,Digital Wallet,0.25,Card Present
+M103020,Electronics,0.337,Wire
+M103021,Grocery,0.088,Online Banking
+M103022,Fuel,0.077,Card Not Present
+M103023,Grocery,0.091,Online Banking
+M103024,Fuel,0.461,P2P
+M103025,Grocery,0.16,Card Present
+M103026,Electronics,0.251,Online Banking
+M103027,Fuel,0.113,P2P
+M103028,Electronics,0.269,Card Present
+M103029,Grocery,0.415,Online Banking
+M103030,Fuel,0.309,Wire
+M103031,Digital Wallet,0.072,Card Not Present
+M103032,Utilities,0.483,Card Not Present
+M103033,Gaming,0.191,Online Banking
+M103034,Utilities,0.053,Card Not Present
+M103035,Telecom,0.131,P2P
+M103036,Gaming,0.282,P2P
+M103037,Luxury,0.135,Card Not Present
+M103038,Telecom,0.561,Online Banking
+M103039,Luxury,0.673,P2P
+M103040,Travel,0.058,Card Present
+M103041,Electronics,0.229,Wire
+M103042,Fuel,0.341,Online Banking
+M103043,Electronics,0.39,Card Present
+M103044,Gaming,0.413,P2P
+M103045,Luxury,0.609,Card Not Present
+M103046,Utilities,0.155,Card Present
+M103047,Digital Wallet,0.363,P2P
+M103048,Electronics,0.264,Card Present
+M103049,Fuel,0.06,Card Not Present
+M103050,Electronics,0.469,Wire
+M103051,Marketplace,0.145,Card Present
+M103052,Luxury,0.604,Card Not Present
+M103053,Electronics,0.052,P2P
+M103054,Digital Wallet,0.291,Card Not Present
+M103055,Telecom,0.24,Wire
+M103056,Grocery,0.163,Wire
+M103057,Digital Wallet,0.612,Card Not Present
+M103058,Gaming,0.171,Wire
+M103059,Grocery,0.353,Card Present
+M103060,Luxury,0.292,Wire
+M103061,Marketplace,0.247,Card Present
+M103062,Marketplace,0.316,Online Banking
+M103063,Luxury,0.359,Wire
+M103064,Luxury,0.136,Card Present
+M103065,Digital Wallet,0.308,Online Banking
+M103066,Travel,0.213,Online Banking
+M103067,Marketplace,0.187,Online Banking
+M103068,Gaming,0.323,P2P
+M103069,Telecom,0.072,Wire
+M103070,Travel,0.618,Card Present
+M103071,Telecom,0.281,P2P
+M103072,Telecom,0.39,P2P
+M103073,Electronics,0.377,Card Present
+M103074,Travel,0.158,Card Not Present
+M103075,Electronics,0.177,Card Present
+M103076,Gaming,0.174,Online Banking
+M103077,Gaming,0.19,Online Banking
+M103078,Travel,0.425,P2P
+M103079,Gaming,0.097,Online Banking
+M103080,Utilities,0.554,Card Not Present
+M103081,Digital Wallet,0.162,P2P
+M103082,Travel,0.449,Card Not Present
+M103083,Electronics,0.315,Online Banking
+M103084,Telecom,0.079,Online Banking
+M103085,Fuel,0.442,P2P
+M103086,Marketplace,0.365,Card Not Present
+M103087,Electronics,0.148,Card Present
+M103088,Digital Wallet,0.519,Wire
+M103089,Telecom,0.319,Wire
+M103090,Gaming,0.092,Card Present
+M103091,Fuel,0.203,Wire
+M103092,Telecom,0.071,Online Banking
+M103093,Travel,0.578,Card Not Present
+M103094,Gaming,0.302,P2P
+M103095,Luxury,0.109,P2P
+M103096,Telecom,0.021,Card Present
+M103097,Electronics,0.209,Wire
+M103098,Luxury,0.637,Online Banking
+M103099,Fuel,0.218,Card Not Present
+M103100,Gaming,0.101,P2P
+M103101,Luxury,0.191,P2P
+M103102,Electronics,0.136,Online Banking
+M103103,Digital Wallet,0.117,Wire
+M103104,Fuel,0.19,Online Banking
+M103105,Luxury,0.304,P2P
+M103106,Grocery,0.137,Card Present
+M103107,Gaming,0.388,Card Present
+M103108,Gaming,0.083,P2P
+M103109,Grocery,0.058,Card Present
+M103110,Gaming,0.069,Online Banking
+M103111,Digital Wallet,0.228,Card Present
+M103112,Fuel,0.398,Card Present
+M103113,Electronics,0.012,Wire
+M103114,Gaming,0.487,Card Present
+M103115,Fuel,0.188,Card Present
+M103116,Travel,0.427,Card Not Present
+M103117,Telecom,0.475,P2P
+M103118,Telecom,0.561,P2P
+M103119,Telecom,0.374,P2P
+M103120,Luxury,0.261,Wire
+M103121,Fuel,0.479,Online Banking
+M103122,Fuel,0.23,P2P
+M103123,Grocery,0.44,Online Banking
+M103124,Gaming,0.074,Card Not Present
+M103125,Grocery,0.364,Wire
+M103126,Fuel,0.122,Online Banking
+M103127,Fuel,0.075,Card Present
+M103128,Grocery,0.271,Card Present
+M103129,Utilities,0.07,Card Not Present
+M103130,Grocery,0.299,P2P
+M103131,Electronics,0.148,P2P
+M103132,Telecom,0.176,P2P
+M103133,Gaming,0.377,Card Present
+M103134,Digital Wallet,0.163,Wire
+M103135,Marketplace,0.583,P2P
+M103136,Marketplace,0.263,Card Not Present
+M103137,Utilities,0.175,Wire
+M103138,Gaming,0.024,P2P
+M103139,Utilities,0.216,Card Present
+M103140,Digital Wallet,0.135,Online Banking
+M103141,Grocery,0.183,P2P
+M103142,Luxury,0.155,Online Banking
+M103143,Gaming,0.295,Card Present
+M103144,Utilities,0.111,Card Not Present
+M103145,Gaming,0.249,Card Not Present
+M103146,Marketplace,0.12,Wire
+M103147,Electronics,0.02,Card Present
+M103148,Travel,0.309,Online Banking
+M103149,Digital Wallet,0.478,Card Not Present
+M103150,Travel,0.07,Card Present
+M103151,Grocery,0.567,Online Banking
+M103152,Electronics,0.475,Card Not Present
+M103153,Electronics,0.121,P2P
+M103154,Gaming,0.232,P2P
+M103155,Luxury,0.206,Card Present
+M103156,Electronics,0.443,Card Not Present
+M103157,Luxury,0.077,Online Banking
+M103158,Electronics,0.286,Card Not Present
+M103159,Electronics,0.075,Card Present
+M103160,Electronics,0.528,Card Not Present
+M103161,Marketplace,0.247,Card Not Present
+M103162,Travel,0.37,Card Present
+M103163,Fuel,0.121,Wire
+M103164,Utilities,0.234,Online Banking
+M103165,Luxury,0.054,Card Present
+M103166,Electronics,0.259,Card Present
+M103167,Travel,0.458,Wire
+M103168,Utilities,0.269,Wire
+M103169,Grocery,0.193,P2P
+M103170,Luxury,0.073,Card Not Present
+M103171,Luxury,0.097,Card Present
+M103172,Luxury,0.068,Wire
+M103173,Utilities,0.121,P2P
+M103174,Electronics,0.117,P2P
+M103175,Digital Wallet,0.068,Wire
+M103176,Luxury,0.632,P2P
+M103177,Marketplace,0.063,Online Banking
+M103178,Grocery,0.45,Card Present
+M103179,Telecom,0.162,Card Present
+M103180,Luxury,0.067,Online Banking
+M103181,Utilities,0.08,P2P
+M103182,Gaming,0.134,Card Not Present
+M103183,Utilities,0.147,Card Not Present
+M103184,Luxury,0.201,P2P
+M103185,Marketplace,0.213,Card Present
+M103186,Grocery,0.168,Card Not Present
+M103187,Fuel,0.354,Card Present
+M103188,Gaming,0.033,Wire
+M103189,Electronics,0.053,Card Present
+M103190,Telecom,0.198,P2P
+M103191,Telecom,0.319,Online Banking
+M103192,Gaming,0.686,Card Not Present
+M103193,Utilities,0.376,Online Banking
+M103194,Travel,0.181,Card Present
+M103195,Fuel,0.427,Card Present
+M103196,Telecom,0.378,Card Not Present
+M103197,Electronics,0.292,Card Present
+M103198,Utilities,0.114,Card Present
+M103199,Gaming,0.513,Online Banking
+M103200,Digital Wallet,0.313,Card Not Present
+M103201,Utilities,0.08,Online Banking
+M103202,Fuel,0.213,Online Banking
+M103203,Fuel,0.225,Wire
+M103204,Utilities,0.08,Card Present
+M103205,Grocery,0.366,Card Present
+M103206,Utilities,0.244,Card Present
+M103207,Telecom,0.332,Wire
+M103208,Electronics,0.291,Wire
+M103209,Electronics,0.299,Card Present
+M103210,Fuel,0.165,Card Present
+M103211,Utilities,0.397,Card Not Present
+M103212,Luxury,0.241,P2P
+M103213,Travel,0.625,Card Present
+M103214,Grocery,0.329,P2P
+M103215,Grocery,0.071,P2P
+M103216,Grocery,0.176,Wire
+M103217,Digital Wallet,0.508,Card Not Present
+M103218,Grocery,0.191,Wire
+M103219,Telecom,0.138,Wire
+M103220,Luxury,0.078,Wire
+M103221,Marketplace,0.078,Wire
+M103222,Gaming,0.159,P2P
+M103223,Fuel,0.474,Card Not Present
+M103224,Grocery,0.286,Online Banking
+M103225,Utilities,0.355,Wire
+M103226,Grocery,0.183,Wire
+M103227,Utilities,0.221,Card Not Present
+M103228,Gaming,0.451,Wire
+M103229,Grocery,0.266,Wire
+M103230,Gaming,0.046,Online Banking
+M103231,Luxury,0.521,Wire
+M103232,Digital Wallet,0.66,Card Not Present
+M103233,Luxury,0.143,Card Not Present
+M103234,Grocery,0.313,Online Banking
+M103235,Grocery,0.094,P2P
+M103236,Marketplace,0.502,Wire
+M103237,Utilities,0.721,Online Banking
+M103238,Gaming,0.1,Wire
+M103239,Digital Wallet,0.25,Card Present
+M103240,Electronics,0.337,Wire
+M103241,Grocery,0.088,Online Banking
+M103242,Fuel,0.077,Card Not Present
+M103243,Grocery,0.091,Online Banking
+M103244,Fuel,0.461,P2P
+M103245,Grocery,0.16,Card Present
+M103246,Electronics,0.251,Online Banking
+M103247,Fuel,0.113,P2P
+M103248,Electronics,0.269,Card Present
+M103249,Grocery,0.415,Online Banking
+M103250,Fuel,0.309,Wire
+M103251,Digital Wallet,0.072,Card Not Present
+M103252,Utilities,0.483,Card Not Present
+M103253,Gaming,0.191,Online Banking
+M103254,Utilities,0.053,Card Not Present
+M103255,Telecom,0.131,P2P
+M103256,Gaming,0.282,P2P
+M103257,Luxury,0.135,Card Not Present
+M103258,Telecom,0.561,Online Banking
+M103259,Luxury,0.673,P2P
+M103260,Travel,0.058,Card Present
+M103261,Electronics,0.229,Wire
+M103262,Fuel,0.341,Online Banking
+M103263,Electronics,0.39,Card Present
+M103264,Gaming,0.413,P2P
+M103265,Luxury,0.609,Card Not Present
+M103266,Utilities,0.155,Card Present
+M103267,Digital Wallet,0.363,P2P
+M103268,Electronics,0.264,Card Present
+M103269,Fuel,0.06,Card Not Present
+M103270,Electronics,0.469,Wire
+M103271,Marketplace,0.145,Card Present
+M103272,Luxury,0.604,Card Not Present
+M103273,Electronics,0.052,P2P
+M103274,Digital Wallet,0.291,Card Not Present
+M103275,Telecom,0.24,Wire
+M103276,Grocery,0.163,Wire
+M103277,Digital Wallet,0.612,Card Not Present
+M103278,Gaming,0.171,Wire
+M103279,Grocery,0.353,Card Present
+M103280,Luxury,0.292,Wire
+M103281,Marketplace,0.247,Card Present
+M103282,Marketplace,0.316,Online Banking
+M103283,Luxury,0.359,Wire
+M103284,Luxury,0.136,Card Present
+M103285,Digital Wallet,0.308,Online Banking
+M103286,Travel,0.213,Online Banking
+M103287,Marketplace,0.187,Online Banking
+M103288,Gaming,0.323,P2P
+M103289,Telecom,0.072,Wire
+M103290,Travel,0.618,Card Present
+M103291,Telecom,0.281,P2P
+M103292,Telecom,0.39,P2P
+M103293,Electronics,0.377,Card Present
+M103294,Travel,0.158,Card Not Present
+M103295,Electronics,0.177,Card Present
+M103296,Gaming,0.174,Online Banking
+M103297,Gaming,0.19,Online Banking
+M103298,Travel,0.425,P2P
+M103299,Gaming,0.097,Online Banking
+M103300,Utilities,0.554,Card Not Present
+M103301,Digital Wallet,0.162,P2P
+M103302,Travel,0.449,Card Not Present
+M103303,Electronics,0.315,Online Banking
+M103304,Telecom,0.079,Online Banking
+M103305,Fuel,0.442,P2P
+M103306,Marketplace,0.365,Card Not Present
+M103307,Electronics,0.148,Card Present
+M103308,Digital Wallet,0.519,Wire
+M103309,Telecom,0.319,Wire
+M103310,Gaming,0.092,Card Present
+M103311,Fuel,0.203,Wire
+M103312,Telecom,0.071,Online Banking
+M103313,Travel,0.578,Card Not Present
+M103314,Gaming,0.302,P2P
+M103315,Luxury,0.109,P2P
+M103316,Telecom,0.021,Card Present
+M103317,Electronics,0.209,Wire
+M103318,Luxury,0.637,Online Banking
+M103319,Fuel,0.218,Card Not Present
+M103320,Gaming,0.101,P2P
+M103321,Luxury,0.191,P2P
+M103322,Electronics,0.136,Online Banking
+M103323,Digital Wallet,0.117,Wire
+M103324,Fuel,0.19,Online Banking
+M103325,Luxury,0.304,P2P
+M103326,Grocery,0.137,Card Present
+M103327,Gaming,0.388,Card Present
+M103328,Gaming,0.083,P2P
+M103329,Grocery,0.058,Card Present
+M103330,Gaming,0.069,Online Banking
+M103331,Digital Wallet,0.228,Card Present
+M103332,Fuel,0.398,Card Present
+M103333,Electronics,0.012,Wire
+M103334,Gaming,0.487,Card Present
+M103335,Fuel,0.188,Card Present
+M103336,Travel,0.427,Card Not Present
+M103337,Telecom,0.475,P2P
+M103338,Telecom,0.561,P2P
+M103339,Telecom,0.374,P2P
+M103340,Luxury,0.261,Wire
+M103341,Fuel,0.479,Online Banking
+M103342,Fuel,0.23,P2P
+M103343,Grocery,0.44,Online Banking
+M103344,Gaming,0.074,Card Not Present
+M103345,Grocery,0.364,Wire
+M103346,Fuel,0.122,Online Banking
+M103347,Fuel,0.075,Card Present
+M103348,Grocery,0.271,Card Present
+M103349,Utilities,0.07,Card Not Present
+M103350,Grocery,0.299,P2P
+M103351,Electronics,0.148,P2P
+M103352,Telecom,0.176,P2P
+M103353,Gaming,0.377,Card Present
+M103354,Digital Wallet,0.163,Wire
+M103355,Marketplace,0.583,P2P
+M103356,Marketplace,0.263,Card Not Present
+M103357,Utilities,0.175,Wire
+M103358,Gaming,0.024,P2P
+M103359,Utilities,0.216,Card Present
+M103360,Digital Wallet,0.135,Online Banking
+M103361,Grocery,0.183,P2P
+M103362,Luxury,0.155,Online Banking
+M103363,Gaming,0.295,Card Present
+M103364,Utilities,0.111,Card Not Present
+M103365,Gaming,0.249,Card Not Present
+M103366,Marketplace,0.12,Wire
+M103367,Electronics,0.02,Card Present
+M103368,Travel,0.309,Online Banking
+M103369,Digital Wallet,0.478,Card Not Present
+M103370,Travel,0.07,Card Present
+M103371,Grocery,0.567,Online Banking
+M103372,Electronics,0.475,Card Not Present
+M103373,Electronics,0.121,P2P
+M103374,Gaming,0.232,P2P
+M103375,Luxury,0.206,Card Present
+M103376,Electronics,0.443,Card Not Present
+M103377,Luxury,0.077,Online Banking
+M103378,Electronics,0.286,Card Not Present
+M103379,Electronics,0.075,Card Present
+M103380,Electronics,0.528,Card Not Present
+M103381,Marketplace,0.247,Card Not Present
+M103382,Travel,0.37,Card Present
+M103383,Fuel,0.121,Wire
+M103384,Utilities,0.234,Online Banking
+M103385,Luxury,0.054,Card Present
+M103386,Electronics,0.259,Card Present
+M103387,Travel,0.458,Wire
+M103388,Utilities,0.269,Wire
+M103389,Grocery,0.193,P2P
+M103390,Luxury,0.073,Card Not Present
+M103391,Luxury,0.097,Card Present
+M103392,Luxury,0.068,Wire
+M103393,Utilities,0.121,P2P
+M103394,Electronics,0.117,P2P
+M103395,Digital Wallet,0.068,Wire
+M103396,Luxury,0.632,P2P
+M103397,Marketplace,0.063,Online Banking
+M103398,Grocery,0.45,Card Present
+M103399,Telecom,0.162,Card Present
+M103400,Luxury,0.067,Online Banking
+M103401,Utilities,0.08,P2P
+M103402,Gaming,0.134,Card Not Present
+M103403,Utilities,0.147,Card Not Present
+M103404,Luxury,0.201,P2P
+M103405,Marketplace,0.213,Card Present
+M103406,Grocery,0.168,Card Not Present
+M103407,Fuel,0.354,Card Present
+M103408,Gaming,0.033,Wire
+M103409,Electronics,0.053,Card Present
+M103410,Telecom,0.198,P2P
+M103411,Telecom,0.319,Online Banking
+M103412,Gaming,0.686,Card Not Present
+M103413,Utilities,0.376,Online Banking
+M103414,Travel,0.181,Card Present
+M103415,Fuel,0.427,Card Present
+M103416,Telecom,0.378,Card Not Present
+M103417,Electronics,0.292,Card Present
+M103418,Utilities,0.114,Card Present
+M103419,Gaming,0.513,Online Banking
+M103420,Digital Wallet,0.313,Card Not Present
+M103421,Utilities,0.08,Online Banking
+M103422,Fuel,0.213,Online Banking
+M103423,Fuel,0.225,Wire
+M103424,Utilities,0.08,Card Present
+M103425,Grocery,0.366,Card Present
+M103426,Utilities,0.244,Card Present
+M103427,Telecom,0.332,Wire
+M103428,Electronics,0.291,Wire
+M103429,Electronics,0.299,Card Present
+M103430,Fuel,0.165,Card Present
+M103431,Utilities,0.397,Card Not Present
+M103432,Luxury,0.241,P2P
+M103433,Travel,0.625,Card Present
+M103434,Grocery,0.329,P2P
+M103435,Grocery,0.071,P2P
+M103436,Grocery,0.176,Wire
+M103437,Digital Wallet,0.508,Card Not Present
+M103438,Grocery,0.191,Wire
+M103439,Telecom,0.138,Wire
+M103440,Luxury,0.078,Wire
+M103441,Marketplace,0.078,Wire
+M103442,Gaming,0.159,P2P
+M103443,Fuel,0.474,Card Not Present
+M103444,Grocery,0.286,Online Banking
+M103445,Utilities,0.355,Wire
+M103446,Grocery,0.183,Wire
+M103447,Utilities,0.221,Card Not Present
+M103448,Gaming,0.451,Wire
+M103449,Grocery,0.266,Wire
+M103450,Gaming,0.046,Online Banking
+M103451,Luxury,0.521,Wire
+M103452,Digital Wallet,0.66,Card Not Present
+M103453,Luxury,0.143,Card Not Present
+M103454,Grocery,0.313,Online Banking
+M103455,Grocery,0.094,P2P
+M103456,Marketplace,0.502,Wire
+M103457,Utilities,0.721,Online Banking
+M103458,Gaming,0.1,Wire
+M103459,Digital Wallet,0.25,Card Present
+M103460,Electronics,0.337,Wire
+M103461,Grocery,0.088,Online Banking
+M103462,Fuel,0.077,Card Not Present
+M103463,Grocery,0.091,Online Banking
+M103464,Fuel,0.461,P2P
+M103465,Grocery,0.16,Card Present
+M103466,Electronics,0.251,Online Banking
+M103467,Fuel,0.113,P2P
+M103468,Electronics,0.269,Card Present
+M103469,Grocery,0.415,Online Banking
+M103470,Fuel,0.309,Wire
+M103471,Digital Wallet,0.072,Card Not Present
+M103472,Utilities,0.483,Card Not Present
+M103473,Gaming,0.191,Online Banking
+M103474,Utilities,0.053,Card Not Present
+M103475,Telecom,0.131,P2P
+M103476,Gaming,0.282,P2P
+M103477,Luxury,0.135,Card Not Present
+M103478,Telecom,0.561,Online Banking
+M103479,Luxury,0.673,P2P
+M103480,Travel,0.058,Card Present
+M103481,Electronics,0.229,Wire
+M103482,Fuel,0.341,Online Banking
+M103483,Electronics,0.39,Card Present
+M103484,Gaming,0.413,P2P
+M103485,Luxury,0.609,Card Not Present
+M103486,Utilities,0.155,Card Present
+M103487,Digital Wallet,0.363,P2P
+M103488,Electronics,0.264,Card Present
+M103489,Fuel,0.06,Card Not Present
+M103490,Electronics,0.469,Wire
+M103491,Marketplace,0.145,Card Present
+M103492,Luxury,0.604,Card Not Present
+M103493,Electronics,0.052,P2P
+M103494,Digital Wallet,0.291,Card Not Present
+M103495,Telecom,0.24,Wire
+M103496,Grocery,0.163,Wire
+M103497,Digital Wallet,0.612,Card Not Present
+M103498,Gaming,0.171,Wire
+M103499,Grocery,0.353,Card Present
+M103500,Luxury,0.292,Wire
+M103501,Marketplace,0.247,Card Present
+M103502,Marketplace,0.316,Online Banking
+M103503,Luxury,0.359,Wire
+M103504,Luxury,0.136,Card Present
+M103505,Digital Wallet,0.308,Online Banking
+M103506,Travel,0.213,Online Banking
+M103507,Marketplace,0.187,Online Banking
+M103508,Gaming,0.323,P2P
+M103509,Telecom,0.072,Wire
+M103510,Travel,0.618,Card Present
+M103511,Telecom,0.281,P2P
+M103512,Telecom,0.39,P2P
+M103513,Electronics,0.377,Card Present
+M103514,Travel,0.158,Card Not Present
+M103515,Electronics,0.177,Card Present
+M103516,Gaming,0.174,Online Banking
+M103517,Gaming,0.19,Online Banking
+M103518,Travel,0.425,P2P
+M103519,Gaming,0.097,Online Banking
+M103520,Utilities,0.554,Card Not Present
+M103521,Digital Wallet,0.162,P2P
+M103522,Travel,0.449,Card Not Present
+M103523,Electronics,0.315,Online Banking
+M103524,Telecom,0.079,Online Banking
+M103525,Fuel,0.442,P2P
+M103526,Marketplace,0.365,Card Not Present
+M103527,Electronics,0.148,Card Present
+M103528,Digital Wallet,0.519,Wire
+M103529,Telecom,0.319,Wire
+M103530,Gaming,0.092,Card Present
+M103531,Fuel,0.203,Wire
+M103532,Telecom,0.071,Online Banking
+M103533,Travel,0.578,Card Not Present
+M103534,Gaming,0.302,P2P
+M103535,Luxury,0.109,P2P
+M103536,Telecom,0.021,Card Present
+M103537,Electronics,0.209,Wire
+M103538,Luxury,0.637,Online Banking
+M103539,Fuel,0.218,Card Not Present
+M103540,Gaming,0.101,P2P
+M103541,Luxury,0.191,P2P
+M103542,Electronics,0.136,Online Banking
+M103543,Digital Wallet,0.117,Wire
+M103544,Fuel,0.19,Online Banking
+M103545,Luxury,0.304,P2P
+M103546,Grocery,0.137,Card Present
+M103547,Gaming,0.388,Card Present
+M103548,Gaming,0.083,P2P
+M103549,Grocery,0.058,Card Present
+M103550,Gaming,0.069,Online Banking
+M103551,Digital Wallet,0.228,Card Present
+M103552,Fuel,0.398,Card Present
+M103553,Electronics,0.012,Wire
+M103554,Gaming,0.487,Card Present
+M103555,Fuel,0.188,Card Present
+M103556,Travel,0.427,Card Not Present
+M103557,Telecom,0.475,P2P
+M103558,Telecom,0.561,P2P
+M103559,Telecom,0.374,P2P
+M103560,Luxury,0.261,Wire
+M103561,Fuel,0.479,Online Banking
+M103562,Fuel,0.23,P2P
+M103563,Grocery,0.44,Online Banking
+M103564,Gaming,0.074,Card Not Present
+M103565,Grocery,0.364,Wire
+M103566,Fuel,0.122,Online Banking
+M103567,Fuel,0.075,Card Present
+M103568,Grocery,0.271,Card Present
+M103569,Utilities,0.07,Card Not Present
+M103570,Grocery,0.299,P2P
+M103571,Electronics,0.148,P2P
+M103572,Telecom,0.176,P2P
+M103573,Gaming,0.377,Card Present
+M103574,Digital Wallet,0.163,Wire
+M103575,Marketplace,0.583,P2P
+M103576,Marketplace,0.263,Card Not Present
+M103577,Utilities,0.175,Wire
+M103578,Gaming,0.024,P2P
+M103579,Utilities,0.216,Card Present
+M103580,Digital Wallet,0.135,Online Banking
+M103581,Grocery,0.183,P2P
+M103582,Luxury,0.155,Online Banking
+M103583,Gaming,0.295,Card Present
+M103584,Utilities,0.111,Card Not Present
+M103585,Gaming,0.249,Card Not Present
+M103586,Marketplace,0.12,Wire
+M103587,Electronics,0.02,Card Present
+M103588,Travel,0.309,Online Banking
+M103589,Digital Wallet,0.478,Card Not Present
+M103590,Travel,0.07,Card Present
+M103591,Grocery,0.567,Online Banking
+M103592,Electronics,0.475,Card Not Present
+M103593,Electronics,0.121,P2P
+M103594,Gaming,0.232,P2P
+M103595,Luxury,0.206,Card Present
+M103596,Electronics,0.443,Card Not Present
+M103597,Luxury,0.077,Online Banking
+M103598,Electronics,0.286,Card Not Present
+M103599,Electronics,0.075,Card Present
+M103600,Electronics,0.528,Card Not Present
+M103601,Marketplace,0.247,Card Not Present
+M103602,Travel,0.37,Card Present
+M103603,Fuel,0.121,Wire
+M103604,Utilities,0.234,Online Banking
+M103605,Luxury,0.054,Card Present
+M103606,Electronics,0.259,Card Present
+M103607,Travel,0.458,Wire
+M103608,Utilities,0.269,Wire
+M103609,Grocery,0.193,P2P
+M103610,Luxury,0.073,Card Not Present
+M103611,Luxury,0.097,Card Present
+M103612,Luxury,0.068,Wire
+M103613,Utilities,0.121,P2P
+M103614,Electronics,0.117,P2P
+M103615,Digital Wallet,0.068,Wire
+M103616,Luxury,0.632,P2P
+M103617,Marketplace,0.063,Online Banking
+M103618,Grocery,0.45,Card Present
+M103619,Telecom,0.162,Card Present
+M103620,Luxury,0.067,Online Banking
+M103621,Utilities,0.08,P2P
+M103622,Gaming,0.134,Card Not Present
+M103623,Utilities,0.147,Card Not Present
+M103624,Luxury,0.201,P2P
+M103625,Marketplace,0.213,Card Present
+M103626,Grocery,0.168,Card Not Present
+M103627,Fuel,0.354,Card Present
+M103628,Gaming,0.033,Wire
+M103629,Electronics,0.053,Card Present
+M103630,Telecom,0.198,P2P
+M103631,Telecom,0.319,Online Banking
+M103632,Gaming,0.686,Card Not Present
+M103633,Utilities,0.376,Online Banking
+M103634,Travel,0.181,Card Present
+M103635,Fuel,0.427,Card Present
+M103636,Telecom,0.378,Card Not Present
+M103637,Electronics,0.292,Card Present
+M103638,Utilities,0.114,Card Present
+M103639,Gaming,0.513,Online Banking
+M103640,Digital Wallet,0.313,Card Not Present
+M103641,Utilities,0.08,Online Banking
+M103642,Fuel,0.213,Online Banking
+M103643,Fuel,0.225,Wire
+M103644,Utilities,0.08,Card Present
+M103645,Grocery,0.366,Card Present
+M103646,Utilities,0.244,Card Present
+M103647,Telecom,0.332,Wire
+M103648,Electronics,0.291,Wire
+M103649,Electronics,0.299,Card Present
+M103650,Fuel,0.165,Card Present
+M103651,Utilities,0.397,Card Not Present
+M103652,Luxury,0.241,P2P
+M103653,Travel,0.625,Card Present
+M103654,Grocery,0.329,P2P
+M103655,Grocery,0.071,P2P
+M103656,Grocery,0.176,Wire
+M103657,Digital Wallet,0.508,Card Not Present
+M103658,Grocery,0.191,Wire
+M103659,Telecom,0.138,Wire
+M103660,Luxury,0.078,Wire
+M103661,Marketplace,0.078,Wire
+M103662,Gaming,0.159,P2P
+M103663,Fuel,0.474,Card Not Present
+M103664,Grocery,0.286,Online Banking
+M103665,Utilities,0.355,Wire
+M103666,Grocery,0.183,Wire
+M103667,Utilities,0.221,Card Not Present
+M103668,Gaming,0.451,Wire
+M103669,Grocery,0.266,Wire
+M103670,Gaming,0.046,Online Banking
+M103671,Luxury,0.521,Wire
+M103672,Digital Wallet,0.66,Card Not Present
+M103673,Luxury,0.143,Card Not Present
+M103674,Grocery,0.313,Online Banking
+M103675,Grocery,0.094,P2P
+M103676,Marketplace,0.502,Wire
+M103677,Utilities,0.721,Online Banking
+M103678,Gaming,0.1,Wire
+M103679,Digital Wallet,0.25,Card Present
+M103680,Electronics,0.337,Wire
+M103681,Grocery,0.088,Online Banking
+M103682,Fuel,0.077,Card Not Present
+M103683,Grocery,0.091,Online Banking
+M103684,Fuel,0.461,P2P
+M103685,Grocery,0.16,Card Present
+M103686,Electronics,0.251,Online Banking
+M103687,Fuel,0.113,P2P
+M103688,Electronics,0.269,Card Present
+M103689,Grocery,0.415,Online Banking
+M103690,Fuel,0.309,Wire
+M103691,Digital Wallet,0.072,Card Not Present
+M103692,Utilities,0.483,Card Not Present
+M103693,Gaming,0.191,Online Banking
+M103694,Utilities,0.053,Card Not Present
+M103695,Telecom,0.131,P2P
+M103696,Gaming,0.282,P2P
+M103697,Luxury,0.135,Card Not Present
+M103698,Telecom,0.561,Online Banking
+M103699,Luxury,0.673,P2P
+M103700,Travel,0.058,Card Present
+M103701,Electronics,0.229,Wire
+M103702,Fuel,0.341,Online Banking
+M103703,Electronics,0.39,Card Present
+M103704,Gaming,0.413,P2P
+M103705,Luxury,0.609,Card Not Present
+M103706,Utilities,0.155,Card Present
+M103707,Digital Wallet,0.363,P2P
+M103708,Electronics,0.264,Card Present
+M103709,Fuel,0.06,Card Not Present
+M103710,Electronics,0.469,Wire
+M103711,Marketplace,0.145,Card Present
+M103712,Luxury,0.604,Card Not Present
+M103713,Electronics,0.052,P2P
+M103714,Digital Wallet,0.291,Card Not Present
+M103715,Telecom,0.24,Wire
+M103716,Grocery,0.163,Wire
+M103717,Digital Wallet,0.612,Card Not Present
+M103718,Gaming,0.171,Wire
+M103719,Grocery,0.353,Card Present
+M103720,Luxury,0.292,Wire
+M103721,Marketplace,0.247,Card Present
+M103722,Marketplace,0.316,Online Banking
+M103723,Luxury,0.359,Wire
+M103724,Luxury,0.136,Card Present
+M103725,Digital Wallet,0.308,Online Banking
+M103726,Travel,0.213,Online Banking
+M103727,Marketplace,0.187,Online Banking
+M103728,Gaming,0.323,P2P
+M103729,Telecom,0.072,Wire
+M103730,Travel,0.618,Card Present
+M103731,Telecom,0.281,P2P
+M103732,Telecom,0.39,P2P
+M103733,Electronics,0.377,Card Present
+M103734,Travel,0.158,Card Not Present
+M103735,Electronics,0.177,Card Present
+M103736,Gaming,0.174,Online Banking
+M103737,Gaming,0.19,Online Banking
+M103738,Travel,0.425,P2P
+M103739,Gaming,0.097,Online Banking
+M103740,Utilities,0.554,Card Not Present
+M103741,Digital Wallet,0.162,P2P
+M103742,Travel,0.449,Card Not Present
+M103743,Electronics,0.315,Online Banking
+M103744,Telecom,0.079,Online Banking
+M103745,Fuel,0.442,P2P
+M103746,Marketplace,0.365,Card Not Present
+M103747,Electronics,0.148,Card Present
+M103748,Digital Wallet,0.519,Wire
+M103749,Telecom,0.319,Wire
+M103750,Gaming,0.092,Card Present
+M103751,Fuel,0.203,Wire
+M103752,Telecom,0.071,Online Banking
+M103753,Travel,0.578,Card Not Present
+M103754,Gaming,0.302,P2P
+M103755,Luxury,0.109,P2P
+M103756,Telecom,0.021,Card Present
+M103757,Electronics,0.209,Wire
+M103758,Luxury,0.637,Online Banking
+M103759,Fuel,0.218,Card Not Present
+M103760,Gaming,0.101,P2P
+M103761,Luxury,0.191,P2P
+M103762,Electronics,0.136,Online Banking
+M103763,Digital Wallet,0.117,Wire
+M103764,Fuel,0.19,Online Banking
+M103765,Luxury,0.304,P2P
+M103766,Grocery,0.137,Card Present
+M103767,Gaming,0.388,Card Present
+M103768,Gaming,0.083,P2P
+M103769,Grocery,0.058,Card Present
+M103770,Gaming,0.069,Online Banking
+M103771,Digital Wallet,0.228,Card Present
+M103772,Fuel,0.398,Card Present
+M103773,Electronics,0.012,Wire
+M103774,Gaming,0.487,Card Present
+M103775,Fuel,0.188,Card Present
+M103776,Travel,0.427,Card Not Present
+M103777,Telecom,0.475,P2P
+M103778,Telecom,0.561,P2P
+M103779,Telecom,0.374,P2P
+M103780,Luxury,0.261,Wire
+M103781,Fuel,0.479,Online Banking
+M103782,Fuel,0.23,P2P
+M103783,Grocery,0.44,Online Banking
+M103784,Gaming,0.074,Card Not Present
+M103785,Grocery,0.364,Wire
+M103786,Fuel,0.122,Online Banking
+M103787,Fuel,0.075,Card Present
+M103788,Grocery,0.271,Card Present
+M103789,Utilities,0.07,Card Not Present
+M103790,Grocery,0.299,P2P
+M103791,Electronics,0.148,P2P
+M103792,Telecom,0.176,P2P
+M103793,Gaming,0.377,Card Present
+M103794,Digital Wallet,0.163,Wire
+M103795,Marketplace,0.583,P2P
+M103796,Marketplace,0.263,Card Not Present
+M103797,Utilities,0.175,Wire
+M103798,Gaming,0.024,P2P
+M103799,Utilities,0.216,Card Present
+M103800,Digital Wallet,0.135,Online Banking
+M103801,Grocery,0.183,P2P
+M103802,Luxury,0.155,Online Banking
+M103803,Gaming,0.295,Card Present
+M103804,Utilities,0.111,Card Not Present
+M103805,Gaming,0.249,Card Not Present
+M103806,Marketplace,0.12,Wire
+M103807,Electronics,0.02,Card Present
+M103808,Travel,0.309,Online Banking
+M103809,Digital Wallet,0.478,Card Not Present
+M103810,Travel,0.07,Card Present
+M103811,Grocery,0.567,Online Banking
+M103812,Electronics,0.475,Card Not Present
+M103813,Electronics,0.121,P2P
+M103814,Gaming,0.232,P2P
+M103815,Luxury,0.206,Card Present
+M103816,Electronics,0.443,Card Not Present
+M103817,Luxury,0.077,Online Banking
+M103818,Electronics,0.286,Card Not Present
+M103819,Electronics,0.075,Card Present
+M103820,Electronics,0.528,Card Not Present
+M103821,Marketplace,0.247,Card Not Present
+M103822,Travel,0.37,Card Present
+M103823,Fuel,0.121,Wire
+M103824,Utilities,0.234,Online Banking
+M103825,Luxury,0.054,Card Present
+M103826,Electronics,0.259,Card Present
+M103827,Travel,0.458,Wire
+M103828,Utilities,0.269,Wire
+M103829,Grocery,0.193,P2P
+M103830,Luxury,0.073,Card Not Present
+M103831,Luxury,0.097,Card Present
+M103832,Luxury,0.068,Wire
+M103833,Utilities,0.121,P2P
+M103834,Electronics,0.117,P2P
+M103835,Digital Wallet,0.068,Wire
+M103836,Luxury,0.632,P2P
+M103837,Marketplace,0.063,Online Banking
+M103838,Grocery,0.45,Card Present
+M103839,Telecom,0.162,Card Present
+M103840,Luxury,0.067,Online Banking
+M103841,Utilities,0.08,P2P
+M103842,Gaming,0.134,Card Not Present
+M103843,Utilities,0.147,Card Not Present
+M103844,Luxury,0.201,P2P
+M103845,Marketplace,0.213,Card Present
+M103846,Grocery,0.168,Card Not Present
+M103847,Fuel,0.354,Card Present
+M103848,Gaming,0.033,Wire
+M103849,Electronics,0.053,Card Present
+M103850,Telecom,0.198,P2P
+M103851,Telecom,0.319,Online Banking
+M103852,Gaming,0.686,Card Not Present
+M103853,Utilities,0.376,Online Banking
+M103854,Travel,0.181,Card Present
+M103855,Fuel,0.427,Card Present
+M103856,Telecom,0.378,Card Not Present
+M103857,Electronics,0.292,Card Present
+M103858,Utilities,0.114,Card Present
+M103859,Gaming,0.513,Online Banking
+M103860,Digital Wallet,0.313,Card Not Present
+M103861,Utilities,0.08,Online Banking
+M103862,Fuel,0.213,Online Banking
+M103863,Fuel,0.225,Wire
+M103864,Utilities,0.08,Card Present
+M103865,Grocery,0.366,Card Present
+M103866,Utilities,0.244,Card Present
+M103867,Telecom,0.332,Wire
+M103868,Electronics,0.291,Wire
+M103869,Electronics,0.299,Card Present
+M103870,Fuel,0.165,Card Present
+M103871,Utilities,0.397,Card Not Present
+M103872,Luxury,0.241,P2P
+M103873,Travel,0.625,Card Present
+M103874,Grocery,0.329,P2P
+M103875,Grocery,0.071,P2P
+M103876,Grocery,0.176,Wire
+M103877,Digital Wallet,0.508,Card Not Present
+M103878,Grocery,0.191,Wire
+M103879,Telecom,0.138,Wire
+M103880,Luxury,0.078,Wire
+M103881,Marketplace,0.078,Wire
+M103882,Gaming,0.159,P2P
+M103883,Fuel,0.474,Card Not Present
+M103884,Grocery,0.286,Online Banking
+M103885,Utilities,0.355,Wire
+M103886,Grocery,0.183,Wire
+M103887,Utilities,0.221,Card Not Present
+M103888,Gaming,0.451,Wire
+M103889,Grocery,0.266,Wire
+M103890,Gaming,0.046,Online Banking
+M103891,Luxury,0.521,Wire
+M103892,Digital Wallet,0.66,Card Not Present
+M103893,Luxury,0.143,Card Not Present
+M103894,Grocery,0.313,Online Banking
+M103895,Grocery,0.094,P2P
+M103896,Marketplace,0.502,Wire
+M103897,Utilities,0.721,Online Banking
+M103898,Gaming,0.1,Wire
+M103899,Digital Wallet,0.25,Card Present
+M103900,Electronics,0.337,Wire
+M103901,Grocery,0.088,Online Banking
+M103902,Fuel,0.077,Card Not Present
+M103903,Grocery,0.091,Online Banking
+M103904,Fuel,0.461,P2P
+M103905,Grocery,0.16,Card Present
+M103906,Electronics,0.251,Online Banking
+M103907,Fuel,0.113,P2P
+M103908,Electronics,0.269,Card Present
+M103909,Grocery,0.415,Online Banking
+M103910,Fuel,0.309,Wire
+M103911,Digital Wallet,0.072,Card Not Present
+M103912,Utilities,0.483,Card Not Present
+M103913,Gaming,0.191,Online Banking
+M103914,Utilities,0.053,Card Not Present
+M103915,Telecom,0.131,P2P
+M103916,Gaming,0.282,P2P
+M103917,Luxury,0.135,Card Not Present
+M103918,Telecom,0.561,Online Banking
+M103919,Luxury,0.673,P2P
+M103920,Travel,0.058,Card Present
+M103921,Electronics,0.229,Wire
+M103922,Fuel,0.341,Online Banking
+M103923,Electronics,0.39,Card Present
+M103924,Gaming,0.413,P2P
+M103925,Luxury,0.609,Card Not Present
+M103926,Utilities,0.155,Card Present
+M103927,Digital Wallet,0.363,P2P
+M103928,Electronics,0.264,Card Present
+M103929,Fuel,0.06,Card Not Present
+M103930,Electronics,0.469,Wire
+M103931,Marketplace,0.145,Card Present
+M103932,Luxury,0.604,Card Not Present
+M103933,Electronics,0.052,P2P
+M103934,Digital Wallet,0.291,Card Not Present
+M103935,Telecom,0.24,Wire
+M103936,Grocery,0.163,Wire
+M103937,Digital Wallet,0.612,Card Not Present
+M103938,Gaming,0.171,Wire
+M103939,Grocery,0.353,Card Present
+M103940,Luxury,0.292,Wire
+M103941,Marketplace,0.247,Card Present
+M103942,Marketplace,0.316,Online Banking
+M103943,Luxury,0.359,Wire
+M103944,Luxury,0.136,Card Present
+M103945,Digital Wallet,0.308,Online Banking
+M103946,Travel,0.213,Online Banking
+M103947,Marketplace,0.187,Online Banking
+M103948,Gaming,0.323,P2P
+M103949,Telecom,0.072,Wire
+M103950,Travel,0.618,Card Present
+M103951,Telecom,0.281,P2P
+M103952,Telecom,0.39,P2P
+M103953,Electronics,0.377,Card Present
+M103954,Travel,0.158,Card Not Present
+M103955,Electronics,0.177,Card Present
+M103956,Gaming,0.174,Online Banking
+M103957,Gaming,0.19,Online Banking
+M103958,Travel,0.425,P2P
+M103959,Gaming,0.097,Online Banking
+M103960,Utilities,0.554,Card Not Present
+M103961,Digital Wallet,0.162,P2P
+M103962,Travel,0.449,Card Not Present
+M103963,Electronics,0.315,Online Banking
+M103964,Telecom,0.079,Online Banking
+M103965,Fuel,0.442,P2P
+M103966,Marketplace,0.365,Card Not Present
+M103967,Electronics,0.148,Card Present
+M103968,Digital Wallet,0.519,Wire
+M103969,Telecom,0.319,Wire
+M103970,Gaming,0.092,Card Present
+M103971,Fuel,0.203,Wire
+M103972,Telecom,0.071,Online Banking
+M103973,Travel,0.578,Card Not Present
+M103974,Gaming,0.302,P2P
+M103975,Luxury,0.109,P2P
+M103976,Telecom,0.021,Card Present
+M103977,Electronics,0.209,Wire
+M103978,Luxury,0.637,Online Banking
+M103979,Fuel,0.218,Card Not Present
+M103980,Gaming,0.101,P2P
+M103981,Luxury,0.191,P2P
+M103982,Electronics,0.136,Online Banking
+M103983,Digital Wallet,0.117,Wire
+M103984,Fuel,0.19,Online Banking
+M103985,Luxury,0.304,P2P
+M103986,Grocery,0.137,Card Present
+M103987,Gaming,0.388,Card Present
+M103988,Gaming,0.083,P2P
+M103989,Grocery,0.058,Card Present
+M103990,Gaming,0.069,Online Banking
+M103991,Digital Wallet,0.228,Card Present
+M103992,Fuel,0.398,Card Present
+M103993,Electronics,0.012,Wire
+M103994,Gaming,0.487,Card Present
+M103995,Fuel,0.188,Card Present
+M103996,Travel,0.427,Card Not Present
+M103997,Telecom,0.475,P2P
+M103998,Telecom,0.561,P2P
+M103999,Telecom,0.374,P2P
+M104000,Luxury,0.261,Wire
+M104001,Fuel,0.479,Online Banking
+M104002,Fuel,0.23,P2P
+M104003,Grocery,0.44,Online Banking
+M104004,Gaming,0.074,Card Not Present
+M104005,Grocery,0.364,Wire
+M104006,Fuel,0.122,Online Banking
+M104007,Fuel,0.075,Card Present
+M104008,Grocery,0.271,Card Present
+M104009,Utilities,0.07,Card Not Present
+M104010,Grocery,0.299,P2P
+M104011,Electronics,0.148,P2P
+M104012,Telecom,0.176,P2P
+M104013,Gaming,0.377,Card Present
+M104014,Digital Wallet,0.163,Wire
+M104015,Marketplace,0.583,P2P
+M104016,Marketplace,0.263,Card Not Present
+M104017,Utilities,0.175,Wire
+M104018,Gaming,0.024,P2P
+M104019,Utilities,0.216,Card Present
+M104020,Digital Wallet,0.135,Online Banking
+M104021,Grocery,0.183,P2P
+M104022,Luxury,0.155,Online Banking
+M104023,Gaming,0.295,Card Present
+M104024,Utilities,0.111,Card Not Present
+M104025,Gaming,0.249,Card Not Present
+M104026,Marketplace,0.12,Wire
+M104027,Electronics,0.02,Card Present
+M104028,Travel,0.309,Online Banking
+M104029,Digital Wallet,0.478,Card Not Present
+M104030,Travel,0.07,Card Present
+M104031,Grocery,0.567,Online Banking
+M104032,Electronics,0.475,Card Not Present
+M104033,Electronics,0.121,P2P
+M104034,Gaming,0.232,P2P
+M104035,Luxury,0.206,Card Present
+M104036,Electronics,0.443,Card Not Present
+M104037,Luxury,0.077,Online Banking
+M104038,Electronics,0.286,Card Not Present
+M104039,Electronics,0.075,Card Present
+M104040,Electronics,0.528,Card Not Present
+M104041,Marketplace,0.247,Card Not Present
+M104042,Travel,0.37,Card Present
+M104043,Fuel,0.121,Wire
+M104044,Utilities,0.234,Online Banking
+M104045,Luxury,0.054,Card Present
+M104046,Electronics,0.259,Card Present
+M104047,Travel,0.458,Wire
+M104048,Utilities,0.269,Wire
+M104049,Grocery,0.193,P2P
+M104050,Luxury,0.073,Card Not Present
+M104051,Luxury,0.097,Card Present
+M104052,Luxury,0.068,Wire
+M104053,Utilities,0.121,P2P
+M104054,Electronics,0.117,P2P
+M104055,Digital Wallet,0.068,Wire
+M104056,Luxury,0.632,P2P
+M104057,Marketplace,0.063,Online Banking
+M104058,Grocery,0.45,Card Present
+M104059,Telecom,0.162,Card Present
+M104060,Luxury,0.067,Online Banking
+M104061,Utilities,0.08,P2P
+M104062,Gaming,0.134,Card Not Present
+M104063,Utilities,0.147,Card Not Present
+M104064,Luxury,0.201,P2P
+M104065,Marketplace,0.213,Card Present
+M104066,Grocery,0.168,Card Not Present
+M104067,Fuel,0.354,Card Present
+M104068,Gaming,0.033,Wire
+M104069,Electronics,0.053,Card Present
+M104070,Telecom,0.198,P2P
+M104071,Telecom,0.319,Online Banking
+M104072,Gaming,0.686,Card Not Present
+M104073,Utilities,0.376,Online Banking
+M104074,Travel,0.181,Card Present
+M104075,Fuel,0.427,Card Present
+M104076,Telecom,0.378,Card Not Present
+M104077,Electronics,0.292,Card Present
+M104078,Utilities,0.114,Card Present
+M104079,Gaming,0.513,Online Banking
+M104080,Digital Wallet,0.313,Card Not Present
+M104081,Utilities,0.08,Online Banking
+M104082,Fuel,0.213,Online Banking
+M104083,Fuel,0.225,Wire
+M104084,Utilities,0.08,Card Present
+M104085,Grocery,0.366,Card Present
+M104086,Utilities,0.244,Card Present
+M104087,Telecom,0.332,Wire
+M104088,Electronics,0.291,Wire
+M104089,Electronics,0.299,Card Present
+M104090,Fuel,0.165,Card Present
+M104091,Utilities,0.397,Card Not Present
+M104092,Luxury,0.241,P2P
+M104093,Travel,0.625,Card Present
+M104094,Grocery,0.329,P2P
+M104095,Grocery,0.071,P2P
+M104096,Grocery,0.176,Wire
+M104097,Digital Wallet,0.508,Card Not Present
+M104098,Grocery,0.191,Wire
+M104099,Telecom,0.138,Wire
+M104100,Luxury,0.078,Wire
+M104101,Marketplace,0.078,Wire
+M104102,Gaming,0.159,P2P
+M104103,Fuel,0.474,Card Not Present
+M104104,Grocery,0.286,Online Banking
+M104105,Utilities,0.355,Wire
+M104106,Grocery,0.183,Wire
+M104107,Utilities,0.221,Card Not Present
+M104108,Gaming,0.451,Wire
+M104109,Grocery,0.266,Wire
+M104110,Gaming,0.046,Online Banking
+M104111,Luxury,0.521,Wire
+M104112,Digital Wallet,0.66,Card Not Present
+M104113,Luxury,0.143,Card Not Present
+M104114,Grocery,0.313,Online Banking
+M104115,Grocery,0.094,P2P
+M104116,Marketplace,0.502,Wire
+M104117,Utilities,0.721,Online Banking
+M104118,Gaming,0.1,Wire
+M104119,Digital Wallet,0.25,Card Present
+M104120,Electronics,0.337,Wire
+M104121,Grocery,0.088,Online Banking
+M104122,Fuel,0.077,Card Not Present
+M104123,Grocery,0.091,Online Banking
+M104124,Fuel,0.461,P2P
+M104125,Grocery,0.16,Card Present
+M104126,Electronics,0.251,Online Banking
+M104127,Fuel,0.113,P2P
+M104128,Electronics,0.269,Card Present
+M104129,Grocery,0.415,Online Banking
+M104130,Fuel,0.309,Wire
+M104131,Digital Wallet,0.072,Card Not Present
+M104132,Utilities,0.483,Card Not Present
+M104133,Gaming,0.191,Online Banking
+M104134,Utilities,0.053,Card Not Present
+M104135,Telecom,0.131,P2P
+M104136,Gaming,0.282,P2P
+M104137,Luxury,0.135,Card Not Present
+M104138,Telecom,0.561,Online Banking
+M104139,Luxury,0.673,P2P
+M104140,Travel,0.058,Card Present
+M104141,Electronics,0.229,Wire
+M104142,Fuel,0.341,Online Banking
+M104143,Electronics,0.39,Card Present
+M104144,Gaming,0.413,P2P
+M104145,Luxury,0.609,Card Not Present
+M104146,Utilities,0.155,Card Present
+M104147,Digital Wallet,0.363,P2P
+M104148,Electronics,0.264,Card Present
+M104149,Fuel,0.06,Card Not Present
+M104150,Electronics,0.469,Wire
+M104151,Marketplace,0.145,Card Present
+M104152,Luxury,0.604,Card Not Present
+M104153,Electronics,0.052,P2P
+M104154,Digital Wallet,0.291,Card Not Present
+M104155,Telecom,0.24,Wire
+M104156,Grocery,0.163,Wire
+M104157,Digital Wallet,0.612,Card Not Present
+M104158,Gaming,0.171,Wire
+M104159,Grocery,0.353,Card Present
+M104160,Luxury,0.292,Wire
+M104161,Marketplace,0.247,Card Present
+M104162,Marketplace,0.316,Online Banking
+M104163,Luxury,0.359,Wire
+M104164,Luxury,0.136,Card Present
+M104165,Digital Wallet,0.308,Online Banking
+M104166,Travel,0.213,Online Banking
+M104167,Marketplace,0.187,Online Banking
+M104168,Gaming,0.323,P2P
+M104169,Telecom,0.072,Wire
+M104170,Travel,0.618,Card Present
+M104171,Telecom,0.281,P2P
+M104172,Telecom,0.39,P2P
+M104173,Electronics,0.377,Card Present
+M104174,Travel,0.158,Card Not Present
+M104175,Electronics,0.177,Card Present
+M104176,Gaming,0.174,Online Banking
+M104177,Gaming,0.19,Online Banking
+M104178,Travel,0.425,P2P
+M104179,Gaming,0.097,Online Banking
+M104180,Utilities,0.554,Card Not Present
+M104181,Digital Wallet,0.162,P2P
+M104182,Travel,0.449,Card Not Present
+M104183,Electronics,0.315,Online Banking
+M104184,Telecom,0.079,Online Banking
+M104185,Fuel,0.442,P2P
+M104186,Marketplace,0.365,Card Not Present
+M104187,Electronics,0.148,Card Present
+M104188,Digital Wallet,0.519,Wire
+M104189,Telecom,0.319,Wire
+M104190,Gaming,0.092,Card Present
+M104191,Fuel,0.203,Wire
+M104192,Telecom,0.071,Online Banking
+M104193,Travel,0.578,Card Not Present
+M104194,Gaming,0.302,P2P
+M104195,Luxury,0.109,P2P
+M104196,Telecom,0.021,Card Present
+M104197,Electronics,0.209,Wire
+M104198,Luxury,0.637,Online Banking
+M104199,Fuel,0.218,Card Not Present
+M104200,Gaming,0.101,P2P
+M104201,Luxury,0.191,P2P
+M104202,Electronics,0.136,Online Banking
+M104203,Digital Wallet,0.117,Wire
+M104204,Fuel,0.19,Online Banking
+M104205,Luxury,0.304,P2P
+M104206,Grocery,0.137,Card Present
+M104207,Gaming,0.388,Card Present
+M104208,Gaming,0.083,P2P
+M104209,Grocery,0.058,Card Present
+M104210,Gaming,0.069,Online Banking
+M104211,Digital Wallet,0.228,Card Present
+M104212,Fuel,0.398,Card Present
+M104213,Electronics,0.012,Wire
+M104214,Gaming,0.487,Card Present
+M104215,Fuel,0.188,Card Present
+M104216,Travel,0.427,Card Not Present
+M104217,Telecom,0.475,P2P
+M104218,Telecom,0.561,P2P
+M104219,Telecom,0.374,P2P
+M104220,Luxury,0.261,Wire
+M104221,Fuel,0.479,Online Banking
+M104222,Fuel,0.23,P2P
+M104223,Grocery,0.44,Online Banking
+M104224,Gaming,0.074,Card Not Present
+M104225,Grocery,0.364,Wire
+M104226,Fuel,0.122,Online Banking
+M104227,Fuel,0.075,Card Present
+M104228,Grocery,0.271,Card Present
+M104229,Utilities,0.07,Card Not Present
+M104230,Grocery,0.299,P2P
+M104231,Electronics,0.148,P2P
+M104232,Telecom,0.176,P2P
+M104233,Gaming,0.377,Card Present
+M104234,Digital Wallet,0.163,Wire
+M104235,Marketplace,0.583,P2P
+M104236,Marketplace,0.263,Card Not Present
+M104237,Utilities,0.175,Wire
+M104238,Gaming,0.024,P2P
+M104239,Utilities,0.216,Card Present
+M104240,Digital Wallet,0.135,Online Banking
+M104241,Grocery,0.183,P2P
+M104242,Luxury,0.155,Online Banking
+M104243,Gaming,0.295,Card Present
+M104244,Utilities,0.111,Card Not Present
+M104245,Gaming,0.249,Card Not Present
+M104246,Marketplace,0.12,Wire
+M104247,Electronics,0.02,Card Present
+M104248,Travel,0.309,Online Banking
+M104249,Digital Wallet,0.478,Card Not Present
+M104250,Travel,0.07,Card Present
+M104251,Grocery,0.567,Online Banking
+M104252,Electronics,0.475,Card Not Present
+M104253,Electronics,0.121,P2P
+M104254,Gaming,0.232,P2P
+M104255,Luxury,0.206,Card Present
+M104256,Electronics,0.443,Card Not Present
+M104257,Luxury,0.077,Online Banking
+M104258,Electronics,0.286,Card Not Present
+M104259,Electronics,0.075,Card Present
+M104260,Electronics,0.528,Card Not Present
+M104261,Marketplace,0.247,Card Not Present
+M104262,Travel,0.37,Card Present
+M104263,Fuel,0.121,Wire
+M104264,Utilities,0.234,Online Banking
+M104265,Luxury,0.054,Card Present
+M104266,Electronics,0.259,Card Present
+M104267,Travel,0.458,Wire
+M104268,Utilities,0.269,Wire
+M104269,Grocery,0.193,P2P
+M104270,Luxury,0.073,Card Not Present
+M104271,Luxury,0.097,Card Present
+M104272,Luxury,0.068,Wire
+M104273,Utilities,0.121,P2P
+M104274,Electronics,0.117,P2P
+M104275,Digital Wallet,0.068,Wire
+M104276,Luxury,0.632,P2P
+M104277,Marketplace,0.063,Online Banking
+M104278,Grocery,0.45,Card Present
+M104279,Telecom,0.162,Card Present
+M104280,Luxury,0.067,Online Banking
+M104281,Utilities,0.08,P2P
+M104282,Gaming,0.134,Card Not Present
+M104283,Utilities,0.147,Card Not Present
+M104284,Luxury,0.201,P2P
+M104285,Marketplace,0.213,Card Present
+M104286,Grocery,0.168,Card Not Present
+M104287,Fuel,0.354,Card Present
+M104288,Gaming,0.033,Wire
+M104289,Electronics,0.053,Card Present
+M104290,Telecom,0.198,P2P
+M104291,Telecom,0.319,Online Banking
+M104292,Gaming,0.686,Card Not Present
+M104293,Utilities,0.376,Online Banking
+M104294,Travel,0.181,Card Present
+M104295,Fuel,0.427,Card Present
+M104296,Telecom,0.378,Card Not Present
+M104297,Electronics,0.292,Card Present
+M104298,Utilities,0.114,Card Present
+M104299,Gaming,0.513,Online Banking
+M104300,Digital Wallet,0.313,Card Not Present
+M104301,Utilities,0.08,Online Banking
+M104302,Fuel,0.213,Online Banking
+M104303,Fuel,0.225,Wire
+M104304,Utilities,0.08,Card Present
+M104305,Grocery,0.366,Card Present
+M104306,Utilities,0.244,Card Present
+M104307,Telecom,0.332,Wire
+M104308,Electronics,0.291,Wire
+M104309,Electronics,0.299,Card Present
+M104310,Fuel,0.165,Card Present
+M104311,Utilities,0.397,Card Not Present
+M104312,Luxury,0.241,P2P
+M104313,Travel,0.625,Card Present
+M104314,Grocery,0.329,P2P
+M104315,Grocery,0.071,P2P
+M104316,Grocery,0.176,Wire
+M104317,Digital Wallet,0.508,Card Not Present
+M104318,Grocery,0.191,Wire
+M104319,Telecom,0.138,Wire
+M104320,Luxury,0.078,Wire
+M104321,Marketplace,0.078,Wire
+M104322,Gaming,0.159,P2P
+M104323,Fuel,0.474,Card Not Present
+M104324,Grocery,0.286,Online Banking
+M104325,Utilities,0.355,Wire
+M104326,Grocery,0.183,Wire
+M104327,Utilities,0.221,Card Not Present
+M104328,Gaming,0.451,Wire
+M104329,Grocery,0.266,Wire
+M104330,Gaming,0.046,Online Banking
+M104331,Luxury,0.521,Wire
+M104332,Digital Wallet,0.66,Card Not Present
+M104333,Luxury,0.143,Card Not Present
+M104334,Grocery,0.313,Online Banking
+M104335,Grocery,0.094,P2P
+M104336,Marketplace,0.502,Wire
+M104337,Utilities,0.721,Online Banking
+M104338,Gaming,0.1,Wire
+M104339,Digital Wallet,0.25,Card Present
+M104340,Electronics,0.337,Wire
+M104341,Grocery,0.088,Online Banking
+M104342,Fuel,0.077,Card Not Present
+M104343,Grocery,0.091,Online Banking
+M104344,Fuel,0.461,P2P
+M104345,Grocery,0.16,Card Present
+M104346,Electronics,0.251,Online Banking
+M104347,Fuel,0.113,P2P
+M104348,Electronics,0.269,Card Present
+M104349,Grocery,0.415,Online Banking
+M104350,Fuel,0.309,Wire
+M104351,Digital Wallet,0.072,Card Not Present
+M104352,Utilities,0.483,Card Not Present
+M104353,Gaming,0.191,Online Banking
+M104354,Utilities,0.053,Card Not Present
+M104355,Telecom,0.131,P2P
+M104356,Gaming,0.282,P2P
+M104357,Luxury,0.135,Card Not Present
+M104358,Telecom,0.561,Online Banking
+M104359,Luxury,0.673,P2P
+M104360,Travel,0.058,Card Present
+M104361,Electronics,0.229,Wire
+M104362,Fuel,0.341,Online Banking
+M104363,Electronics,0.39,Card Present
+M104364,Gaming,0.413,P2P
+M104365,Luxury,0.609,Card Not Present
+M104366,Utilities,0.155,Card Present
+M104367,Digital Wallet,0.363,P2P
+M104368,Electronics,0.264,Card Present
+M104369,Fuel,0.06,Card Not Present
+M104370,Electronics,0.469,Wire
+M104371,Marketplace,0.145,Card Present
+M104372,Luxury,0.604,Card Not Present
+M104373,Electronics,0.052,P2P
+M104374,Digital Wallet,0.291,Card Not Present
+M104375,Telecom,0.24,Wire
+M104376,Grocery,0.163,Wire
+M104377,Digital Wallet,0.612,Card Not Present
+M104378,Gaming,0.171,Wire
+M104379,Grocery,0.353,Card Present
+M104380,Luxury,0.292,Wire
+M104381,Marketplace,0.247,Card Present
+M104382,Marketplace,0.316,Online Banking
+M104383,Luxury,0.359,Wire
+M104384,Luxury,0.136,Card Present
+M104385,Digital Wallet,0.308,Online Banking
+M104386,Travel,0.213,Online Banking
+M104387,Marketplace,0.187,Online Banking
+M104388,Gaming,0.323,P2P
+M104389,Telecom,0.072,Wire
+M104390,Travel,0.618,Card Present
+M104391,Telecom,0.281,P2P
+M104392,Telecom,0.39,P2P
+M104393,Electronics,0.377,Card Present
+M104394,Travel,0.158,Card Not Present
+M104395,Electronics,0.177,Card Present
+M104396,Gaming,0.174,Online Banking
+M104397,Gaming,0.19,Online Banking
+M104398,Travel,0.425,P2P
+M104399,Gaming,0.097,Online Banking
+M104400,Utilities,0.554,Card Not Present
+M104401,Digital Wallet,0.162,P2P
+M104402,Travel,0.449,Card Not Present
+M104403,Electronics,0.315,Online Banking
+M104404,Telecom,0.079,Online Banking
+M104405,Fuel,0.442,P2P
+M104406,Marketplace,0.365,Card Not Present
+M104407,Electronics,0.148,Card Present
+M104408,Digital Wallet,0.519,Wire
+M104409,Telecom,0.319,Wire
+M104410,Gaming,0.092,Card Present
+M104411,Fuel,0.203,Wire
+M104412,Telecom,0.071,Online Banking
+M104413,Travel,0.578,Card Not Present
+M104414,Gaming,0.302,P2P
+M104415,Luxury,0.109,P2P
+M104416,Telecom,0.021,Card Present
+M104417,Electronics,0.209,Wire
+M104418,Luxury,0.637,Online Banking
+M104419,Fuel,0.218,Card Not Present
+M104420,Gaming,0.101,P2P
+M104421,Luxury,0.191,P2P
+M104422,Electronics,0.136,Online Banking
+M104423,Digital Wallet,0.117,Wire
+M104424,Fuel,0.19,Online Banking
+M104425,Luxury,0.304,P2P
+M104426,Grocery,0.137,Card Present
+M104427,Gaming,0.388,Card Present
+M104428,Gaming,0.083,P2P
+M104429,Grocery,0.058,Card Present
+M104430,Gaming,0.069,Online Banking
+M104431,Digital Wallet,0.228,Card Present
+M104432,Fuel,0.398,Card Present
+M104433,Electronics,0.012,Wire
+M104434,Gaming,0.487,Card Present
+M104435,Fuel,0.188,Card Present
+M104436,Travel,0.427,Card Not Present
+M104437,Telecom,0.475,P2P
+M104438,Telecom,0.561,P2P
+M104439,Telecom,0.374,P2P
+M104440,Luxury,0.261,Wire
+M104441,Fuel,0.479,Online Banking
+M104442,Fuel,0.23,P2P
+M104443,Grocery,0.44,Online Banking
+M104444,Gaming,0.074,Card Not Present
+M104445,Grocery,0.364,Wire
+M104446,Fuel,0.122,Online Banking
+M104447,Fuel,0.075,Card Present
+M104448,Grocery,0.271,Card Present
+M104449,Utilities,0.07,Card Not Present
+M104450,Grocery,0.299,P2P
+M104451,Electronics,0.148,P2P
+M104452,Telecom,0.176,P2P
+M104453,Gaming,0.377,Card Present
+M104454,Digital Wallet,0.163,Wire
+M104455,Marketplace,0.583,P2P
+M104456,Marketplace,0.263,Card Not Present
+M104457,Utilities,0.175,Wire
+M104458,Gaming,0.024,P2P
+M104459,Utilities,0.216,Card Present
+M104460,Digital Wallet,0.135,Online Banking
+M104461,Grocery,0.183,P2P
+M104462,Luxury,0.155,Online Banking
+M104463,Gaming,0.295,Card Present
+M104464,Utilities,0.111,Card Not Present
+M104465,Gaming,0.249,Card Not Present
+M104466,Marketplace,0.12,Wire
+M104467,Electronics,0.02,Card Present
+M104468,Travel,0.309,Online Banking
+M104469,Digital Wallet,0.478,Card Not Present
+M104470,Travel,0.07,Card Present
+M104471,Grocery,0.567,Online Banking
+M104472,Electronics,0.475,Card Not Present
+M104473,Electronics,0.121,P2P
+M104474,Gaming,0.232,P2P
+M104475,Luxury,0.206,Card Present
+M104476,Electronics,0.443,Card Not Present
+M104477,Luxury,0.077,Online Banking
+M104478,Electronics,0.286,Card Not Present
+M104479,Electronics,0.075,Card Present
+M104480,Electronics,0.528,Card Not Present
+M104481,Marketplace,0.247,Card Not Present
+M104482,Travel,0.37,Card Present
+M104483,Fuel,0.121,Wire
+M104484,Utilities,0.234,Online Banking
+M104485,Luxury,0.054,Card Present
+M104486,Electronics,0.259,Card Present
+M104487,Travel,0.458,Wire
+M104488,Utilities,0.269,Wire
+M104489,Grocery,0.193,P2P
+M104490,Luxury,0.073,Card Not Present
+M104491,Luxury,0.097,Card Present
+M104492,Luxury,0.068,Wire
+M104493,Utilities,0.121,P2P
+M104494,Electronics,0.117,P2P
+M104495,Digital Wallet,0.068,Wire
+M104496,Luxury,0.632,P2P
+M104497,Marketplace,0.063,Online Banking
+M104498,Grocery,0.45,Card Present
+M104499,Telecom,0.162,Card Present
+M104500,Luxury,0.067,Online Banking
+M104501,Utilities,0.08,P2P
+M104502,Gaming,0.134,Card Not Present
+M104503,Utilities,0.147,Card Not Present
+M104504,Luxury,0.201,P2P
+M104505,Marketplace,0.213,Card Present
+M104506,Grocery,0.168,Card Not Present
+M104507,Fuel,0.354,Card Present
+M104508,Gaming,0.033,Wire
+M104509,Electronics,0.053,Card Present
+M104510,Telecom,0.198,P2P
+M104511,Telecom,0.319,Online Banking
+M104512,Gaming,0.686,Card Not Present
+M104513,Utilities,0.376,Online Banking
+M104514,Travel,0.181,Card Present
+M104515,Fuel,0.427,Card Present
+M104516,Telecom,0.378,Card Not Present
+M104517,Electronics,0.292,Card Present
+M104518,Utilities,0.114,Card Present
+M104519,Gaming,0.513,Online Banking
+M104520,Digital Wallet,0.313,Card Not Present
+M104521,Utilities,0.08,Online Banking
+M104522,Fuel,0.213,Online Banking
+M104523,Fuel,0.225,Wire
+M104524,Utilities,0.08,Card Present
+M104525,Grocery,0.366,Card Present
+M104526,Utilities,0.244,Card Present
+M104527,Telecom,0.332,Wire
+M104528,Electronics,0.291,Wire
+M104529,Electronics,0.299,Card Present
+M104530,Fuel,0.165,Card Present
+M104531,Utilities,0.397,Card Not Present
+M104532,Luxury,0.241,P2P
+M104533,Travel,0.625,Card Present
+M104534,Grocery,0.329,P2P
+M104535,Grocery,0.071,P2P
+M104536,Grocery,0.176,Wire
+M104537,Digital Wallet,0.508,Card Not Present
+M104538,Grocery,0.191,Wire
+M104539,Telecom,0.138,Wire
+M104540,Luxury,0.078,Wire
+M104541,Marketplace,0.078,Wire
+M104542,Gaming,0.159,P2P
+M104543,Fuel,0.474,Card Not Present
+M104544,Grocery,0.286,Online Banking
+M104545,Utilities,0.355,Wire
+M104546,Grocery,0.183,Wire
+M104547,Utilities,0.221,Card Not Present
+M104548,Gaming,0.451,Wire
+M104549,Grocery,0.266,Wire
+M104550,Gaming,0.046,Online Banking
+M104551,Luxury,0.521,Wire
+M104552,Digital Wallet,0.66,Card Not Present
+M104553,Luxury,0.143,Card Not Present
+M104554,Grocery,0.313,Online Banking
+M104555,Grocery,0.094,P2P
+M104556,Marketplace,0.502,Wire
+M104557,Utilities,0.721,Online Banking
+M104558,Gaming,0.1,Wire
+M104559,Digital Wallet,0.25,Card Present
+M104560,Electronics,0.337,Wire
+M104561,Grocery,0.088,Online Banking
+M104562,Fuel,0.077,Card Not Present
+M104563,Grocery,0.091,Online Banking
+M104564,Fuel,0.461,P2P
+M104565,Grocery,0.16,Card Present
+M104566,Electronics,0.251,Online Banking
+M104567,Fuel,0.113,P2P
+M104568,Electronics,0.269,Card Present
+M104569,Grocery,0.415,Online Banking
+M104570,Fuel,0.309,Wire
+M104571,Digital Wallet,0.072,Card Not Present
+M104572,Utilities,0.483,Card Not Present
+M104573,Gaming,0.191,Online Banking
+M104574,Utilities,0.053,Card Not Present
+M104575,Telecom,0.131,P2P
+M104576,Gaming,0.282,P2P
+M104577,Luxury,0.135,Card Not Present
+M104578,Telecom,0.561,Online Banking
+M104579,Luxury,0.673,P2P
+M104580,Travel,0.058,Card Present
+M104581,Electronics,0.229,Wire
+M104582,Fuel,0.341,Online Banking
+M104583,Electronics,0.39,Card Present
+M104584,Gaming,0.413,P2P
+M104585,Luxury,0.609,Card Not Present
+M104586,Utilities,0.155,Card Present
+M104587,Digital Wallet,0.363,P2P
+M104588,Electronics,0.264,Card Present
+M104589,Fuel,0.06,Card Not Present
+M104590,Electronics,0.469,Wire
+M104591,Marketplace,0.145,Card Present
+M104592,Luxury,0.604,Card Not Present
+M104593,Electronics,0.052,P2P
+M104594,Digital Wallet,0.291,Card Not Present
+M104595,Telecom,0.24,Wire
+M104596,Grocery,0.163,Wire
+M104597,Digital Wallet,0.612,Card Not Present
+M104598,Gaming,0.171,Wire
+M104599,Grocery,0.353,Card Present
+M104600,Luxury,0.292,Wire
+M104601,Marketplace,0.247,Card Present
+M104602,Marketplace,0.316,Online Banking
+M104603,Luxury,0.359,Wire
+M104604,Luxury,0.136,Card Present
+M104605,Digital Wallet,0.308,Online Banking
+M104606,Travel,0.213,Online Banking
+M104607,Marketplace,0.187,Online Banking
+M104608,Gaming,0.323,P2P
+M104609,Telecom,0.072,Wire
+M104610,Travel,0.618,Card Present
+M104611,Telecom,0.281,P2P
+M104612,Telecom,0.39,P2P
+M104613,Electronics,0.377,Card Present
+M104614,Travel,0.158,Card Not Present
+M104615,Electronics,0.177,Card Present
+M104616,Gaming,0.174,Online Banking
+M104617,Gaming,0.19,Online Banking
+M104618,Travel,0.425,P2P
+M104619,Gaming,0.097,Online Banking
+M104620,Utilities,0.554,Card Not Present
+M104621,Digital Wallet,0.162,P2P
+M104622,Travel,0.449,Card Not Present
+M104623,Electronics,0.315,Online Banking
+M104624,Telecom,0.079,Online Banking
+M104625,Fuel,0.442,P2P
+M104626,Marketplace,0.365,Card Not Present
+M104627,Electronics,0.148,Card Present
+M104628,Digital Wallet,0.519,Wire
+M104629,Telecom,0.319,Wire
+M104630,Gaming,0.092,Card Present
+M104631,Fuel,0.203,Wire
+M104632,Telecom,0.071,Online Banking
+M104633,Travel,0.578,Card Not Present
+M104634,Gaming,0.302,P2P
+M104635,Luxury,0.109,P2P
+M104636,Telecom,0.021,Card Present
+M104637,Electronics,0.209,Wire
+M104638,Luxury,0.637,Online Banking
+M104639,Fuel,0.218,Card Not Present
+M104640,Gaming,0.101,P2P
+M104641,Luxury,0.191,P2P
+M104642,Electronics,0.136,Online Banking
+M104643,Digital Wallet,0.117,Wire
+M104644,Fuel,0.19,Online Banking
+M104645,Luxury,0.304,P2P
+M104646,Grocery,0.137,Card Present
+M104647,Gaming,0.388,Card Present
+M104648,Gaming,0.083,P2P
+M104649,Grocery,0.058,Card Present
+M104650,Gaming,0.069,Online Banking
+M104651,Digital Wallet,0.228,Card Present
+M104652,Fuel,0.398,Card Present
+M104653,Electronics,0.012,Wire
+M104654,Gaming,0.487,Card Present
+M104655,Fuel,0.188,Card Present
+M104656,Travel,0.427,Card Not Present
+M104657,Telecom,0.475,P2P
+M104658,Telecom,0.561,P2P
+M104659,Telecom,0.374,P2P
+M104660,Luxury,0.261,Wire
+M104661,Fuel,0.479,Online Banking
+M104662,Fuel,0.23,P2P
+M104663,Grocery,0.44,Online Banking
+M104664,Gaming,0.074,Card Not Present
+M104665,Grocery,0.364,Wire
+M104666,Fuel,0.122,Online Banking
+M104667,Fuel,0.075,Card Present
+M104668,Grocery,0.271,Card Present
+M104669,Utilities,0.07,Card Not Present
+M104670,Grocery,0.299,P2P
+M104671,Electronics,0.148,P2P
+M104672,Telecom,0.176,P2P
+M104673,Gaming,0.377,Card Present
+M104674,Digital Wallet,0.163,Wire
+M104675,Marketplace,0.583,P2P
+M104676,Marketplace,0.263,Card Not Present
+M104677,Utilities,0.175,Wire
+M104678,Gaming,0.024,P2P
+M104679,Utilities,0.216,Card Present
+M104680,Digital Wallet,0.135,Online Banking
+M104681,Grocery,0.183,P2P
+M104682,Luxury,0.155,Online Banking
+M104683,Gaming,0.295,Card Present
+M104684,Utilities,0.111,Card Not Present
+M104685,Gaming,0.249,Card Not Present
+M104686,Marketplace,0.12,Wire
+M104687,Electronics,0.02,Card Present
+M104688,Travel,0.309,Online Banking
+M104689,Digital Wallet,0.478,Card Not Present
+M104690,Travel,0.07,Card Present
+M104691,Grocery,0.567,Online Banking
+M104692,Electronics,0.475,Card Not Present
+M104693,Electronics,0.121,P2P
+M104694,Gaming,0.232,P2P
+M104695,Luxury,0.206,Card Present
+M104696,Electronics,0.443,Card Not Present
+M104697,Luxury,0.077,Online Banking
+M104698,Electronics,0.286,Card Not Present
+M104699,Electronics,0.075,Card Present
+M104700,Electronics,0.528,Card Not Present
+M104701,Marketplace,0.247,Card Not Present
+M104702,Travel,0.37,Card Present
+M104703,Fuel,0.121,Wire
+M104704,Utilities,0.234,Online Banking
+M104705,Luxury,0.054,Card Present
+M104706,Electronics,0.259,Card Present
+M104707,Travel,0.458,Wire
+M104708,Utilities,0.269,Wire
+M104709,Grocery,0.193,P2P
+M104710,Luxury,0.073,Card Not Present
+M104711,Luxury,0.097,Card Present
+M104712,Luxury,0.068,Wire
+M104713,Utilities,0.121,P2P
+M104714,Electronics,0.117,P2P
+M104715,Digital Wallet,0.068,Wire
+M104716,Luxury,0.632,P2P
+M104717,Marketplace,0.063,Online Banking
+M104718,Grocery,0.45,Card Present
+M104719,Telecom,0.162,Card Present
+M104720,Luxury,0.067,Online Banking
+M104721,Utilities,0.08,P2P
+M104722,Gaming,0.134,Card Not Present
+M104723,Utilities,0.147,Card Not Present
+M104724,Luxury,0.201,P2P
+M104725,Marketplace,0.213,Card Present
+M104726,Grocery,0.168,Card Not Present
+M104727,Fuel,0.354,Card Present
+M104728,Gaming,0.033,Wire
+M104729,Electronics,0.053,Card Present
+M104730,Telecom,0.198,P2P
+M104731,Telecom,0.319,Online Banking
+M104732,Gaming,0.686,Card Not Present
+M104733,Utilities,0.376,Online Banking
+M104734,Travel,0.181,Card Present
+M104735,Fuel,0.427,Card Present
+M104736,Telecom,0.378,Card Not Present
+M104737,Electronics,0.292,Card Present
+M104738,Utilities,0.114,Card Present
+M104739,Gaming,0.513,Online Banking
+M104740,Digital Wallet,0.313,Card Not Present
+M104741,Utilities,0.08,Online Banking
+M104742,Fuel,0.213,Online Banking
+M104743,Fuel,0.225,Wire
+M104744,Utilities,0.08,Card Present
+M104745,Grocery,0.366,Card Present
+M104746,Utilities,0.244,Card Present
+M104747,Telecom,0.332,Wire
+M104748,Electronics,0.291,Wire
+M104749,Electronics,0.299,Card Present
+M104750,Fuel,0.165,Card Present
+M104751,Utilities,0.397,Card Not Present
+M104752,Luxury,0.241,P2P
+M104753,Travel,0.625,Card Present
+M104754,Grocery,0.329,P2P
+M104755,Grocery,0.071,P2P
+M104756,Grocery,0.176,Wire
+M104757,Digital Wallet,0.508,Card Not Present
+M104758,Grocery,0.191,Wire
+M104759,Telecom,0.138,Wire
+M104760,Luxury,0.078,Wire
+M104761,Marketplace,0.078,Wire
+M104762,Gaming,0.159,P2P
+M104763,Fuel,0.474,Card Not Present
+M104764,Grocery,0.286,Online Banking
+M104765,Utilities,0.355,Wire
+M104766,Grocery,0.183,Wire
+M104767,Utilities,0.221,Card Not Present
+M104768,Gaming,0.451,Wire
+M104769,Grocery,0.266,Wire
+M104770,Gaming,0.046,Online Banking
+M104771,Luxury,0.521,Wire
+M104772,Digital Wallet,0.66,Card Not Present
+M104773,Luxury,0.143,Card Not Present
+M104774,Grocery,0.313,Online Banking
+M104775,Grocery,0.094,P2P
+M104776,Marketplace,0.502,Wire
+M104777,Utilities,0.721,Online Banking
+M104778,Gaming,0.1,Wire
+M104779,Digital Wallet,0.25,Card Present
+M104780,Electronics,0.337,Wire
+M104781,Grocery,0.088,Online Banking
+M104782,Fuel,0.077,Card Not Present
+M104783,Grocery,0.091,Online Banking
+M104784,Fuel,0.461,P2P
+M104785,Grocery,0.16,Card Present
+M104786,Electronics,0.251,Online Banking
+M104787,Fuel,0.113,P2P
+M104788,Electronics,0.269,Card Present
+M104789,Grocery,0.415,Online Banking
+M104790,Fuel,0.309,Wire
+M104791,Digital Wallet,0.072,Card Not Present
+M104792,Utilities,0.483,Card Not Present
+M104793,Gaming,0.191,Online Banking
+M104794,Utilities,0.053,Card Not Present
+M104795,Telecom,0.131,P2P
+M104796,Gaming,0.282,P2P
+M104797,Luxury,0.135,Card Not Present
+M104798,Telecom,0.561,Online Banking
+M104799,Luxury,0.673,P2P
+M104800,Travel,0.058,Card Present
+M104801,Electronics,0.229,Wire
+M104802,Fuel,0.341,Online Banking
+M104803,Electronics,0.39,Card Present
+M104804,Gaming,0.413,P2P
+M104805,Luxury,0.609,Card Not Present
+M104806,Utilities,0.155,Card Present
+M104807,Digital Wallet,0.363,P2P
+M104808,Electronics,0.264,Card Present
+M104809,Fuel,0.06,Card Not Present
+M104810,Electronics,0.469,Wire
+M104811,Marketplace,0.145,Card Present
+M104812,Luxury,0.604,Card Not Present
+M104813,Electronics,0.052,P2P
+M104814,Digital Wallet,0.291,Card Not Present
+M104815,Telecom,0.24,Wire
+M104816,Grocery,0.163,Wire
+M104817,Digital Wallet,0.612,Card Not Present
+M104818,Gaming,0.171,Wire
+M104819,Grocery,0.353,Card Present
+M104820,Luxury,0.292,Wire
+M104821,Marketplace,0.247,Card Present
+M104822,Marketplace,0.316,Online Banking
+M104823,Luxury,0.359,Wire
+M104824,Luxury,0.136,Card Present
+M104825,Digital Wallet,0.308,Online Banking
+M104826,Travel,0.213,Online Banking
+M104827,Marketplace,0.187,Online Banking
+M104828,Gaming,0.323,P2P
+M104829,Telecom,0.072,Wire
+M104830,Travel,0.618,Card Present
+M104831,Telecom,0.281,P2P
+M104832,Telecom,0.39,P2P
+M104833,Electronics,0.377,Card Present
+M104834,Travel,0.158,Card Not Present
+M104835,Electronics,0.177,Card Present
+M104836,Gaming,0.174,Online Banking
+M104837,Gaming,0.19,Online Banking
+M104838,Travel,0.425,P2P
+M104839,Gaming,0.097,Online Banking
+M104840,Utilities,0.554,Card Not Present
+M104841,Digital Wallet,0.162,P2P
+M104842,Travel,0.449,Card Not Present
+M104843,Electronics,0.315,Online Banking
+M104844,Telecom,0.079,Online Banking
+M104845,Fuel,0.442,P2P
+M104846,Marketplace,0.365,Card Not Present
+M104847,Electronics,0.148,Card Present
+M104848,Digital Wallet,0.519,Wire
+M104849,Telecom,0.319,Wire
+M104850,Gaming,0.092,Card Present
+M104851,Fuel,0.203,Wire
+M104852,Telecom,0.071,Online Banking
+M104853,Travel,0.578,Card Not Present
+M104854,Gaming,0.302,P2P
+M104855,Luxury,0.109,P2P
+M104856,Telecom,0.021,Card Present
+M104857,Electronics,0.209,Wire
+M104858,Luxury,0.637,Online Banking
+M104859,Fuel,0.218,Card Not Present
+M104860,Gaming,0.101,P2P
+M104861,Luxury,0.191,P2P
+M104862,Electronics,0.136,Online Banking
+M104863,Digital Wallet,0.117,Wire
+M104864,Fuel,0.19,Online Banking
+M104865,Luxury,0.304,P2P
+M104866,Grocery,0.137,Card Present
+M104867,Gaming,0.388,Card Present
+M104868,Gaming,0.083,P2P
+M104869,Grocery,0.058,Card Present
+M104870,Gaming,0.069,Online Banking
+M104871,Digital Wallet,0.228,Card Present
+M104872,Fuel,0.398,Card Present
+M104873,Electronics,0.012,Wire
+M104874,Gaming,0.487,Card Present
+M104875,Fuel,0.188,Card Present
+M104876,Travel,0.427,Card Not Present
+M104877,Telecom,0.475,P2P
+M104878,Telecom,0.561,P2P
+M104879,Telecom,0.374,P2P
+M104880,Luxury,0.261,Wire
+M104881,Fuel,0.479,Online Banking
+M104882,Fuel,0.23,P2P
+M104883,Grocery,0.44,Online Banking
+M104884,Gaming,0.074,Card Not Present
+M104885,Grocery,0.364,Wire
+M104886,Fuel,0.122,Online Banking
+M104887,Fuel,0.075,Card Present
+M104888,Grocery,0.271,Card Present
+M104889,Utilities,0.07,Card Not Present
+M104890,Grocery,0.299,P2P
+M104891,Electronics,0.148,P2P
+M104892,Telecom,0.176,P2P
+M104893,Gaming,0.377,Card Present
+M104894,Digital Wallet,0.163,Wire
+M104895,Marketplace,0.583,P2P
+M104896,Marketplace,0.263,Card Not Present
+M104897,Utilities,0.175,Wire
+M104898,Gaming,0.024,P2P
+M104899,Utilities,0.216,Card Present
+M104900,Digital Wallet,0.135,Online Banking
+M104901,Grocery,0.183,P2P
+M104902,Luxury,0.155,Online Banking
+M104903,Gaming,0.295,Card Present
+M104904,Utilities,0.111,Card Not Present
+M104905,Gaming,0.249,Card Not Present
+M104906,Marketplace,0.12,Wire
+M104907,Electronics,0.02,Card Present
+M104908,Travel,0.309,Online Banking
+M104909,Digital Wallet,0.478,Card Not Present
+M104910,Travel,0.07,Card Present
+M104911,Grocery,0.567,Online Banking
+M104912,Electronics,0.475,Card Not Present
+M104913,Electronics,0.121,P2P
+M104914,Gaming,0.232,P2P
+M104915,Luxury,0.206,Card Present
+M104916,Electronics,0.443,Card Not Present
+M104917,Luxury,0.077,Online Banking
+M104918,Electronics,0.286,Card Not Present
+M104919,Electronics,0.075,Card Present
+M104920,Electronics,0.528,Card Not Present
+M104921,Marketplace,0.247,Card Not Present
+M104922,Travel,0.37,Card Present
+M104923,Fuel,0.121,Wire
+M104924,Utilities,0.234,Online Banking
+M104925,Luxury,0.054,Card Present
+M104926,Electronics,0.259,Card Present
+M104927,Travel,0.458,Wire
+M104928,Utilities,0.269,Wire
+M104929,Grocery,0.193,P2P
+M104930,Luxury,0.073,Card Not Present
+M104931,Luxury,0.097,Card Present
+M104932,Luxury,0.068,Wire
+M104933,Utilities,0.121,P2P
+M104934,Electronics,0.117,P2P
+M104935,Digital Wallet,0.068,Wire
+M104936,Luxury,0.632,P2P
+M104937,Marketplace,0.063,Online Banking
+M104938,Grocery,0.45,Card Present
+M104939,Telecom,0.162,Card Present
+M104940,Luxury,0.067,Online Banking
+M104941,Utilities,0.08,P2P
+M104942,Gaming,0.134,Card Not Present
+M104943,Utilities,0.147,Card Not Present
+M104944,Luxury,0.201,P2P
+M104945,Marketplace,0.213,Card Present
+M104946,Grocery,0.168,Card Not Present
+M104947,Fuel,0.354,Card Present
+M104948,Gaming,0.033,Wire
+M104949,Electronics,0.053,Card Present
+M104950,Telecom,0.198,P2P
+M104951,Telecom,0.319,Online Banking
+M104952,Gaming,0.686,Card Not Present
+M104953,Utilities,0.376,Online Banking
+M104954,Travel,0.181,Card Present
+M104955,Fuel,0.427,Card Present
+M104956,Telecom,0.378,Card Not Present
+M104957,Electronics,0.292,Card Present
+M104958,Utilities,0.114,Card Present
+M104959,Gaming,0.513,Online Banking
+M104960,Digital Wallet,0.313,Card Not Present
+M104961,Utilities,0.08,Online Banking
+M104962,Fuel,0.213,Online Banking
+M104963,Fuel,0.225,Wire
+M104964,Utilities,0.08,Card Present
+M104965,Grocery,0.366,Card Present
+M104966,Utilities,0.244,Card Present
+M104967,Telecom,0.332,Wire
+M104968,Electronics,0.291,Wire
+M104969,Electronics,0.299,Card Present
+M104970,Fuel,0.165,Card Present
+M104971,Utilities,0.397,Card Not Present
+M104972,Luxury,0.241,P2P
+M104973,Travel,0.625,Card Present
+M104974,Grocery,0.329,P2P
+M104975,Grocery,0.071,P2P
+M104976,Grocery,0.176,Wire
+M104977,Digital Wallet,0.508,Card Not Present
+M104978,Grocery,0.191,Wire
+M104979,Telecom,0.138,Wire
+M104980,Luxury,0.078,Wire
+M104981,Marketplace,0.078,Wire
+M104982,Gaming,0.159,P2P
+M104983,Fuel,0.474,Card Not Present
+M104984,Grocery,0.286,Online Banking
+M104985,Utilities,0.355,Wire
+M104986,Grocery,0.183,Wire
+M104987,Utilities,0.221,Card Not Present
+M104988,Gaming,0.451,Wire
+M104989,Grocery,0.266,Wire
+M104990,Gaming,0.046,Online Banking
+M104991,Luxury,0.521,Wire
+M104992,Digital Wallet,0.66,Card Not Present
+M104993,Luxury,0.143,Card Not Present
+M104994,Grocery,0.313,Online Banking
+M104995,Grocery,0.094,P2P
+M104996,Marketplace,0.502,Wire
+M104997,Utilities,0.721,Online Banking
+M104998,Gaming,0.1,Wire
+M104999,Digital Wallet,0.25,Card Present
