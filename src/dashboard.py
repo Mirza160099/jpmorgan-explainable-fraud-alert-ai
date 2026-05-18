@@ -328,16 +328,27 @@ selected_index = st.slider(
     0
 )
 
+st.write("Top Feature Contributions")
+
+shap_df = pd.DataFrame({
+    'Feature': features,
+    'SHAP Value': shap_values[selected_index]
+})
+
+shap_df = shap_df.sort_values(
+    by='SHAP Value',
+    ascending=False
+)
+
 fig_shap, ax_shap = plt.subplots(figsize=(10,5))
 
-shap.waterfall_plot(
-    shap.Explanation(
-        values=shap_values[selected_index],
-        base_values=explainer.expected_value,
-        data=X_test.iloc[selected_index],
-        feature_names=features
-    ),
-    show=False
+ax_shap.barh(
+    shap_df['Feature'],
+    shap_df['SHAP Value']
+)
+
+ax_shap.set_title(
+    "SHAP Feature Contributions"
 )
 
 st.pyplot(fig_shap)
