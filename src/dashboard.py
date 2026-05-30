@@ -1,371 +1,282 @@
-import shap
-from xgboost import XGBClassifier
+"""Streamlit fraud analyst dashboard.
 
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+Run locally with:
+    streamlit run src/dashboard.py
+"""
 
-import streamlit as st
-import pandas as pd
+from __future__ import annotations
+
+from pathlib import Path
+
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
-import numpy as np
+import streamlit as st
 
-# -----------------------------
-# PAGE CONFIGURATION
-# -----------------------------
-
-st.set_page_config(
-    page_title="Fraud Alert Dashboard",
-    layout="wide"
-)
-
-# -----------------------------
-# TITLE
-# -----------------------------
-
-st.title("🚨 Explainable Fraud Alert Prioritization Dashboard")
-
-st.markdown("""
-This dashboard simulates an enterprise fraud monitoring and alert prioritization system.
-""")
-
-# -----------------------------
-# LOAD DATA
-# -----------------------------
-transactions = pd.read_csv(
-    "data/raw/raw/transactions.csv"
-)
-
-# -----------------------------
-# SIDEBAR FILTERS
-# -----------------------------
-
-st.sidebar.header("Fraud Analysis Filters")
-
-country_filter = st.sidebar.multiselect(
-    "Select Transaction Country",
-    options=transactions['txn_country'].unique(),
-    default=transactions['txn_country'].unique()
-)
-
-channel_filter = st.sidebar.multiselect(
-    "Select Transaction Channel",
-    options=transactions['channel'].unique(),
-    default=transactions['channel'].unique()
-)
-
-fraud_only = st.sidebar.checkbox(
-    "Show Fraud Transactions Only"
-)
-
-risk_threshold = st.sidebar.slider(
-    "Minimum Device Risk Score",
-    min_value=0.0,
-    max_value=1.0,
-    value=0.0,
-    step=0.1
+from fraud_pipeline import (
+    REVIEW_THRESHOLD,
+    load_transactions,
+    predict_transaction,
+    train_top_feature_model,
 )
 
 
+# Streamlit reruns this file on every interaction, so expensive data/model work
+# is cached and reused until the source data changes.
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
-# -----------------------------
-# APPLY FILTERS
-# -----------------------------
+@st.cache_data(show_spinner=False)
+def get_transactions() -> pd.DataFrame:
+    """Load the raw transaction dataset once for dashboard use."""
+
+    return load_transactions(REPO_ROOT)
 
 
-filtered_transactions = transactions[
-    (transactions['txn_country'].isin(country_filter)) &
-    (transactions['channel'].isin(channel_filter)) &
-    (transactions['device_risk_score'] >= risk_threshold)
-]
+@st.cache_resource(show_spinner="Training top-feature fraud model...")
+def get_model_bundle(transactions: pd.DataFrame):
+    """Train and cache the top-10-feature model for interactive predictions."""
 
-if fraud_only:
-    filtered_transactions = filtered_transactions[
-        filtered_transactions['fraud_label'] == 1
-    ]
+    return train_top_feature_model(transactions, top_n=10)
 
-# -----------------------------
-# RISK CLASSIFICATION
-# -----------------------------
 
-filtered_transactions['risk_level'] = np.where(
-    filtered_transactions['device_risk_score'] > 0.8,
-    'High Risk',
-    np.where(
-        filtered_transactions['device_risk_score'] > 0.5,
-        'Medium Risk',
-        'Low Risk'
-    )
-)
+def binary_label(value: int) -> str:
+    """Display binary indicators as analyst-friendly text."""
 
-# -----------------------------
-# TRANSACTION SEARCH
-# -----------------------------
+    return "Yes" if int(value) == 1 else "No"
 
-st.subheader("Transaction Search")
 
-search_id = st.text_input(
-    "Enter Transaction ID"
-)
+def render_prediction_form(transactions: pd.DataFrame, bundle) -> None:
+    """Render the user-input transaction form and prediction output."""
 
-if search_id:
-    search_results = filtered_transactions[
-        filtered_transactions['transaction_id']
-        .astype(str)
-        .str.contains(search_id)
-    ]
+    st.subheader("Transaction Fraud Prediction")
 
-    st.dataframe(search_results)
+    with st.form("transaction_prediction_form"):
+        st.caption("Enter a transaction profile. The model uses only the selected top-10 features.")
 
-# -----------------------------
-# MODEL PREPARATION
-# -----------------------------
+        col1, col2, col3 = st.columns(3)
 
-model_data = transactions.copy()
+        with col1:
+            channel = st.selectbox(
+                "Channel",
+                sorted(transactions["channel"].dropna().unique()),
+            )
+            amount = st.number_input(
+                "Transaction amount (USD)",
+                min_value=0.0,
+                value=float(transactions["transaction_amount_usd"].median()),
+                step=10.0,
+            )
+            country = st.selectbox(
+                "Transaction country",
+                sorted(transactions["txn_country"].dropna().unique()),
+            )
+            txn_hour = st.slider("Transaction hour", 0, 23, 12)
 
-categorical_cols = [
-    'channel',
-    'txn_country'
-]
+        with col2:
+            device_risk = st.slider("Device risk score", 0.0, 1.0, 0.55, 0.01)
+            merchant_risk = st.slider("Merchant risk score", 0.0, 1.0, 0.45, 0.01)
+            geo_distance = st.number_input(
+                "Geo distance (km)",
+                min_value=0.0,
+                value=float(transactions["geo_distance_km"].median()),
+                step=25.0,
+            )
+            velocity_24h = st.number_input(
+                "Transactions in last 24h",
+                min_value=0,
+                value=int(transactions["velocity_24h"].median()),
+                step=1,
+            )
 
-le = LabelEncoder()
+        with col3:
+            velocity_1h = st.number_input(
+                "Transactions in last 1h",
+                min_value=0,
+                value=int(transactions["velocity_1h"].median()),
+                step=1,
+            )
+            new_device = st.selectbox("New device?", [0, 1], format_func=binary_label)
+            is_night = st.selectbox("Night transaction?", [0, 1], format_func=binary_label)
+            alert_generated = st.selectbox(
+                "Existing alert generated?",
+                [0, 1],
+                format_func=binary_label,
+            )
 
-for col in categorical_cols:
-    model_data[col] = le.fit_transform(
-        model_data[col]
+        submitted = st.form_submit_button("Predict Fraud Risk", type="primary")
+
+    if not submitted:
+        return
+
+    # The app collects every base feature, then the pipeline derives engineered
+    # fields and keeps only the top selected drivers for the final prediction.
+    transaction = {
+        "channel": channel,
+        "transaction_amount_usd": amount,
+        "txn_country": country,
+        "txn_hour": txn_hour,
+        "device_risk_score": device_risk,
+        "new_device_flag": new_device,
+        "velocity_1h": velocity_1h,
+        "velocity_24h": velocity_24h,
+        "geo_distance_km": geo_distance,
+        "merchant_risk_score": merchant_risk,
+        "is_night_flag": is_night,
+        "alert_generated": alert_generated,
+    }
+
+    fraud_probability, label, drivers = predict_transaction(
+        bundle,
+        transaction,
+        transactions,
     )
 
-features = [
-    'channel',
-    'transaction_amount_usd',
-    'txn_country',
-    'txn_hour',
-    'device_risk_score',
-    'new_device_flag',
-    'velocity_1h',
-    'velocity_24h',
-    'geo_distance_km',
-    'merchant_risk_score',
-    'is_night_flag',
-    'alert_generated'
-]
+    left, right = st.columns([1, 2])
+    left.metric("Prediction", label)
+    left.metric("Fraud probability", f"{fraud_probability:.1%}")
 
-X = model_data[features]
+    if fraud_probability >= REVIEW_THRESHOLD:
+        left.error("Prioritize for analyst investigation.")
+    else:
+        left.success("No immediate fraud escalation based on current inputs.")
 
-y = model_data['fraud_label']
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.2,
-    random_state=42
-)
-
-xgb_model = XGBClassifier(
-    n_estimators=50,
-    max_depth=4,
-    learning_rate=0.1,
-    random_state=42
-)
-
-xgb_model.fit(X_train, y_train)
-
-explainer = shap.TreeExplainer(xgb_model)
-
-shap_values = explainer.shap_values(X_test)
-
-
-
-# -----------------------------
-# KPI METRICS
-# -----------------------------
-
-total_transactions = len(filtered_transactions)
-
-total_fraud = filtered_transactions['fraud_label'].sum()
-
-fraud_rate = (
-    total_fraud / total_transactions
-) * 100
-
-col1, col2, col3 = st.columns(3)
-
-col1.metric(
-    "Total Transactions",
-    f"{total_transactions:,}"
-)
-
-col2.metric(
-    "Fraudulent Transactions",
-    f"{total_fraud:,}"
-)
-
-col3.metric(
-    "Fraud Rate (%)",
-    f"{fraud_rate:.2f}%"
-)
-
-# -----------------------------
-# RISK LEVEL DISTRIBUTION
-# -----------------------------
-
-
-st.subheader("Transaction Risk Levels")
-
-risk_counts = (
-    filtered_transactions['risk_level']
-    .value_counts()
-)
-
-if len(risk_counts) > 0:
-
-    fig_risk, ax_risk = plt.subplots(figsize=(6,4))
-
-    risk_counts.plot(
-        kind='bar',
-        ax=ax_risk
+    right.dataframe(
+        drivers[["feature", "input_value", "model_importance", "analyst_reason"]],
+        use_container_width=True,
+        hide_index=True,
     )
 
-    st.pyplot(fig_risk)
 
-else:
-    st.warning("No transactions match the selected filters.")
+def main() -> None:
+    """Build the fraud monitoring and prediction experience."""
+
+    st.set_page_config(
+        page_title="Explainable Fraud Alert Prioritization",
+        layout="wide",
+    )
+
+    st.title("Explainable Fraud Alert Prioritization System")
+    st.caption(
+        "Enterprise-style fraud monitoring, top-feature modelling, and analyst explanations."
+    )
+
+    transactions = get_transactions()
+    bundle = get_model_bundle(transactions)
+
+    with st.sidebar:
+        st.header("Monitoring Filters")
+        country_filter = st.multiselect(
+            "Transaction country",
+            sorted(transactions["txn_country"].dropna().unique()),
+            default=sorted(transactions["txn_country"].dropna().unique()),
+        )
+        channel_filter = st.multiselect(
+            "Channel",
+            sorted(transactions["channel"].dropna().unique()),
+            default=sorted(transactions["channel"].dropna().unique()),
+        )
+        fraud_only = st.checkbox("Show fraud only")
+        min_device_risk = st.slider("Minimum device risk", 0.0, 1.0, 0.0, 0.05)
+
+    filtered = transactions[
+        transactions["txn_country"].isin(country_filter)
+        & transactions["channel"].isin(channel_filter)
+        & (transactions["device_risk_score"] >= min_device_risk)
+    ].copy()
+
+    if fraud_only:
+        filtered = filtered[filtered["fraud_label"] == 1]
+
+    total_transactions = len(filtered)
+    total_fraud = int(filtered["fraud_label"].sum()) if total_transactions else 0
+    fraud_rate = (total_fraud / total_transactions * 100) if total_transactions else 0
+
+    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
+    kpi1.metric("Filtered transactions", f"{total_transactions:,}")
+    kpi2.metric("Fraudulent transactions", f"{total_fraud:,}")
+    kpi3.metric("Fraud rate", f"{fraud_rate:.2f}%")
+    kpi4.metric("Model ROC-AUC", f"{bundle.metrics['roc_auc']:.3f}")
+
+    tab_monitoring, tab_prediction, tab_model = st.tabs(
+        ["Monitoring", "Predict", "Model Evidence"]
+    )
+
+    with tab_monitoring:
+        chart_col, table_col = st.columns([1, 1])
+
+        with chart_col:
+            st.subheader("Fraud by Channel")
+            channel_fraud = (
+                filtered.groupby("channel")["fraud_label"].mean().sort_values()
+            )
+            fig, ax = plt.subplots(figsize=(7, 4))
+            channel_fraud.plot(kind="barh", ax=ax, color="#2f6f73")
+            ax.set_xlabel("Fraud rate")
+            ax.set_ylabel("")
+            st.pyplot(fig, clear_figure=True)
+
+        with table_col:
+            st.subheader("Highest Risk Transactions")
+            high_risk = filtered.sort_values(
+                ["device_risk_score", "merchant_risk_score", "velocity_24h"],
+                ascending=False,
+            )
+            st.dataframe(
+                high_risk.head(15)[
+                    [
+                        "transaction_id",
+                        "channel",
+                        "transaction_amount_usd",
+                        "txn_country",
+                        "device_risk_score",
+                        "merchant_risk_score",
+                        "velocity_24h",
+                        "fraud_label",
+                    ]
+                ],
+                use_container_width=True,
+                hide_index=True,
+            )
+
+        st.subheader("Transaction Amount Distribution")
+        fig_amount, ax_amount = plt.subplots(figsize=(10, 4))
+        sns.histplot(
+            data=filtered,
+            x="transaction_amount_usd",
+            hue="fraud_label",
+            bins=40,
+            ax=ax_amount,
+        )
+        ax_amount.set_xlabel("Transaction amount (USD)")
+        st.pyplot(fig_amount, clear_figure=True)
+
+    with tab_prediction:
+        render_prediction_form(transactions, bundle)
+
+    with tab_model:
+        st.subheader("Top 10 Selected Features")
+        st.write(
+            "Features are ranked with mutual information, then the model is retrained using only the top drivers."
+        )
+        st.dataframe(
+            bundle.feature_importance.head(10),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        st.subheader("Project Evidence")
+        st.markdown(
+            """
+            - Missing values checked across customers, merchants, and transactions.
+            - Duplicate records checked across all raw datasets.
+            - Data types validated before feature engineering.
+            - Fraud-specific features created for velocity, geography, device risk, merchant risk, and night behaviour.
+            - Top-10 features selected before final modelling to keep explanations focused.
+            - The review threshold is tuned for alert prioritisation rather than criminal proof.
+            """
+        )
 
 
-# -----------------------------
-# FRAUD DISTRIBUTION
-# -----------------------------
-
-st.subheader("Fraud Distribution")
-
-fig, ax = plt.subplots(figsize=(6,4))
-
-sns.countplot(
-    x='fraud_label',
-    data=filtered_transactions,
-    ax=ax
-)
-
-st.pyplot(fig)
-
-# -----------------------------
-# HIGH RISK TRANSACTIONS
-# -----------------------------
-
-st.subheader("High Risk Transactions")
-
-high_risk = filtered_transactions[
-    filtered_transactions['device_risk_score'] > 0.7
-]
-
-st.dataframe(
-    high_risk.head(20)
-)
-
-# -----------------------------
-# TRANSACTION AMOUNT DISTRIBUTION
-# -----------------------------
-
-st.subheader("Transaction Amount Distribution")
-
-fig2, ax2 = plt.subplots(figsize=(10,5))
-
-sns.histplot(
-    filtered_transactions['transaction_amount_usd'],
-    bins=50,
-    ax=ax2
-)
-
-st.pyplot(fig2)
-
-# -----------------------------
-# FRAUD BY CHANNEL
-# -----------------------------
-
-st.subheader("Fraud by Transaction Channel")
-
-channel_fraud = (
-    transactions.groupby('channel')['fraud_label']
-    .mean()
-    .sort_values(ascending=False)
-)
-
-fig3, ax3 = plt.subplots(figsize=(8,5))
-
-channel_fraud.plot(
-    kind='bar',
-    ax=ax3
-)
-
-st.pyplot(fig3)
-
-# -----------------------------
-# TOP SUSPICIOUS TRANSACTIONS
-# -----------------------------
-
-st.subheader("Top Suspicious Transactions")
-
-top_suspicious = filtered_transactions.sort_values(
-    by='device_risk_score',
-    ascending=False
-)
-
-st.dataframe(
-    top_suspicious.head(10)
-)
-
-# -----------------------------
-# SHAP EXPLAINABILITY
-# -----------------------------
-
-st.subheader("Explainable AI - Fraud Prediction Drivers")
-
-selected_index = st.slider(
-    "Select Transaction Index",
-    0,
-    len(X_test) - 1,
-    0
-)
-
-st.write("Top Feature Contributions")
-
-shap_df = pd.DataFrame({
-    'Feature': features,
-    'SHAP Value': shap_values[selected_index]
-})
-
-shap_df = shap_df.sort_values(
-    by='SHAP Value',
-    ascending=False
-)
-
-fig_shap, ax_shap = plt.subplots(figsize=(10,5))
-
-ax_shap.barh(
-    shap_df['Feature'],
-    shap_df['SHAP Value']
-)
-
-ax_shap.set_title(
-    "SHAP Feature Contributions"
-)
-
-st.pyplot(fig_shap)
-
-
-
-# -----------------------------
-# ANALYST INSIGHTS
-# -----------------------------
-
-st.subheader("Analyst Insights")
-
-st.info("""
-Key fraud indicators identified:
-- High transaction velocity
-- Elevated device risk score
-- Geographic anomalies
-- High merchant risk score
-- Night-time transaction behavior
-""")
+if __name__ == "__main__":
+    main()
